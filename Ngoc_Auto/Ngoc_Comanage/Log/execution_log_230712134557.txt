@@ -1,0 +1,42 @@
+=================================================NEW CO-MANAGE =======================================================
+ADMIN ACCOUNT
+- Open Kanban project
+- Clear search
+- Insert Work
+- Search work
+- View ticket
+=> View work successfully
+=> Insert work successfully
+- Update status
+- Total of status: 4
+- Select status
+=> Update status successfully
+
+- Assigned to
+- Total of assign: 2
+- Select user
+=> Update assigned to successfully
+
+- Update Work type
+- Total of work type: 2
+- Select work type
+=> Update work type successfully
+
+- Update priority
+- Total of priority: 4
+- Select priority
+=> Update priority successfully
+
+
+- Start date
+- Select start date
+- End date
+- Select end date
+
+- Input Description
+- Save Description
+
+- Input comment
+- Save comment
+=> Write comment Successfully
+>>>> Cannot continue excution

@@ -1,0 +1,6 @@
+----------------------------------------------------------LOG IN-------------------------------------------------
+1. Access Log in page
+2. Input ID 
+3. Input Password 
+4. Enter Login  
+5. Log In successfully 

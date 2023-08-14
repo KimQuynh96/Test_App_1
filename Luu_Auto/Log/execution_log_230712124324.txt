@@ -1,0 +1,432 @@
+----------------------------------------------------------LOG IN-------------------------------------------------
+1. Access Log in page
+2. Input ID 
+3. Input Password 
+4. Enter Login  
+5. Log In successfully 
+2. English language is used
+------------------------------------------------------B. Menu Board------------------------------------------------------
+2. Hide list Company Board successfully
+-------------- Write Folder My Board --------------
+3. Click settings successfully
+4. Click My Board successfully
+5. Input Description successfully
+6. Check Use comment successfully
+7. Add user successfully
+8. Add User successfully
+8. Select  Permissison successfully
+9. Save Folder Board successfully
+10. Click button Close successfully
+[92m=> Show Folder Board successfully => PASS[0m
+description
+Create folder successfully
+-------------- Write SubFolder My Board ---------------
+11. Select Parent Folder successfully
+11. Input Subfolder successfully :  Sub 01
+12. Save Folder Board successfully
+13. Click button Close successfully
+[92m=> Show Folder Board successfully => PASS[0m
+description
+-------------- Delete SubFolder My Board ----------------
+15. Select subfolder successfully
+16. Select icon delete subfolder successfully
+17. Delete Sub Folder successfully
+[92m=> .Delete SubFolder My Board =>------- PASS[0m
+description
+Create Subfolder successfully
+--------------- Edit Folder My Board ----------------
+19. Save Folder Board successfully
+20. Edit Folder Board  successfully
+[92m=> Edit Folder My Board => PASS[0m
+description
+Edit folder successfully
+21. Delete Folder Board  successfully
+Delete folder successfully
+------------------------------------------------------C. Menu Project------------------------------------------------------
+1. Access Menu Project successfully
+2. Click Manage Folder successfully
+2. Click list name Project successfully
+3. Click icon plus successfully
+6. Save folder Project successfully
+[92mShow Folder Project successfully => PASS[0m
+description
+create folder successfully
+--------------- Write Subfolder ----------------
+8. Input Subfolder Project successfully :  HCM AAA
+9. Save Subfolder Project successfully
+[92mShow Folder Board successfully => PASS[0m
+description
+12. Select Subfolder Project successfully
+13. Click icon delete successfully
+14. Delete Subfolder Project successfully
+create folder successfully
+10. Delete Folder Project successfully
+[92m1.Delete Subfolder Project PASS[0m
+description
+create folder successfully
+=============== GW-121 : Project Managers =============== 
+1. Click Admin Project successfully
+2. Click Manager Project successfully
+4. Click All User  successfully
+[92mAdd Project Managers  => PASS[0m
+description
+=============== Delete User Managers =============== 
+1. Select Manager   successfully
+14. Delete User Managers Fail
+Add Manager successfully
+=============== Set extension form =============== 
+1. Click Set extension form Project successfully
+[91m1.Set extension form Fail[0m
+description
+=============== Delete Set extension form =============== 
+1. Show form name Search successfully
+2. Click checkbox all successfully
+14. Delete Set extension form Fail
+Add Extension successfully
+=============== Manage Work Type =============== 
+1. Click Manage Work Type successfully
+[91m1.Manage Work Type Fail[0m
+description
+===============Delete Manage Work Type =============== 
+1. Show form name Search successfully
+2. Click checkbox all successfully
+Delete Manage Work Type Fail
+Fail to Add Work Type 
+------------------------------------------------------C. Menu Contact------------------------------------------------------
+------------------------------------------------------C. Menu Contact------------------------------------------------------
+2. Click list My Company successfully
+6. Input Description successfully :  Luu Ngo Test
+7. Select user Share successfully
+8. Add User successfully
+8. Select  Permissison successfully
+9. Save folder successfully
+[92mShow Folder Contact successfully => PASS[0m
+description
+create folder successfully
+---------------- Write SubFolder My Contact----------------
+10. Select Parent folder successfully
+11. Input subfolder Name successfully :  sub 2
+11. Save Subfolder successfully
+12. Save folder successfully
+[92mWrite SubFolder My Contact => PASS[0m
+description
+---------------- Delete SubFolder My Contact----------------
+13. Delete Subfolder successfully
+description
+create folder successfully
+---------------- Edit Folder My Contact---------------
+14. Edit folder successfully
+[92mEdit Folder Board successfully => PASS[0m
+Edit folder successfully
+---------------- Delete  Folder Parent---------------
+15. Delete folder Parent successfully
+Delete folder successfully
+----------------------------------- Manage Company Folders-----------------------------------
+1. Click  Manage Company Folders successfully
+2. Click  Public Contact successfully
+----------------------------------- Share Folder -----------------------------------
+1.Click Radio Share =>Pass
+2.Click Organization =>Pass
+8. Add User successfully
+8. Select  Permissison successfully
+9. Save folder successfully
+[92mCreate Manage Company Folders => PASS[0m
+description
+Create Manager folder successfully
+----------------------------------- Edit Folder -----------------------------------
+1. Input Content successfully
+2. Save folder successfully
+[92mEdit Folder => PASS[0m
+Edit Manager folder successfully
+----------------------------------- Delete Manage Company Folders-----------------------------------
+=> Delete Manage Company Folders => PASS
+Delete Manager folder successfully
+----------------------------------- Admin Settings - General-----------------------------------
+----------------------------------- 1. General - Display Organization Contacts -----------------------------------
+1. Click Admin Settings successfully
+2. Click Display Organization Contacts : LIST  successfully
+3. Click Display Organization Contacts : LIST  successfully
+4. Click Close  successfully
+5. Click My Company successfully
+=> Update Version =>  Not show
+[92m=> Select Display Organization Contacts : LIST =>  PASS[0m
+description
+Show Setting 
+6. Click Display Organization Contacts : PHOTO  successfully
+7. Click Close  successfully
+Create Settings General  successfully
+----------------------------------- 1. General - Hide My Contact -----------------------------------
+7. Click Hide My Contacts  successfully
+1. Click Manage Favorites successfully
+=> Update Version =>  Not show
+[92mHide My Contact => PASS[0m
+description
+1. Click Admin Settings successfully
+2. Click Hide My Contacts  successfully
+Create Settings General - Hide My Contact successfully
+----------------------------------- Admin Settings - Public Contacts Manager-----------------------------------
+1. Click Organization successfully
+2. Select user Public successfully
+=> Select Public Contacts Manager => PASS
+4. Click icon remove user successfully
+5. click save successfully
+Create Settings General - Hide My Contact successfully
+----------------------------------- Manage Favorites-----------------------------------
+1. Click Manage Favorites successfully
+2. Click icon Favorites List successfully
+3. Input Folder Name Favorites successfully
+4. Click Organization successfully
+=>NOT Domain Global3
+NOt show user in Dept
+5. Select user Favorites successfully
+6. Input Description successfully
+7. Save Folder Manage Favorites successfully
+[92m=> Manage Favorites =>  PASS[0m
+description
+-----------------------------------Delete Manage Favorites-----------------------------------
+1. Click Folder Favorites Delete successfully
+2. Click button Delete successfully
+3. Click button Delete successfully
+4. Click button Close successfully
+5. Delete Manage Favorites successfully
+Create Manage Favorites successfully
+------------------------------------------------------C. Menu Approval------------------------------------------------------
+1. Access Menu Approval successfully
+------------------------------------------------------Menu Approval------------------------------------------------------
+---------------- Write All Form ------------------
+3. Click All Forms successfully
+---  Total All Form before create new : Total 36
+6.Create Form Fail
+Create all Form successfully
+-------------- Write All Official Forms ------------------
+2. Click Admin successfully
+1. Click All Official Forms successfully
+2. Click Create a new Approval Route successfully
+5. Input Content All Form successfully
+6. Save All Official Forms successfully
+[92m=>  1. Write All Official Forms  PASS[0m
+description
+-------------Delete All Official Forms - Admin---------------
+1. Click checkbox Delete All Official Forms Admin successfully
+2. Click button Delete successfully
+3. Click button confirm successfully
+=> Delete Default Approval Routes - Admin successfully
+Create All Official Form successfully
+----------------- View All Approvals ------------------
+1. Click All Approvals successfully
+NOT SHOW Security Pasword 
+3. View All Approvals successfully
+[92m=> 1.View All Approvals=> ---------- PASS[0m
+description
+View All Approval  successfully
+--------------- View Official Documentation ------------------
+1. Click Official Documentation successfully
+3. View Official Documentation successfully
+[92m => 1.View Official Documentation =>  PASS[0m
+description
+View Official Documentation  successfully
+-------------- Arbitrary Decision Settings -----------------
+1. Click Arbitrary Decision successfully
+6. Search user successfully
+3. Select user successfully
+3. Arbitrary Decision Settings successfully
+[92m=> Arbitrary Decision Settings =>--------- PASS[0m
+description
+-------------Delete User Arbitrary Decision Settings ---------------
+1. Click User Delete Change Approval Route successfully
+2. Delete Change Approval Route successfully
+Create Arbitrary Decision successfully
+------------- Default Approval Routes - Admin---------------
+1. Click Default Approval Route Admin successfully
+2. Click Create a new approval Route successfully
+5. Click Org successfully
+7. Select user successfully
+8. Add User successfully
+9. Save user successfully
+10. Save Default Approval Routes successfully
+-------------Delete Default Approval Routes - Admin---------------
+1. Click checkbox Delete Default Approval Routes Admin successfully
+2. Click button Delete successfully
+3. Click button confirm successfully
+=> Delete Default Approval Routes - Admin successfully
+------------- Set Official Seal - Admin ---------------
+1. Click Set Official Seal successfully
+2. Attch Signature Image successfully
+3. Click button Save Set Official Seal successfully
+------------- Delete Set Official Seal - Admin ---------------
+Change Default Approval Routes Admin successfully
+------------- Default Approval Routes-Setting---------------
+1. Click Settings successfully
+2. Click Default Approval Route successfully
+3. Click button Create a new Approval Route successfully
+4. Click Org successfully
+5. Search user successfully
+6. Select user successfully
+7. Add user successfully
+8. Add User successfully
+9. Save user successfully
+10. Save Default Approval Routes successfully
+11. Close successfully
+[92m=> 1. Default Approval Routes => ------------PASS[0m
+description
+-------------Delete Default Approval Routes-Setting---------------
+1. Click checkbox Delete Default Approval Routes successfully
+2. Click button Delete successfully
+3.Delete  Delete Default Approval Routes successfully
+Change Default Approval Routes Setting successfully
+------------- Manage My Folder---------------
+1. Click Manage My Folder successfully
+2. Click My Folder successfully
+4. Click Button Save Folder successfully
+[92m=> 1. Add Manage My Folder => ------------PASS[0m
+description
+-------------Delete Manage My Folder---------------
+1. Click My Folder Delete successfully
+2. Click icon Delete My Folder successfully
+=> Delete My Folder successfully
+Create Manage My Folder successfully
+-------------Display Settings ---------------
+1. Click Display Settings successfully
+2. Click Select Deputy User successfully
+Not Show sub Dept 
+3. Add user successfully
+4. Save user successfully
+5. Attch Signature Image successfully
+6. Click Button save successfully
+7. Click Button Close successfully
+[92m=> Change Signature Image  => --------PASS[0m
+description
+-------------Delete Display Settings ----------------
+1. Click Icon Delete successfully
+2. Click Button Confirm successfully
+=> Delete Signature Image  => --------PASS
+3. Click Button save successfully
+4. Click Button Close successfully
+=> Delete Display Settings  => --------PASS
+Create Display Settings successfully
+------------------------------------------------------Menu Resource------------------------------------------------------
+1. Access Menu Resource successfully
+--------------------- Add Category Conference Room   ---------------------
+3.Click Icon Plus successfully
+4.Select Type Category successfully
+4.Select Type Category successfully
+5. Input Category Name successfully :  Hanbiro Room
+A. Add Category Conference Room successfully
+[92mAdd Category Hanbiro Room =>-------- PASS[0m
+description
+--------------------- Add Category Vehicle   ---------------------
+1.Click Icon Plus successfully
+2.Select Type Category successfully
+3. Input Category Name successfully :  Hanbiro Vehicle
+A. Add Category Vehicle successfully
+[92mAdd Category Vehicle =>--------- PASS[0m
+description
+--------------------- Add Category Normal   ---------------------
+1.Click Icon Plus successfully
+2.Select Type Category successfully
+3. Input Category Name successfully :  Hanbiro Normal
+A. Add Category Normal successfully
+[92mAdd Category Normal  =>--------- PASS[0m
+description
+create category successfully
+--------------------- Add  Reservation System Resource Meeting Room - GW-733 : Define resource in Reservation System  ---------------------
+3.Click Add Resource   successfully
+4.Select Category  successfully
+5.Click Icon Plus successfully
+A. GW-733 : Define resource in Reservation System successfully
+[92m1. Define resource in Reservation System => --------PASS[0m
+--------------------- Save Add Resource Meeting Room GW-737 : Add Person in Charge  ---------------------
+=>  Input Resource Name successfully :  Room Reservation System
+6.Input Conference Room Name successfully
+=>  Input Description successfully :  Resource Hanbiro Room
+7.Input Description Reservation System successfully
+--------------------- Save Add Resource Meeting Room -GW-739 : Upload resource image   ---------------------
+A. GW-739 : Upload resource image successfully
+[92m1.Upload resource image=> ---------- PASS[0m
+description
+--------------------- Save Add Resource Meeting Room -GW-740 : Select user with permission to reserve   ---------------------
+11. Add Users with Permission to Reserve Conference Room successfully
+12.Add User  successfully
+A. GW-740 : Select user with permission to reserve successfully
+--------------------- Save Add Resource Meeting Room  GW-730 : Add resource 'Meeting Room' ---------------------
+14.Click Button Save Add Resource Meeting Room successfully
+[92m1.Add resource 'Meeting Room Reservation System' => --------- PASS[0m
+description
+--------------------- Add  Permission System Resource Meeting Room   ---------------------
+5.Click Icon Plus successfully
+=>  Input Resource Name successfully :  Room Permission System
+1.Input Conference Room Name successfully
+2.Check Permission System successfully
+=>  Input Description successfully :  Content Permission System
+3.Input Description Reservation System successfully
+9.Click Button Save Add Resource  successfully
+A. Add  Permission System Resource Meeting Room successfully
+[92m1.Add resource 'Meeting Room Permission System' => --------- PASS[0m
+description
+create create Resource - Room successfully
+--------------------- Add  Reservation System Resource Vehicle  -  GW-735 : Define available time to reserve ---------------------
+4.Select Category  successfully
+5.Click Icon Plus successfully
+=>  Input Room Name successfully :  Vehicle Reservation System
+=>  Input Car Number successfully :  10
+=>  Input VIN successfully :  20
+=>  Input VIN successfully :  100
+A. GW-735 : Define available time to reserve successfully
+[92m=> Define available time to reserve => PASS[0m
+--------------------- Add  Reservation System Resource Vehicle  -  GW-736 : Define Reservation Type---------------------
+A. GW-736 : Define Reservation Type successfully
+[92m1. Define Reservation Type => ------------- PASS[0m
+--------------------- Add  Reservation System Resource Vehicle  -  GW-738 : Select resource status---------------------
+A. GW-738 : Select resource status successfully
+[92m1. Select resource status => ------------- PASS[0m
+--------------------- Save Add Resource Meeting Room  GW-730 : Add resource 'Vehicle' ---------------------
+14.Click Button Save Add Resource Meeting Room successfully
+A. GW-731 : Add resource 'Vehicle' successfully
+[92m1.Add resource 'Vehicle' => --------- PASS[0m
+description
+create Resource - Vehicle successfully
+--------------------- Save Add Resource Meeting Room  GW-730 : Add resource 'Normal' ---------------------
+4.Select Category  successfully
+5.Click Icon Plus successfully
+=>  Input Room Name successfully :  Normal Reservation System
+14.Click Button Save Add Resource Normal successfully
+A. GW-732 : Add resource 'Normal' successfully
+[92m1.Add resource 'Normal' => --------- PASS[0m
+description
+create Resource - Normal successfully
+--------------------- Delete category ---------------------
+1.Select Category  successfully
+2.Click Icon Delete successfully
+1.Select Category  successfully
+2.Click Icon Delete successfully
+14. Delete Category Normal successfully
+1.Select Category  successfully
+2.Click Icon Delete successfully
+14. Delete Category Normal successfully
+A. Delete category successfully
+[92m1.Delete category => --------- PASS[0m
+description
+--------------------- Resource List ---------------------
+---  Total Resource List before filtering : Total 12
+---  Total Resource List after filtering : Total 11
+=> Search => Pass
+Delete Category Resource successfully
+--------------------- Admin-Add Resource Manager ---------------------
+=>Show Add Resource Manager
+1.Click Folder Name successfully
+2.Click Folder Name successfully
+3. Search user successfully
+4.Select user successfully
+5.Button Save successfully
+6.Click Manager List successfully
+[92m1.Admin-Add Resource Manager=> PASS[0m
+--------------------- Delete-Add Resource Manager ---------------------
+7. Search Title Task successfully
+1. Select User Delete successfully
+2. Click button Delete successfully
+Add Resource Manager successfully
+------------------------------------------------------C. Menu Menu Builder------------------------------------------------------
+------------------------------------------------------D. Menu Builder------------------------------------------------------
+1. Access Menu Builder successfully
+--------------------- Write Menu   ---------------------
+Not show Clock In

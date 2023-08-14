@@ -1,0 +1,12 @@
+LOGIN
+Input id 
+Input pass 
+Click on Login button 
+Login successful
+Current language is Eng
+ACCESS VACATION
+Access Menu Vacation
+Enter user name to search
+Search user
+MY VACATION STATUS
+Access sub menu My Vacation Status 

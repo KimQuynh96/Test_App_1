@@ -1,0 +1,35 @@
+Content-Type: multipart/alternative;
+	boundary="121.254.162.231.0.1067422.1608785342.058.62"
+MIME-Version: 1.0
+HBMuuid: 57d67ca2-45a3-11eb-85d2-0025900914d8
+hanbiro-info: 0
+hmail-status: p1
+Subject: =?utf-8?q?2323?=
+From: "=?utf-8?q?meo?=" <quynh1@meo.qa.hanbiro.net>
+To: quynh1@meo.qa.hanbiro.net
+Date: Thu, 24 Dec 2020 13:49:02 +0900
+Message-ID: <20201224044902.23039.27537@qa.hanbiro.net>
+Hanbiro-Mailer: HanbiroWebmail Version 2.0
+Reply-To: quynh1@meo.qa.hanbiro.net
+Origine_Mail: quynh1@qa.hanbiro.net
+
+--121.254.162.231.0.1067422.1608785342.058.62
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+MzIzMg==
+
+--121.254.162.231.0.1067422.1608785342.058.62
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+PGRpdiBjbGFzcz0iYW5uaWUtZWRpdG9yImNoZWNrYm94LWRhdGE9IiU3QiU3RCIgdW5pcT0iMTYw
+ODc4NTMzNTQ2NyIgc3R5bGU9ImZvbnQtZmFtaWx5OiB2ZXJkYW5hLCBhcmlhbDsgZm9udC1zaXpl
+OiA5cHQ7Ij48ZGl2IHN0eWxlPSJmb250LWZhbWlseTogdmVyZGFuYSxhcmlhbDsgZm9udC1zaXpl
+OiA5cHQ7IiBkYXRhLW1jZS1zdHlsZT0iZm9udC1mYW1pbHk6IHZlcmRhbmEsYXJpYWw7IGZvbnQt
+c2l6ZTogOXB0OyI+PGRpdj48c3Bhbj48YnI+PC9zcGFuPjwvZGl2PjxkaXY+PHNwYW4+PGJyPjwv
+c3Bhbj48L2Rpdj48ZGl2PjxzcGFuPjMyMzI8L3NwYW4+PC9kaXY+PC9kaXY+PC9kaXY+
+
+--121.254.162.231.0.1067422.1608785342.058.62--

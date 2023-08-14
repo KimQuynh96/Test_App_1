@@ -1,0 +1,8 @@
+LOGIN
+Input id 
+Input pass 
+Click on Login button 
+Login successful
+ACCESS VACATION
+Access Menu Vacation
+Enter user name to search

@@ -1,0 +1,3374 @@
+{
+    "domain_name": "http://global3.hanbiro.com",
+
+    "user_name": "automationtest1",
+    "name_keyword": [
+        "AutomationTest1",
+        "AutomationTest2"
+    ],
+    
+    "user_password": "automationtest1!",
+    "submit_login": "//button[@id='btn-log']",
+    "turn_off": "//button[@class='btn btn-primary bootbox-accept']",
+
+    "reload_button": "//split-screen-view//div[@class='page-header']//button[1]",
+    "write_button": [
+        "//split-screen-view//div[@class='page-header']//button[2]",
+        "//expense-admin-container-view//div[@class='page-header']//button[2]",
+        "//*[@id='ngw.projectnew.project']/div/div[1]/div[2]/div/button[2]"
+    ],
+
+    "auto_save_all": "//h4[@class='ui-pnotify-title']//a[2]/i",
+    "auto_save": "//div[@class='ui-pnotify-text']//ul[@class='autosave-list']//button//span",
+
+    "loading_dialog": "//div[@class='loading-dialog hide']",
+
+    "TASK":{
+        "Work_Diary":{
+            "button_save":[
+                "//*[@id='getJournalShare']/div/div/div[3]/button",
+                "//*[@id='diary_setting_form']/div[2]/div[3]/button[1]",
+                "//button[contains(@data-ng-click,'saveForm()')]"
+            ],
+        
+            "menu_task": "//div[@id='main-navi']/nav-menu-react/nav/a[contains(@data-name, 'task,Task')]/span",
+            "setting_workdiary": "//span[contains(.,'Settings ')]",
+            "folder_name": "Folder work diary: ",
+            "input_folder_name": "//*[@id='form_add_folder']/div[3]/div/input",
+            "input_share_name": "//*[@id='form_add_folder']/div[5]/div/input",
+            "share": "//form[@id='form_add_folder']/div[7]/div/label/span",
+            "permit_write": "//form[@id='form_add_folder']/div[9]/div/label[2]/span[2]",
+            "invite_user": "//*[@id='form_add_folder']/div[11]/label/a",
+            "list_ORG": "//*[@id='getJournalShare']/div/div/div[2]/div[1]/div[2]/div/div/ul",
+            "user_keyword": "//*[@id='getJournalShare']//div[@class='nav-search']//span//input",
+            "user_1": "//*[@id='getJournalShare']//a[contains(text(),'Selenium/AutomationTest1')]",
+            "user_2": "//*[@id='getJournalShare']//a[contains(text(),'Selenium/AutomationTest2')]",
+            "plus_button": "//*[@id='getJournalShare']/div/div/div[2]/div[2]/div[1]/div/a[1]",
+            "notify_save": "//h4[contains(.,' Saved')]",
+            "reload_folder": "//*[@id='diary_setting_form']/div[1]/div[1]/div[2]/a[3]",
+            "delete_button": "//*[@id='diary_setting_form']/div[1]/div[1]/div[2]/a[2]",
+            "last_list_folder": "//*[@id='diary-tree-folder']/ul/li/ul/li[@class='dynatree-lastsib']",
+            "fol_name": "//*[@id='diary-tree-folder']/ul/li/ul/li/span/a[contains(.,'",
+            "hidden_workdiary": "//*[@id='task-journal-parent']/b"
+        },
+
+        "Task_Report":{
+            "open_taskreport": "//*[@id='task-report-parent']/b",
+            "folder_task_name": [
+                "//*[@id='ngw.task.reportsetting']/div/div/div[2]/div/div[2]/div[2]/div/form/div[2]/div/input",
+                "//*[@id='ngw.task.setting']/div/div/div[2]/div/div[2]/div[2]/div/form/div[2]/div/input"
+            ],
+            "folder_task": "Folder task report: ",
+            "notify_save": "//h4[contains(.,' Saved')]",
+            "reload_folder": "//*[@id='ngw.task.reportsetting']/div/div/div[2]/div/div[1]/div[1]/div[3]/a[3]",
+            "delete_button": "//*[@id='ngw.task.reportsetting']/div/div/div[2]/div/div[1]/div[1]/div[3]/a[2]",
+            "last_list_folder": "//*[@id='report-tree-folder']/ul/li/ul/li[@class='dynatree-lastsib']",
+            "fol_name": "//*[@id='report-tree-folder']/ul/li/ul/li/span/a[contains(.,'",
+            
+            "set_recipients": "//li[2]/ul/li[2]/ul/li[2]/a/span/span",
+            "add_button":[
+                 "//div[@id='report-recipient']/form/div/a/span",
+                 "//a[@id='add-button']/span"
+                ],
+            "name_group": "Recipient Group: ",
+            "recipients_group": "//*[@id='new-report-sort']/div[1]/div/input",
+            "recipients_ORG": "//div[3]/label/a",
+            "list_ORG": "//*[@id='getReportTargetList']/div/div/div[2]/div[1]/div[2]/div/div/ul",
+            "user_keyword": "//*[@id='getReportTargetList']//div[@class='nav-search']//span//input",
+            "user_1": "//*[@id='getReportTargetList']//a[contains(text(),'Selenium/AutomationTest1')]",
+            "user_2": "//*[@id='getReportTargetList']//a[contains(text(),'Selenium/AutomationTest2')]",
+            "plus_button": "//*[@id='getReportTargetList']/div/div/div[2]/div[2]/div[1]/div/a[1]",
+            "button_save": [
+                "//*[@id='getReportTargetList']/div/div/div[3]/button[1]",
+                "//*[@id='new-report-sort']/div[4]/button",
+                "//button[contains(.,' Save')]"
+            ],
+            "recipients_add": "//*[@id='new-report-sort']//ul",
+            "button_OK": "//*[contains(@ng-click, 'close($event)')]//button[contains(@ng-click, 'ok()')]",
+
+            "my_task_report": "//li[2]/ul/li/ul/li/a/span/span",
+            "wait_editor": "//han-editor/div[3]/div/div/div[2]/div",
+            "input_title": "//*[@id='report-form-write']/div[1]/div/input",
+            "task_title": "Task Report: ",
+            "task_content": "This is content of Task Report",
+            "recipients": "//*[@id='report-form-write']/div[6]/div/select",
+            "recipients_default": "//*[@id='report-form-write']//ul",
+            "organization": "//*[@id='report-form-write']/div[6]/label/a",
+        
+            "auto_sort": "//li[2]/ul/li[3]/a[contains(@href, '#task/report/autosort')]/span",
+            "input_word": "//*[@id='new-report-sort']/form/div[1]/input",
+            "word_sort": "Task Report",
+            "delete_auto": "//*[@id='report-autosort']//a//span[contains(.,' Delete')]"
+        }
+    },
+    
+    "CIRCULAR":{
+        "menu_circular": "//div[@id='main-navi']/nav-menu-react/nav/a[@class='nt btn-circular']",
+        "add_folder": "//*[@id='ngw.circular.container']//circular-setting-component/form//div[@class='form-horizontal']",
+        "folder_name": "//*[@id='ngw.circular.container']//circular-setting-component/form//input[@name='folder_name']",
+        "parent_folder": "Parent Folder: ",
+        "button_save": "//*[@id='ngw.circular.container']/list-view//circular-setting-component/form/div[2]/div[3]/button",
+        "button_OK": "//button[contains(., 'OK')]",
+        "delete_button": "//*[@id='ngw.circular.container']/list-view//circular-setting-component/form/div[1]/div[1]/div[2]/a[2]"
+        
+    },
+
+    "EXPENSE":{
+        "menu_expense": "//div[@id='main-navi']/nav-menu-react/nav/a[@class='nt btn-expense']",
+        "button_save": [
+            "//*[@id='getManagerList']/div/div/div[3]/button[1]",
+            "//div[2]/div/button/span"
+        ],
+
+        "SETTINGS":{
+            "settings_expense": "//a[contains(@href, '/expense/setting')]",
+            "parent_folder": "Parent Folder: ",
+            "folder_name": "//*[@id='writeFolder']/div[3]/div/input",
+            "button_OK":[
+                "//span[contains(., 'OK')]",
+                "//*[contains(@ng-click, 'close($event)')]//button[contains(@ng-click, 'ok()')]"
+            ],
+            "last_list_folder": "//*[@id='ngw.expense.setting']//ul/li/ul/li[@class='dynatree-lastsib']/span/a",
+            "delete_button": "//*[@id='ngw.expense.setting']/div/div[2]/div[1]/div[1]/div/a[3]"
+        },
+        
+        "ADMIN":{
+            "admin": "//*[starts-with(@id,'mCSB') and contains(@id,'container')]//a[@data-ng-click='showAdminSetting()']/b",
+            "set_manager": "//span[contains(.,'Set Manager')]",
+            "select_manager": "//*[@id='expense-form-write']/div/label/button",
+            "total_list": "//*[@id='ngw.expense.paymentMethod']/expense-admin-container-view//div[@class='pull-left']",
+            "list_ORG": "//*[@id='getManagerList']/div/div/div[2]/div[1]/div[2]/div/div/ul",
+            "user_keyword": "//*[@id='getManagerList']//div[@class='nav-search']//span//input",
+            "user_1": "//*[@id='getManagerList']//a[contains(text(),'Selenium/AutomationTest2')]",
+            "plus_button": "//*[@id='getManagerList']/div/div/div[2]/div[2]/div[1]/div/a[1]",
+            "search": "//input[contains(@placeholder,'Search name')]",
+            "button_OK": "//button[contains(@ng-click, 'ok()')]",
+
+            "purpose": "//span[contains(.,' Purpose')]",
+            "purpose_2": "//*[@id='ngw.expense.paymentMethod']/expense-admin-container-view/div//a[contains(@href,'#use_purpose2')]",
+            "purpose_3": "//*[@id='ngw.expense.paymentMethod']/expense-admin-container-view/div//a[contains(@href,'#use_purpose3')]",
+            "input_name": "//*[@id='expense-form-write']/div[1]/div/input",
+            "name_purpose1": "Purpose: ",
+            "pop_up": "//div[contains(@class,'modal-body ')]",
+            "close": "//button[contains(@ng-click, 'cancel(false)')]",
+            "search_general": "//*[@id='ngw.expense.paymentMethod']/expense-admin-container-view/div//input[contains(@data-ng-model,'search.keyword')]",
+            "select_purpose": "//*[@id='use_purpose3']/div/div/table/tbody/tr/td[1]/label/span",
+            "delete_purpose": "//*[@id='ngw.expense.paymentMethod']/expense-admin-container-view//button[contains(@data-ng-click, 'deleteSelected()')]",
+
+
+            "payment_method": "//span[contains(.,' Payment Method')]",
+            "payment_name": "Payment Method: ",
+            "delete": "//td[@class='action-buttons']//a[contains(@data-ng-click, 'deleteItem(row.id)')]",
+
+            "credit_card": "//span[contains(.,' Credit Card')]",
+            "credit_card_number": "//*[@id='expense-form-write']/div[2]/div/input",
+            "credit_card_owner": "//*[@id='expense-form-write']/div[3]/div/input",
+            
+            "currency": "//span[contains(.,' Currency')]",
+            "currency_name": "//select[contains(@name, 'currency_id')]",
+            "currency_dropdown": "//form/div/div/select[@name='currency_id']/option",
+            "select_currency": "//*[@id='ngw.expense.paymentMethod']/expense-admin-container-view//div/div/table/tbody/tr/td[1]/label/span"
+        }
+    },
+
+    "COMANAGE":{
+        "kanban": "Ngoc Kanban",
+        "menu_comanage": "//div[@id='main-navi']/nav-menu-react/nav/a[@class='nt btn-projectnew']",
+        "project_list": "//*[@id='projectnew']//li[contains(@data-category, 'projectnew')]//ul[@class='submenu']/li[contains(@ng-repeat, 'project in projectList')]",
+        "search_project": "//div[starts-with(@id, 'mCSB') and contains(@id, 'container')]/div/ul/li[3]/ul/li/a/input",
+
+        "project": "//a[contains(@ng-click, 'openDetail(project)')]",
+        "insert_ticket": "Automation Test: Insert work ",
+        "insert_frame": "//*[contains(@aria-placeholder, 'Use @user to assign to someone')]",
+        "frame_work": "//iframe[starts-with(@id, 'ui-tinymce') and contains(@id, 'ifr')]",
+        "frame_work_detail": "//div[5]/div[2]/div/div/han-editor[contains(@ng-model,'workDescription')]//iframe[starts-with(@id, 'ui-tinymce') and contains(@id, 'ifr')]",
+        "view_ticket": "//*[@id='boardStatus']/div/div/div/div[1]/div[3]/span/div/div[1]/div/div[1]",
+        "insert": "//*[@id='tinymce']/p",
+        "detail_work": "//detail-work-react/div[@class='detail-work']//div[@class='work-comment']//input",
+
+        "show_more": "//span[contains(., 'Show more')]",
+        "start_assign": "//div[@class='clearfix project-new-work']//div[3]//div[@class='input-edit dropdown-toggle']/span/span",
+        "assign_list": "//div[3]/div/div[2]/div/ul/li/a[contains(@class, 'member assignee')]",
+        "assigned_to": "//div[@class='clearfix project-new-work']//div[3]//div[@class='input-edit dropdown-toggle']/button",
+        "assigned_to_dropdown": "//div[2]/div/ul/li/a[contains(@class, 'member assignee')]/span",
+        "search": "//div/ul/li/input",
+        "select_assigned": "//div[3]/div/div[2]/div/ul/li[2]/a",
+
+        "start_status": "//div[@class='clearfix project-new-work']//div[1]//div[@class='input-edit dropdown-toggle']/span",
+        "status_list": "//div[@class='clearfix project-new-work']/div[1]//div/ul/li",
+        "status": "//div[@class='clearfix project-new-work']//div[1]//div[@class='input-edit dropdown-toggle']/button",
+        "status_dropdown": "//div[2]/div/ul/li[contains(@class, 'dropdown-item')]/span[contains(@class, 'status-item')]",
+
+        "start_work_type": "//div[@class='clearfix project-new-work']/div[2]//div[@class='input-edit dropdown-toggle']/span",
+        "work_type_list": "//div[@class='clearfix project-new-work']/div[2]//div/ul/li",
+        "work_type": "//div[2]/div/div[2]/div/button",
+        "work_type_dropdown": "//div[2]/div/div[2]/div/ul[@class='dropdown-menu']/li/a",
+
+        "start_priority": "//div[@class='clearfix project-new-work']/div[4]//div[@class='input-edit dropdown-toggle']/span/span",
+        "priority_list": "//div[@class='clearfix project-new-work']/div[4]//div/ul/li/a",
+        "priority": "//div[4]/div/div[2]/div/button",
+        "priority_dropdown": "//div[4]/div/div[2]/div/ul[@class='dropdown-menu']/li/a",
+
+        "start_date": "//div[@class='datepicker-days']/table/tbody/tr//td[contains(., '16')]",
+        "end_date": "//div[@class='datepicker-days']/table/tbody/tr//td[contains(., '19')]",
+
+        "input_description": "Content Ticket: Input description by Automation Test",
+        "save": "//div[2]/div/div[2]/button[1]",
+
+        "comment": "//input[contains(@placeholder, 'Write a Comment')]",
+        "frame_work_comment": "//div[@id='comment-input']//han-editor[contains(@ng-model,'comment')]//iframe[starts-with(@id, 'ui-tinymce') and contains(@id, 'ifr')]",
+        "input_comment": "Content comment: Input comment",
+        "save_comment": "//button[@id='button-comment']/i",
+        "check_comment": "//div[@class='work-comment-detail']//div[@class='annie-editor']//p",
+        "close_detail_work": "//detail-work-react//div[@class='modal-footer center']//button[contains(., 'Close')]",
+
+        "search_work": "//*[@id='ngw.projectnew.project']//detail-project-react//input[contains(@placeholder, 'Enter search keywords.')]",
+        "close_search": "//*[@id='ngw.projectnew.project']//detail-project-react//button[contains(@type, 'button')]",
+
+        "wait_load_board": "//*[@id='boardStatus']//div[contains(@data-rbd-droppable-id,'all-droppables')]",
+        "work_list": "//*[@id='ngw.projectnew.project']//li/a[contains(.,'Work List')]",
+        "wait_load_work": "//*[@id='ngw.projectnew.project']//detail-project-react//div[contains(@class,'project-works')]/div",
+        "filters": "//*[@id='ngw.projectnew.project']//detail-project//detail-project-react//div[@class='filter']//div[contains(@class,'dropdown-filter')]/button",
+
+        "total_work_list": "//*[@id='ngw.projectnew.project']//detail-project-react//div[@class='splitter-layout']//div[@class='pull-left']/span",
+        "filter_work_list": "//*[@id='ngw.projectnew.project']//detail-project//detail-project-react//div[@class='wrap-iframe']//button",
+        "apply_filter": "//*[@id='ngw.projectnew.project']//detail-project//detail-project-react//div[@class='footer-iframe']//button[contains(.,'Apply Filter')]",
+        "close_filter": "//*[@id='ngw.projectnew.project']//detail-project//detail-project-react//div[@class='footer-iframe']//button[contains(.,'Close')]",
+        "reset_filter": "//*[@id='ngw.projectnew.project']//detail-project//detail-project-react//div[@class='footer-iframe']//button[contains(.,'Reset')]",
+        "view_work": "//*[@id='ngw.projectnew.project']//detail-project-react//div[contains(@class,'project-works')]/div[1]",
+        "work_content": "//*[@id='ngw.projectnew.project']//div[@class='layout-pane']/div//div[@class='content-view-container']",
+        "type_result": "//div[@class='content-view-container']//div[contains(@title, 'Work type')]/following-sibling::div//span",
+
+        "sub_work": "//*[@id='collapseSubWorks']//following-sibling::button",
+        "input_sub_work": "//input[contains(@placeholder,'What needs to be done?')]",
+        "save_sub_work": "//input[contains(@placeholder,'What needs to be done?')]//following-sibling::div/button[1]",
+        "title_sub_work": "//*[@id='collapseSubWorks']//div"
+    },
+
+    "BOARD":{
+        "menu_board": "//div[@id='main-navi']/nav-menu-react/nav/a[@class='nt btn-board']",
+        "board_list": "//*[@id='message-list']/board-react-list/div",
+        "hide_company_board": "//div[starts-with(@id, 'mCSB') and contains(@id, 'container')]/div/ul/li[contains(@data-category,'board')]/a[contains(.,' Company Board')]/b",
+        "board_admin": "//div[starts-with(@id, 'mCSB') and contains(@id, 'container')]//li/a[contains(@data-ng-click, 'showAdminSetting($event)')]",
+
+        "company_folder": "//*[starts-with(@id,'mCSB') and contains(@id,'container')]//li//a[contains(@ui-sref, 'ngw.board.admin_company')]",
+        "folder_list": "//*[@id='ngw.board.admin_company']//ul/li[@class='dynatree-lastsib']/ul/li",
+        "input_folder": "//*[@id='folder_name']",
+        "save": [
+            "//*[@id='boot-strap-valid']//button[contains(@data-ng-click,'saveFolder()')]",
+            "//*[@id='board_folder_share_modal']/div//button[contains(.,' Save ')]"
+        ],
+        
+        "button_plus": "//*[@id='ngw.board.admin_company']//a[contains(@data-ng-click,'addFolder();')]",
+        "select_parent_folder": "//*[@id='boot-strap-valid']//a[contains(@data-toggle,'collapse')]",
+
+        "option_type": "//*[@id='boot-strap-valid']//div//span[contains(.,' Permit Board')]",
+        "folder_type": "//*[@id='boot-strap-valid']//div//span[contains(.,' Photo Gallery')]",
+        "shared_user": "//*[@id='boot-strap-valid']//div//a[contains(@data-ng-click,'openTargetOrg()')]",
+        "search_user": "//*[@id='board_folder_share_modal']//div/form//input",
+        "select_user": "//*[@id='board_folder_share_modal']//a[contains(text(),'Selenium/AutomationTest')]",
+        "plus_button": "//*[@id='board_folder_share_modal']//div/div/div[2]/div[2]/div[1]/div/a[1]",
+
+        "company_folder_check": "//*[starts-with(@id,'mCSB') and contains(@id,'container')]//li[contains(@data-category,'board')]",
+        "search_folder": "//*[@id='ngw.board.admin_company']//div//input[contains(@data-ng-han-enter,'Search();')]",
+        "delete_folder": [
+            "//*[@id='boot-strap-valid']//div//button[contains(@data-ng-click,'deleteFolder(folder.fldseq)')]",
+            "//*[@id='ngw.board.admin_folder']//button[contains(@data-ng-click,'deleteFolder()')]"
+        ],
+        "button_OK": "//*[contains(@ng-click, 'close($event)')]//button[contains(@ng-click, 'ok()')]",
+        "close": "//*[contains(@ng-click,'close($event)')]//button[contains(@ng-click,'cancel(false)') and contains(.,'Close')]",
+        "board_folder_list": "//*[starts-with(@id,'mCSB') and contains(@id,'container')]//ul//li//a[contains(@ui-sref,'ngw.board.admin_folder')]",
+        "list_folder": "//*[@id='ngw.board.admin_folder']//board-folder-react-list//tbody//tr",
+        "search_parent_folder": "//*[@id='ngw.board.admin_folder']//form/div/input[contains(@ng-han-enter,'Search()')]",
+        "total_list": "//*[@id='ngw.board.admin_folder']//div[@class='pull-left']",
+
+        "SETTING":{
+            "setting": "//div[starts-with(@id, 'mCSB') and contains(@id, 'container')]//li/a[contains(@ng-click, 'goToSetting()')]",
+            "name_folder": "//*[@id='board_setting_form']//input[contains(@data-ng-model,'folder.name')]",
+            "my_folder_type": "//*[@id='board_setting_form']//div[@class='radio']/label",
+            "my_type": "//*[@id='board_setting_form']//div[@class='radio']/label[",
+            "select_type": "//*[@id='board_setting_form']//div[@class='radio']/label[contains(.,'",
+            "save": [
+                "//*[@id='board_setting_form']//button[contains(@data-ng-click,'saveFolder()')]",
+                "//span/button[contains(@ng-click, 'saveCategory()')]",
+                "//button[contains(@ng-click,'saveBoard()')]"
+            ],
+            "information": [
+                "//div[contains(@class,'modal-body ') and contains(.,'Data saved successfully.')]",
+                "//div[contains(@class,'modal-body ') and contains(.,'Data deleted successfully.')]"
+            ],
+            "close_infor": "//button[contains(@ng-click,'cancel(false)') and contains(.,'Close')]",
+            "my_folder": "//*[@id='board_setting_form']/div/div[1]//li[contains(@class,'dynatree-lastsib')]//span//a[contains(@class,'dynatree-title') and contains(.,'",
+            "category": "//*[@id='board_setting_form']//div[contains(@ng-show,'showManCategoryChil')]//button[contains(@ng-click,'loadCategoryList()')]",
+            "manage_categories": "//*[@id='board_setting_form']//span[@class='input-group']/input[contains(@ng-model,'category.name')]",
+            "category_list": "//*[@id='board_setting_form']//div[@class='cate-list-wrap']//ul/li/div[contains(@ng-click,'setCategoryData(item)') and contains(.,'",
+            "show_myfolder": "//*[starts-with(@id,'mCSB') and contains(@id,'container')]//li//a/span[contains(.,' My Board')]/following-sibling::b",
+            "select_folder": "//*[starts-with(@id,'mCSB') and contains(@id,'container')]//ul[contains(@class,'submenu')]//span[@class='title']//span[contains(.,'",
+            "write_board": "//*[starts-with(@id,'ngw.board.container')]//div[@class='page-header']//button[contains(@data-ng-click,'goWrite()')]",
+            "wait_page": "//*[starts-with(@id,'board-form')]//div[contains(@class,'tox-editor-header')]//div[@class='tox-toolbar-overlord']",
+            "dropdown_cate": "//*[starts-with(@id,'board-form')]//label[contains(.,'Category')]/following-sibling::div/select",
+            "select_category": "//*[starts-with(@id,'board-form')]//label[contains(.,'Category')]/following-sibling::div/select/option[contains(.,'",
+            "title_board": "//*[@id='form-field-subject']",
+            "board": "//*[@id='print_board_detail']//div[@class='content-board']/div[1]/div[2]",
+            "back_list": "//div[@ng-if='isDetailView()']//button[@data-ng-click='goList($event)']",
+            "board_photo_type": "//*[@id='message-list']//board-photo-react-list//div[@class='img-overlay']",
+            "board_list_type": "//*[@id='message-list']//board-react-list//div[@class='han-react-list']",
+            "delete_folder": "//*[@id='board_setting_form']//a[@ng-click='delFolder()']",
+            "button_OK": "//button[@ng-click='ok()']"
+        }
+    },
+
+
+    "testcase_result": {
+        "HR-Timecard":{
+            "check_true":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Check if clockin time is true to run pre OT function",
+                    "status":"Pass",
+                    "description":"Run pre OT function",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Check if clockin time is true to run pre OT function",
+                    "status":"Fail",
+                    "description":"Can't run pre OT function",
+                    "tester":"Hanh"
+                }
+            },
+            "report_weekly_check_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report - Weekly",
+                    "testcase":"Check data",
+                    "status":"Pass",
+                    "description":"Check data successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report - Weekly",
+                    "testcase":"Check data",
+                    "status":"Fail",
+                    "description":"Can't check data",
+                    "tester":"Hanh"
+                }
+            },
+            "report_weekly_check_data_workingtime":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report - Weekly",
+                    "testcase":"Check data",
+                    "status":"Pass",
+                    "description":"Working time is updated successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report - Weekly",
+                    "testcase":"Check data",
+                    "status":"Fail",
+                    "description":"Working time is updated failed",
+                    "tester":"Hanh"
+                }
+            },
+            "report_weekly_check_data_breaktime":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report - Weekly",
+                    "testcase":"Check data",
+                    "status":"Pass",
+                    "description":"Break time is updated successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report - Weekly",
+                    "testcase":"Check data",
+                    "status":"Fail",
+                    "description":"Break time is updated failed",
+                    "tester":"Hanh"
+                }
+            },
+            "report_weekly_check_data_OTtime":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report - Weekly",
+                    "testcase":"Check data",
+                    "status":"Pass",
+                    "description":"OT time is updated successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report - Weekly",
+                    "testcase":"Check data",
+                    "status":"Fail",
+                    "description":"OT time is updated failed",
+                    "tester":"Hanh"
+                }
+            },
+            "report_weekly_check_data_totaltime":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report - Weekly",
+                    "testcase":"Check data",
+                    "status":"Pass",
+                    "description":"Total time is updated successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report - Weekly",
+                    "testcase":"Check data",
+                    "status":"Fail",
+                    "description":"Total time is updated failed",
+                    "tester":"Hanh"
+                }
+            },
+            "data_check_OT_max":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check pre OT data",
+                    "status":"Pass",
+                    "description":"Max application time is correct",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check pre OT data",
+                    "status":"Fail",
+                    "description":"Max application time is false",
+                    "tester":"Hanh"
+                }
+            },
+            "data_check_OT_estimate":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check pre OT data",
+                    "status":"Pass",
+                    "description":"Estimate working hours is correct",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check pre OT data",
+                    "status":"Fail",
+                    "description":"Estimate working hours is false",
+                    "tester":"Hanh"
+                }
+            },
+            "pre_OT_check":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if current time is able to apply pre OT or not",
+                    "status":"Pass",
+                    "description":"Able to apply pre-OT",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if current time is able to apply pre OT or not",
+                    "status":"Fail",
+                    "description":"Can't apply pre-OT",
+                    "tester":"Hanh"
+                }
+            },
+            "cancel_pre_OT_auto":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if pre OT has been cancelled/approved or not",
+                    "status":"Pass",
+                    "description":"Pre OT has been Approved automatically",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if pre OT has been cancelled/approved or not",
+                    "status":"Fail",
+                    "description":"Pre OT hasn't been Approved automatically",
+                    "tester":"Hanh"
+                }
+            },
+            "approve_pre_OT":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if pre OT has been cancelled/approved or not",
+                    "status":"Pass",
+                    "description":"Pre OT has been Approved",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if pre OT has been cancelled/approved or not",
+                    "status":"Fail",
+                    "description":"Pre OT hasn't been Approved",
+                    "tester":"Hanh"
+                }
+            },
+            "cancel_pre_OT":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if pre OT has been cancelled/approved or not",
+                    "status":"Pass",
+                    "description":"Pre OT has been Cancelled",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if pre OT has been cancelled/approved or not",
+                    "status":"Fail",
+                    "description":"Pre OT hasn't been Cancelled",
+                    "tester":"Hanh"
+                }
+            },
+            "progress_pre_OT":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if pre OT has been cancelled/approved or not",
+                    "status":"Pass",
+                    "description":"Pre OT is in progressing",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if pre OT has been cancelled/approved or not",
+                    "status":"Fail",
+                    "description":"Pre OT isn't in progressing",
+                    "tester":"Hanh"
+                }
+            },
+            "click_cancel_pre_OT":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if pre OT has been cancelled/approved or not",
+                    "status":"Pass",
+                    "description":"Cancel Pre OT successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if pre OT has been cancelled/approved or not",
+                    "status":"Fail",
+                    "description":"Cancel Pre OT fail",
+                    "tester":"Hanh"
+                }
+            },
+            "pre_OT_displayed":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if request is displayed in list",
+                    "status":"Pass",
+                    "description":"Request is displayed in approval list",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if request is displayed in list",
+                    "status":"Fail",
+                    "description":"Request is not displayed in approval list",
+                    "tester":"Hanh"
+                }
+            },
+            "approval_details_duration":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if data is saved or not",
+                    "status":"Pass",
+                    "description":"Duration is saved successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if data is saved or not",
+                    "status":"Fail",
+                    "description":"Duration is saved failed",
+                    "tester":"Hanh"
+                }
+            },
+            "approval_details_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if data is saved or not",
+                    "status":"Pass",
+                    "description":"Data is saved successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if data is saved or not",
+                    "status":"Fail",
+                    "description":"Data is saved failed",
+                    "tester":"Hanh"
+                }
+            },
+            "approval_details_memo":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if data is saved or not",
+                    "status":"Pass",
+                    "description":"Memo is saved successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if data is saved or not",
+                    "status":"Fail",
+                    "description":"Memo is saved failed",
+                    "tester":"Hanh"
+                }
+            },
+            "approval_details_approver":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if data is saved or not",
+                    "status":"Pass",
+                    "description":"Approver is saved successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Approval",
+                    "testcase":"Check if data is saved or not",
+                    "status":"Fail",
+                    "description":"Approver is saved failed",
+                    "tester":"Hanh"
+                }
+            },
+            "checkin":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Log in",
+                    "status":"Pass",
+                    "description":"Log in successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Log in",
+                    "status":"Fail",
+                    "description":"Log in failed",
+                    "tester":"Hanh"
+                }
+            },
+            "breaktime":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Break time",
+                    "status":"Pass",
+                    "description":"Break time successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Break time",
+                    "status":"Fail",
+                    "description":"Break time fail",
+                    "tester":"Hanh"
+                }
+            },
+            "end_breaktime":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"End break time",
+                    "status":"Pass",
+                    "description":"End break time successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"End break time",
+                    "status":"Fail",
+                    "description":"End break time fail",
+                    "tester":"Hanh"
+                }
+            },
+            "add_event":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Add event",
+                    "status":"Pass",
+                    "description":"Event approval is submitted successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Add event",
+                    "status":"Fail",
+                    "description":"Save event Fail",
+                    "tester":"Hanh"
+                }
+            },
+            "view_details":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Details data",
+                    "status":"Pass",
+                    "description":"Details data is not empty => View detail successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Details data",
+                    "status":"Fail",
+                    "description":"Details data is empty => View detail fail",
+                    "tester":"Hanh"
+                }
+            },
+            "add_manager":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Settings",
+                    "testcase":"Add manager",
+                    "status":"Pass",
+                    "description":"Save manager successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Settings",
+                    "testcase":"Add manager",
+                    "status":"Fail",
+                    "description":"Save manager fail",
+                    "tester":"Hanh"
+                }
+            },
+            "delete_manager":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Settings",
+                    "testcase":"Delete manager",
+                    "status":"Pass",
+                    "description":"Delete Dept. Manager Successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Settings",
+                    "testcase":"Delete manager",
+                    "status":"Fail",
+                    "description":"Delete Dept. Manager Fail",
+                    "tester":"Hanh"
+                }
+            },
+            "add_total_manager":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Settings",
+                    "testcase":"Add total manager",
+                    "status":"Pass",
+                    "description":"Add Timecard Manager Successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Settings",
+                    "testcase":"Add total manager",
+                    "status":"Fail",
+                    "description":"Add Timecard Manager Fail",
+                    "tester":"Hanh"
+                }
+            },
+            "delete_total_manager":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Settings",
+                    "testcase":"Delete total manager",
+                    "status":"Pass",
+                    "description":"Delete Timecard Manager Successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Settings",
+                    "testcase":"Delete total manager",
+                    "status":"Fail",
+                    "description":"Delete Timecard Manager Fail",
+                    "tester":"Hanh"
+                }
+            },
+            "work_scheduless":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timecard",
+                    "testcase":"Work schedules",
+                    "status":"Pass",
+                    "description":"Request Work Schedule Successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timecard",
+                    "testcase":"Work schedules",
+                    "status":"Fail",
+                    "description":"Request Work Schedule Fail",
+                    "tester":"Hanh"
+                }
+            },
+            "work_correction":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Work correction",
+                    "status":"Pass",
+                    "description":"Request work correction successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Work correction",
+                    "status":"Fail",
+                    "description":"Request work correction fail",
+                    "tester":"Hanh"
+                }
+            },
+            "approve_status":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company Timecard-Approval",
+                    "testcase":"Status",
+                    "status":"Pass",
+                    "description":"Status is changed => Event approve successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company Timecard-Approval",
+                    "testcase":"Status",
+                    "status":"Fail",
+                    "description":"Status is not changed => Event approve failed",
+                    "tester":"Hanh"
+                }
+            },
+            "approve_status_work":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company Timecard-Approval",
+                    "testcase":"Status",
+                    "status":"Pass",
+                    "description":"Status is changed => Work correction approve successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company Timecard-Approval",
+                    "testcase":"Status",
+                    "status":"Fail",
+                    "description":"Status is not changed => Work correction approve failed",
+                    "tester":"Hanh"
+                }
+            },
+            "pre_OT":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Apply pre OT",
+                    "status":"Pass",
+                    "description":"Apply Pre OT Successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Apply pre OT",
+                    "status":"Fail",
+                    "description":"Apply Pre OT Fail",
+                    "tester":"Hanh"
+                }
+            },
+            "pre_OT_already":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Apply pre OT",
+                    "status":"Pass",
+                    "description":"Apply Pre OT has already",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Apply pre OT",
+                    "status":"Fail",
+                    "description":"Apply Pre OT emp",
+                    "tester":"Hanh"
+                }
+            },
+            "access_weekly_status_page":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Weekly Status",
+                    "testcase":"Access page",
+                    "status":"Pass",
+                    "description":"Access page successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Weekly Status",
+                    "testcase":"Access page",
+                    "status":"Fail",
+                    "description":"Access page fail",
+                    "tester":"Hanh"
+                }
+            },
+            "weekly_status_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Weekly Status",
+                    "testcase":"Check data",
+                    "status":"Pass",
+                    "description":"Check weekly status - default successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Weekly Status",
+                    "testcase":"Check data",
+                    "status":"Fail",
+                    "description":"Check weekly status - default fail",
+                    "tester":"Hanh"
+                }
+            },
+            "access_daily_status_page":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Daily Status",
+                    "testcase":"Access page",
+                    "status":"Pass",
+                    "description":"Access page successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Daily Status",
+                    "testcase":"Access page",
+                    "status":"Fail",
+                    "description":"Access page fail",
+                    "tester":"Hanh"
+                }
+            },
+            "download_excel_file":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Daily Status",
+                    "testcase":"Check data",
+                    "status":"Pass",
+                    "description":"Download file successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Daily Status",
+                    "testcase":"Check data",
+                    "status":"Fail",
+                    "description":"Download file fail",
+                    "tester":"Hanh"
+                }
+            },
+            "daily_status_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Daily Status",
+                    "testcase":"Check data",
+                    "status":"Pass",
+                    "description":"Check daily status - default successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Daily Status",
+                    "testcase":"Check data",
+                    "status":"Fail",
+                    "description":"Check daily status - default fail",
+                    "tester":"Hanh"
+                }
+            },
+            "access_report_page":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"My timecard - Report",
+                    "testcase":"Access page",
+                    "status":"Pass",
+                    "description":"Access page successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"My timecard - Report",
+                    "testcase":"Access page",
+                    "status":"Fail",
+                    "description":"Access page fail",
+                    "tester":"Hanh"
+                }
+            },
+            "report_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report",
+                    "testcase":"Check data",
+                    "status":"Pass",
+                    "description":"Check report - default successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report",
+                    "testcase":"Check data",
+                    "status":"Fail",
+                    "description":"Check report - default fail",
+                    "tester":"Hanh"
+                }
+            },
+            "clockin_through_avatar":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Log in",
+                    "status":"Pass",
+                    "description":"Clock in successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Log in",
+                    "status":"Fail",
+                    "description":"Clock in fail",
+                    "tester":"Hanh"
+                }
+            },
+            "clockout_through_avatar":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Log out",
+                    "status":"Pass",
+                    "description":"Clock out successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Log out",
+                    "status":"Fail",
+                    "description":"Clock out fail",
+                    "tester":"Hanh"
+                }
+            },
+            "edit_clockin":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Edit clockin",
+                    "status":"Pass",
+                    "description":"Edit clockin successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Edit clockin",
+                    "status":"Fail",
+                    "description":"Edit clockin fail",
+                    "tester":"Hanh"
+                }
+            },
+            "edit_clockout":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Edit clockout",
+                    "status":"Pass",
+                    "description":"Edit clock out successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Edit clockout",
+                    "status":"Fail",
+                    "description":"Edit clock out fail",
+                    "tester":"Hanh"
+                }
+            },
+            "after_login_report_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report",
+                    "testcase":"Check data after log in",
+                    "status":"Pass",
+                    "description":"Check report data - after login successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Report",
+                    "testcase":"Check data after log in",
+                    "status":"Fail",
+                    "description":"Check report data - after login fail",
+                    "tester":"Hanh"
+                }
+            },
+            "compare_time":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Compare working/worked/breaktime - before and after log in",
+                    "status":"Pass",
+                    "description":"Calculation is right",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Compare working/worked/breaktime - before and after log in",
+                    "status":"Fail",
+                    "description":"Cant calculate",
+                    "tester":"Hanh"
+                }
+            },
+            "after_login_daily_status_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Daily Status",
+                    "testcase":"Check data after log in",
+                    "status":"Pass",
+                    "description":"Check report data successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Daily Status",
+                    "testcase":"Check data after log in",
+                    "status":"Fail",
+                    "description":"Check report data fail",
+                    "tester":"Hanh"
+                }
+            },
+            "clockin_UI":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Check data",
+                    "status":"Pass",
+                    "description":"Check clockin data successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Check data",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "clockout_UI":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Check data",
+                    "status":"Pass",
+                    "description":"Check clockout data successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Check data",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "compare_clockin":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Compare clock-in time and daily status-clockin",
+                    "status":"Pass",
+                    "description":"System is correct",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Compare clock-in time and daily status-clockin",
+                    "status":"Fail",
+                    "description":"System is false",
+                    "tester":"Hanh"
+                }
+            },
+            "compare_clockout":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Compare clock-out time and dailystatus-clockout",
+                    "status":"Pass",
+                    "description":"System is correct",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timesheets",
+                    "testcase":"Compare clock-out time and dailystatus-clockout",
+                    "status":"Fail",
+                    "description":"System is false",
+                    "tester":"Hanh"
+                }
+            },
+            "compare_time_daily":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Daily Status",
+                    "testcase":"Compare break/working/OT time btw daily status and timesheet",
+                    "status":"Pass",
+                    "description":"System is correct",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Daily Status",
+                    "testcase":"Compare break/working/OT time btw daily status and timesheet",
+                    "status":"Fail",
+                    "description":"Cant compare",
+                    "tester":"Hanh"
+                }
+            },
+            "after_login_weekly_status_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Weekly Status",
+                    "testcase":"Check data after log in",
+                    "status":"Pass",
+                    "description":"Check weekly status - default successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Weekly Status",
+                    "testcase":"Check data after log in",
+                    "status":"Fail",
+                    "description":"Check weekly status - default fail",
+                    "tester":"Hanh"
+                }
+            },
+            "total_working_time":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Weekly Status",
+                    "testcase":"Check total Working time",
+                    "status":"Pass",
+                    "description":"System is correct",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Weekly Status",
+                    "testcase":"Check total Working time",
+                    "status":"Fail",
+                    "description":"System is false",
+                    "tester":"Hanh"
+                }
+            },
+            "view_detail_weekly_status_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Weekly Status",
+                    "testcase":"View details",
+                    "status":"Pass",
+                    "description":"View details - Check data successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Weekly Status",
+                    "testcase":"View details",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "access_company_report_page":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company timecard - Report",
+                    "testcase":"Access page",
+                    "status":"Pass",
+                    "description":"Access page successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company timecard - Report",
+                    "testcase":"Access page",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "after_login_company_report_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company timecard - Report",
+                    "testcase":"Check data after log in",
+                    "status":"Pass",
+                    "description":"Check data successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company timecard - Report",
+                    "testcase":"Check data after log in",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "monthly_scheduled_woking":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company timecard - Report",
+                    "testcase":"Monthly Scheduled Woking",
+                    "status":"Pass",
+                    "description":"Check data successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company timecard - Report",
+                    "testcase":"Monthly Scheduled Woking",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "monthly_working_status":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company timecard - Report",
+                    "testcase":"Monthly Working Status",
+                    "status":"Pass",
+                    "description":"Check data successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company timecard - Report",
+                    "testcase":"Monthly Working Status",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "monthly_events":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company timecard - Report",
+                    "testcase":"Monthly Events",
+                    "status":"Pass",
+                    "description":"Check data successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company timecard - Report",
+                    "testcase":"Monthly Events",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "list_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company timecard - Report",
+                    "testcase":"List",
+                    "status":"Pass",
+                    "description":"Check data successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Company timecard - Report",
+                    "testcase":"List",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "access_timeline_page":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Access page",
+                    "status":"Pass",
+                    "description":"Access page successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Access page",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "search_user":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Search user",
+                    "status":"Pass",
+                    "description":"Search user successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Search user",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "timeline_filter":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Select filter",
+                    "status":"Pass",
+                    "description":"Select filter successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Select filter",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "delete_login":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Delete clockin",
+                    "status":"Pass",
+                    "description":"Delete login successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Delete clockin",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "clockin_through_timeline":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Clockin",
+                    "status":"Pass",
+                    "description":"Clock-in through timeline successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Clockin",
+                    "status":"Fail",
+                    "description":"Clock-in through timeline failed",
+                    "tester":"Hanh"
+                }
+            },
+            "clockout_through_timeline":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Clockout",
+                    "status":"Pass",
+                    "description":"Clock-out through timeline successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Clockout",
+                    "status":"Fail",
+                    "description":"Clock-out through timeline failed",
+                    "tester":"Hanh"
+                }
+            },
+            "timeline_clockin_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Check clockin data",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Check clockin data",
+                    "status":"Fail",
+                    "description":"Data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "timeline_clockout_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Check clockout data",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Timeline",
+                    "testcase":"Check clockout data",
+                    "status":"Fail",
+                    "description":"Data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "access_workshift_page":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workshift",
+                    "testcase":"Access page",
+                    "status":"Pass",
+                    "description":"Access page successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workshift",
+                    "testcase":"Access page",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "work_type":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workshift",
+                    "testcase":"Set up new work type",
+                    "status":"Pass",
+                    "description":"Setup new work type successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workshift",
+                    "testcase":"Set up new work type",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "access_workplace_page":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Access page",
+                    "status":"Pass",
+                    "description":"Access page successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Access page",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "work_place":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Add work place",
+                    "status":"Pass",
+                    "description":"Add work place successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Add work place",
+                    "status":"Fail",
+                    "description":"Add work place fail",
+                    "tester":"Hanh"
+                }
+            },
+            "holiday":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Add holiday",
+                    "status":"Pass",
+                    "description":"Add new holiday successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Add holiday",
+                    "status":"Fail",
+                    "description":"Add new holiday fail",
+                    "tester":"Hanh"
+                }
+            },
+            "edit_work_place":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Edit work place",
+                    "status":"Pass",
+                    "description":"Edit work place successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Edit work place",
+                    "status":"Fail",
+                    "description":"Edit work place failed",
+                    "tester":"Hanh"
+                }
+            },
+            "edit_holiday":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Edit holiday",
+                    "status":"Pass",
+                    "description":"Edit holiday successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Edit holiday",
+                    "status":"Fail",
+                    "description":"Edit holiday fail",
+                    "tester":"Hanh"
+                }
+            },
+            "delete_holiday":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Delete holiday",
+                    "status":"Pass",
+                    "description":"Delete holiday successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Delete holiday",
+                    "status":"Fail",
+                    "description":"Delete holiday fail",
+                    "tester":"Hanh"
+                }
+            },
+            "delete_work_place":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Delete work place",
+                    "status":"Pass",
+                    "description":"Delete work place successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Workplace",
+                    "testcase":"Delete work place",
+                    "status":"Fail",
+                    "description":"Delete work place fail",
+                    "tester":"Hanh"
+                }
+            },
+            "access_dashboard_page":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Access dashboard page",
+                    "status":"Pass",
+                    "description":"Access page successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Access dashboard page",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "user_today_work":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Today's work",
+                    "status":"Pass",
+                    "description":"Today's work - Check data successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Today's work",
+                    "status":"Fail",
+                    "description":"Today's work - Check data fail",
+                    "tester":"Hanh"
+                }
+            },
+            "user_staff_working_status":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Staff working status",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Staff working status",
+                    "status":"Fail",
+                    "description":"Data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "add_status":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Add status",
+                    "status":"Pass",
+                    "description":"Add status successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Add status",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "edit_status":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Edit status",
+                    "status":"Pass",
+                    "description":"Edit status successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Edit status",
+                    "status":"Fail",
+                    "description":"Edit status failed",
+                    "tester":"Hanh"
+                }
+            },
+            "clear_status":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Clear status",
+                    "status":"Pass",
+                    "description":"Clear status successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Clear status",
+                    "status":"Fail",
+                    "description":"Can't clear status",
+                    "tester":"Hanh"
+                }
+            },
+            "user_weekly_working_time":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Weekly working time",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Weekly working time",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "user_time_clock_status":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Time clock status",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Time clock status",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "user_device":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Device",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Device",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "user_time_clock_status_chart":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Check if the chart of Device is displayed or not",
+                    "status":"Pass",
+                    "description":"Chart is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Check if the chart of Device is displayed or not",
+                    "status":"Fail",
+                    "description":"Chart not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "user_mywork_workday":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Mywork - Workday",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Mywork - Workday",
+                    "status":"Fail",
+                    "description":"Data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "user_mywork_workingtime":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Mywork - Working time",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Mywork - Working time",
+                    "status":"Fail",
+                    "description":"Data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "user_mywork_settlement":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Mywork - Settlement",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Mywork - Settlement",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "access_schedule_page":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Access schedule page",
+                    "status":"Pass",
+                    "description":"Access page successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Access schedule page",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "schedule_working_days":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Schedule - Working days",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Schedule - Working days",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "schedule_working_time":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Schedule - Working time",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Schedule - Working time",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "schedule_settlement":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Schedule - Settlement",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Schedule - Settlement",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_avg_workingtime_change_date":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Admin - Avg working time - Chang date",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Admin - Avg working time - Chang date",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_avg_workingtime":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Admin - Avg working time",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Admin - Avg working time",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "check_working_time":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Select working time",
+                    "status":"Pass",
+                    "description":"Check working time successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Select working time",
+                    "status":"Fail",
+                    "description":"Check working time fail",
+                    "tester":"Hanh"
+                }
+            },
+            "working_time_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Working time",
+                    "status":"Pass",
+                    "description":"Working time data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Working time",
+                    "status":"Fail",
+                    "description":"Working time data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "check_OT_time":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Select OT",
+                    "status":"Pass",
+                    "description":"Check OT successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Select OT",
+                    "status":"Fail",
+                    "description":"Check OT failed",
+                    "tester":"Hanh"
+                }
+            },
+            "OT_time_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"OT time",
+                    "status":"Pass",
+                    "description":"OT data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"OT time",
+                    "status":"Fail",
+                    "description":"OT data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "number_filter":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Number filter",
+                    "status":"Pass",
+                    "description":"Change number filter successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Number filter",
+                    "status":"Fail",
+                    "description":"Change number filter failed",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_working_time_next_pgae":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Check if data of Admin-Working time is displayed or not after click next page",
+                    "status":"Pass",
+                    "description":"Data is displayed ",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Check if data of Admin-Working time is displayed or not after click next page",
+                    "status":"Fail",
+                    "description":"Data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_working_time_change_date":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Change date",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Change date",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "clockin_through_missing_time_clock":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Clockin",
+                    "status":"Pass",
+                    "description":"Clock in through missing time clock successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Clockin",
+                    "status":"Fail",
+                    "description":"Clock in through missing time clock fail",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_time_clock_status":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Admin - Time clock status",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Admin - Time clock status",
+                    "status":"Fail",
+                    "description":"Data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_time_clock_status_change_date":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Change date",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Change date",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_time_clock_status_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Check if data of Time Clock Status is displayed or not after click to another day",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Check if data of Time Clock Status is displayed or not after click to another day",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_device":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Admin - Device",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Admin - Device",
+                    "status":"Fail",
+                    "description":"Data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_device_chart":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Check if the chart of Device is displayed or not",
+                    "status":"Pass",
+                    "description":"Chart is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Check if the chart of Device is displayed or not",
+                    "status":"Fail",
+                    "description":"Chart not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_working_status_chart":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Check if the chart of Working Status is displayed or not",
+                    "status":"Pass",
+                    "description":"Chart is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Check if the chart of Working Status is displayed or not",
+                    "status":"Fail",
+                    "description":"Chart not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_working_status_more":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Access Daily Status page through Admin - Working Status",
+                    "status":"Pass",
+                    "description":"Access Daily Status page successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Access Daily Status page through Admin - Working Status",
+                    "status":"Fail",
+                    "description":" Access Daily Status page failed",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_timeline":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Check if data of Timeline is displayed or not",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Check if data of Timeline is displayed or not",
+                    "status":"Fail",
+                    "description":"Data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "admin_timeline_more":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Access Timeline page through Admin - Timeline",
+                    "status":"Pass",
+                    "description":"Access Timeline page successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Access Timeline page through Admin - Timeline",
+                    "status":"Fail",
+                    "description":"Access Timeline page fail",
+                    "tester":"Hanh"
+                }
+            },
+            "post_OT":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Apply post OT",
+                    "status":"Pass",
+                    "description":"Apply post OT successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Dashboard",
+                    "testcase":"Apply post OT",
+                    "status":"Fail",
+                    "description":"Apply OT failed - Approval is submitted failed",
+                    "tester":"Hanh"
+                }
+            },
+            "report_weekly_working_time_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Check weekly working time",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Check weekly working time",
+                    "status":"Fail",
+                    "description":"Data is empty",
+                    "tester":"Hanh"
+                }
+            },
+            "report_device_data":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Check device",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Check device",
+                    "status":"Fail",
+                    "description":"Data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "report_device_data_compare":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Compare Dashboard-Device with Report-Weekly-Device",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Compare Dashboard-Device with Report-Weekly-Device",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "calculate_report_weekly":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Plus working time, break time and OT time to see if the result is equal to total working hour or not",
+                    "status":"Pass",
+                    "description":"System is correct",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Plus working time, break time and OT time to see if the result is equal to total working hour or not",
+                    "status":"Fail",
+                    "description":"System is false",
+                    "tester":"Hanh"
+                }
+            },
+            "weekly_average":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Check weekly average",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Check weekly average",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                }
+            },
+            "day_week_average":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Check day of week average",
+                    "status":"Pass",
+                    "description":"Data is displayed",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Check day of week average",
+                    "status":"Fail ",
+                    "description":"Data not displayed",
+                    "tester":"Hanh"
+                }
+            },
+            "add_gps":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Basic",
+                    "testcase":"Add GPS",
+                    "status":"Pass",
+                    "description":"Add GPS successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Add GPS",
+                    "status":"Fail",
+                    "description":"Add GPS failed",
+                    "tester":"Hanh"
+                }
+            },
+            "edit_gps":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Basic",
+                    "testcase":"Edit GPS",
+                    "status":"Pass",
+                    "description":"Edit GPS successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Edit GPS",
+                    "status":"Fail",
+                    "description":"Edit GPS failed",
+                    "tester":"Hanh"
+                }
+            },
+            "search_gps":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Basic",
+                    "testcase":"Search GPS",
+                    "status":"Pass",
+                    "description":"Search GPS successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Search GPS",
+                    "status":"Fail",
+                    "description":"Search GPS failed",
+                    "tester":"Hanh"
+                }
+            },
+            "delete_gps":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Basic",
+                    "testcase":"Delete GPS",
+                    "status":"Pass",
+                    "description":"Delete GPS successfully",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-Weekly",
+                    "testcase":"Delete GPS",
+                    "status":"Fail",
+                    "description":"Delete GPS failed",
+                    "tester":"Hanh"
+                }
+            },
+            "reports_list":{
+                "pass":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-List",
+                    "testcase":"Check data",
+                    "status":" ",
+                    "description":" ",
+                    "tester":"Hanh"
+                },
+                "fail":{
+                    "menu":"HR-Timecard",
+                    "sub_menu":"Reports-List",
+                    "testcase":"Check data",
+                    "status":"Fail",
+                    "description":"Check data failed",
+                    "tester":"Hanh"
+                }
+            }
+        }   
+    },
+
+
+
+
+    "TIMECARD": {
+        "sign_in": "//form//div//button[contains(.,'Sign In')]",
+        "notify": [
+            "//span[contains(@class, 'alert-title') and contains(., 'Success')]"
+        ],
+
+        "body": "//*[@id='app']//div[@class='hr-body']",
+        "tardiness": "//*[@class='modal-content']//form//div//div//div//div[contains(.,'Tardiness')]",
+        "input_reason_late": "//*[@class='modal-content']//form//div//div//textarea",
+        "reason_late": "Sorry, I'm late",
+        "save": "//*[@class='modal-content']//form//div//button[contains(.,'Save')]",
+        "pop_up": "//*[contains(@id,'click-out-side-5') and contains(@class,'item-header show')]",
+        "clock_in_but": "//*[@id='click-out-side-5']//button[contains(.,'Clock-In')]",
+        "click_close": "//*[@id='click-out-side-5']/div[2]/div/div/div[1]/div[2]",
+        "pop_up_hid": "//*[@id='click-out-side-5']//img",
+        "nightwork": "//*[@class='modal-content']//span/h6[contains(.,'Confirm Nightwork')]",
+        "close_nightwork": "//*[@class='modal-content']//button/span[contains(.,'Close')]",
+
+        "my_timesheets": "//*[@id='timecard-tab']//li/a[contains(@href,'/nhr/hr/timecard/user/status')]",
+        "format_time": "//*[@id='app']//div[contains(@class, 'info-card')]//div/div[contains(.,'Work Policy')]//following-sibling::div//div[2]",
+        "work_method": "//*[@id='app']//div[contains(@class, 'info-card')]//div/div[contains(.,'Work Policy')]//following-sibling::div//div[3]",
+        "item_clock": "//*[@id='app']//div[contains(@class, 'timeline-item')]//div[contains(@class, 'd-flex ')]//div[@class='cursor-pointer']",
+        "edit_clockin_time": "//*[@id='app']//div[contains(@class, 'timeline-item')]//div[contains(.,'Clock-In')]//div[contains(@class, 'd-flex ')]/span[1]//div[@class='cursor-pointer']",
+        "pop_up_edit": "//*[contains(@class,'modal-content')]//form//div//textarea",
+        "btn_hour": "//*[starts-with(@id,'btnHours')]",
+        "btn_min": "//*[starts-with(@id,'btnMin')]",
+        "minutes": "//*[starts-with(@id,'btnMin')]//following-sibling::div/button[contains(.,'00')]",
+        "on_time": "//*[starts-with(@id,'radio')]//following-sibling::label[contains(.,'On Time')]",
+        "save_edit": "//*[@class='modal-content']//div[@class='modal-footer']//button[contains(.,'Save')]",
+        "leave_early": "//*[@class='modal-content']//form//div//div//div//div[contains(.,'Leave Early')]",
+        "input_reason_leave_early": "//*[@class='modal-content']//form//div//div//textarea",
+        "reason_leave_early": "I have a personal reason. Thank you!",
+
+        "breaktime_but": "//button//span[contains(@data-lang-id,'tc_status_break_time')]",
+        "pop_up_breaktime": "//*[@class='modal-content']//button[contains(.,'End Break Time')]",
+        "OT_popup": "//div[@class='modal-content']/div/span/span[contains(@data-lang-id,'tc_title_apply_overtime_approval')]",
+        "OT_clockout": "//div[@class='text-center']/button[contains(.,'Clock-Out')]",
+        "yes_but": [
+            "//div[2]//div[contains(@class, 'cursor-pointer')]/button",
+            "//*[@class='modal-content']//button[contains(.,'Yes')]"
+        ],
+        "clear_working_status": "//span[contains(.,'Clear')]",
+        "date_work": "//*[@class='main-calendar']//div[contains(@class,'tui-full-calendar-weekday-schedules')]//span[contains(@title,'",
+        "day_off": "//*[@class='main-calendar']//div[contains(@class,'tui-full-calendar-weekday-schedules')]//span[contains(@title,'Day Off')]",
+        "holiday": "//*[@class='main-calendar']//div[contains(@class,'tui-full-calendar-weekday-schedules')]//span[contains(@title,'Holiday')]",
+
+        "clock_out_but": "//button//span[contains(@data-lang-id,'tc_action_clock_out')]",
+        "edit_clockout_time": "//*[@id='app']//div[contains(@class, 'timeline-item')]//div[contains(.,'Clock-Out')]//div[contains(@class, 'd-flex ')]/span[1]//div[@class='cursor-pointer']",
+
+        "output_clockin": "//div[contains(@class, 'content-body')]//div[contains(@class, 'header')]//div[contains(@class, 'check-in-status')]",
+        "output_clockout": "//div[contains(@class, 'content-body')]//div[contains(@class, 'header')]//div[contains(@class, 'check-out-status')]",
+        "officetime": "//*[@id='app']//div[contains(@class, 'info-card')]//div/div[contains(.,'Office time')]//following-sibling::div",
+        "breaktime": "//*[@id='app']//div[contains(@class, 'info-card')]//div/div[contains(.,'Break time')]//following-sibling::div",
+        "workingtime": "//*[@id='app']//div[contains(@class, 'info-card')]//div/div[contains(.,'Working time')]//following-sibling::div/div",
+        "OT": "//*[@id='app']//div[contains(@class, 'info-card')]//div/div[contains(.,'O/T')]//following-sibling::div/div",
+
+        "wait_calendar": "//div[@class='main-calendar']//div[@class='tui-full-calendar-weekday-schedules']//span",
+        "calendar": "//*[@id='app']//div[contains(@class,'admin_status')]//a/span[contains(.,'Calendar')]",
+        "add_event": "//div[contains(@class, 'pos-relative')]//div[contains(@class, 'cursor-pointer')]//div",
+        "event": "//div[contains(@class, 'cursor-pointer')]//span[contains(.,'Event')]",
+        "add_OT": "//div[contains(@class, 'cursor-pointer')]//span[contains(.,'O/T')]",
+        "choose_event": "//label[contains(@data-lang-id,'tc_title_form_event')]//following-sibling::div",
+        "select_event": "//*[contains(@form,'event-modifier-form')]//input[starts-with(@id,'react-select') and contains(@id,'input')]",
+        "title": "//*[@id='title']//input",
+        "place": "//*[@id='location']//input",
+        "memo": "//*[@id='memo']//textarea",
+        "save_event": "//span[contains(.,'Save')]",
+        "title_event": "Event: ",
+        "place_event": "Place: ",
+        "memo_event": "Memo: ",
+        "noty_event": [
+            "[Request] HR > Approval",
+            "Success"
+        ],
+        "wp_noti": [
+            "Add work place",
+            "Duplicate data exists."
+        ],
+        "gps_noti": [
+            "danger",
+            "There is duplicated data, please try again"
+        ],
+        "delete_noti": [
+            "Success",
+            "Data deleted successfully"
+        ],
+        "exc_user_noti": [
+            "Success",
+            "Data saved successfully."
+        ],
+        
+        
+        "admin_account": "//label[contains(@data-lang-id,'tc_permissions_settings')]",
+        "add_working_status": "//div[contains(@class,'icon-user-status down')]",
+        "working_status": "//*[@id='click-out-side-6']//div[contains(@class,'item-header-content')]//div[2]/div/div/div",
+        "dropdown_time": "//*[starts-with(@id,'dropdown')]/button",
+        "status_time_list": "//*[starts-with(@id,'dropdown')]/div",
+        "save_working_status": "//*[@id='click-out-side-6']//div/button[contains(.,'Save')]",
+        "choose_time": "//*[@id='click-out-side-6']//div[4]//input",
+        "select_time": "//*[@id='click-out-side-6']//div[contains(.,'Time')]/following::div//ul/li[contains(.,'18:00')]",
+
+        "my_report": "//*[@id='timecard-tab']//li/a[contains(@href,'/nhr/hr/timecard/user/statistics')]",
+        "work_date": "//*[@id='tab-bar-month-id']//div//li//span[contains(.,'Scheduled working day')]/../../div[2]",
+        "dayoff": "//*[@id='tab-bar-month-id']//div//li//span[contains(.,'Day Off')]/../../div[2]",
+        "holiday_day": "//*[@id='tab-bar-month-id']//div//li//span[contains(.,'Holiday')]/../../div[2]",
+        "basic": "//span[contains(@data-lang-id, 'tc_menu_basic_settings')]",
+        "setting_approval": "//*[@id='app']//div[contains(@class,'basic_setting')]//a//span[contains(@data-lang-id, 'tc_approval_approval')]",
+        "OT_scroll": "//*[@class='basic_setting']//div[@class='card-body']//div[contains(@class,'title-primary') and contains(.,'O/T')]",
+        "OT_list": "//*[@class='basic_setting']//div[@class='card-body']//div[contains(@class,'title-note') and contains(.,'Overtime work requested by the user')]/following-sibling::div/div/label",
+        "WC_list": "//*[@class='basic_setting']//div[@class='card-body']//div[contains(@class,'title-note') and contains(.,'Clock In / Out')]/following-sibling::div/div/label",
+        "EV_list": "//*[@class='basic_setting']//div[@class='card-body']//div[contains(@class,'title-note') and contains(.,'Business trip, education, outside work, etc.')]/following-sibling::div/div/label",
+        "approvalOT": "//*[@class='basic_setting']//div[@class='card-body']//div[contains(@class,'title-note') and contains(.,'Overtime work requested by the user')]/following-sibling::div/div",
+        "approvalWC": "//*[@class='basic_setting']//div[@class='card-body']//div[contains(@class,'title-note') and contains(.,'Clock In / Out')]/following-sibling::div/div",
+        "approvalEV": "//*[@class='basic_setting']//div[@class='card-body']//div[contains(@class,'title-note') and contains(.,'Business trip, education, outside work, etc.')]/following-sibling::div[2]/div",
+        "approver": "//div[contains(@class,'title-note') and contains(.,'Overtime work requested by the user')]/following-sibling::div//div[contains(.,'Use Fixed approval line')]//label[contains(.,'Approvers')]/following::div[1]//span",
+        "EV_approver": "//div[contains(@class,'title-note') and contains(.,'Business trip, education, outside work, etc.')]/following-sibling::div//div[contains(.,'Use Fixed approval line')]//label[contains(.,'Approvers')]/following::div[1]//span",
+        "add_approver": "//div[contains(@class,'title-note') and contains(.,'Overtime work requested by the user')]/following-sibling::div//div[contains(.,'Use Fixed approval line')]//button",
+        "EV_add_approver": "//div[contains(@class,'title-note') and contains(.,'Business trip, education, outside work, etc.')]/following-sibling::div//div[contains(.,'Use Fixed approval line')]//button",
+        "wait_OT": "//*[contains(@class,'modal-footer')]/button[contains(.,'Save')]",
+        "approval_line": "//*[contains(@class,'modal-content')]//input[contains(@placeholder,'Search name')]",
+        "select_user": "//*[starts-with(@id,'tree')]//span/span[contains(@title,'AutomationTest2')]",
+        "plus_button": "//div[contains(@data-lang-id,'tc_title_list_approver')]/following-sibling::div/div[1]",
+        "save_approver": "//*[contains(@class,'modal-footer')]/button[contains(.,'Save')]",
+        "approver_list": "//div[contains(@class,'title-note') and contains(.,'Overtime work requested by the user')]/following-sibling::div//div[contains(.,'Use Fixed approval line')]//label[contains(.,'Approvers')]/following::div[contains(.,'",
+        "filter": "//div[@class='dropdown']/button[contains(.,'Select Filters')]",
+        "filters_OT_list": "//button[contains(.,'Select Filters')]/following-sibling::div/a",
+        "memo_approval_line": "//div[@id='memo']/div/textarea",
+        "save_approval_line": "//div[@class='modal-footer']/button[contains(.,'Save')]",
+        "cancel_approval_line": "//div[@class='modal-footer']/button[contains(.,'Cancel')]",
+        "cancel_approval_line_yes": "//button[contains(.,'Yes')]",
+        "exit": "//div[contains(@class,'d-flex modal-footer')]//button[contains(.,'Yes')]",
+        "pre_OT_noty": "//*[@id='noty_layout__topRight']/div[1]/div[@class='noty_body']/div/span[@class='alert-title']",
+        "pre_OT_noty_success": [
+            "[Request] HR > Approval",
+            "Success"
+        ],
+        "pre_OT_noty_error": "Error",
+
+        "approval": "//*[@id='timecard-tab']//li/a[contains(@href,'/nhr/hr/timecard/user/approval')]",
+        "approval_list": "//*[@id='my-request']//div[contains(@ref,'eCenterContainer')]/div[1]",
+        "pre_OT": "//*[@id='my-request']//div[contains(@ref,'eCenterContainer')]/div[1]/div[1]",
+        "pop_up_OT": "//span[contains(@data-lang-id,'tc_action_apply_ot')]",
+        "cancel_OT": "//span[contains(@data-lang-id,'tc_action_cancel')]",
+        "cancel_OT_yes": "//span[contains(@data-lang-id, 'Yes')]",
+        "detail": "//*[@id='my-request']//div[contains(@ref,'eCenterContainer')]/div[1]/div[6]",
+        "approval_detail": "//div[contains(@class, 'btn-view-detail')]",
+        "status_pre_OT123": "//*[starts-with(@id,'right-sidebar')]//div[2]//div[@class='d-flex']/div[1]",
+        "status_pre_OT": "//div[contains(@class, 'approval-status')]",
+        "turn_off_view": "//*[@id='my-request']//div[starts-with(@id,'right-sidebar')]/div[1]/div[1]",
+        "reload": "//*[@id='my-request']//button[2]",
+        "status_update": "//*[@id='my-request']//div[contains(@ref,'eCenterContainer')]/div[1]/div[3]//span//div[contains(@data-lang-id,'Cancelled')]",
+
+        "manager": "//*[@id='timecard-tab']//li/a[contains(@href,'/nhr/hr/timecard/admin/manager')]",
+        "ws_search": "//input[contains(@class,'form-control')]",
+        "avg_clockin": "//div[contains(@class,'ag-center-cols-viewport')]//span[contains(@class,'td-avg-clock-in')]",
+        "avg_clockout": "//div[contains(@class,'ag-center-cols-viewport')]//span[contains(@class,'td-avg-clock-out')]",
+        "avg_working_time": "//div[contains(@class,'ag-center-cols-viewport')]//span[contains(@class,'td-avg-work-hour')]",
+        "monday": "//*[@col-id='day_0']//div[contains(@class,'cursor-pointer')]/span",
+        "tuesday": "//*[@col-id='day_1']//div[contains(@class,'cursor-pointer')]/span",
+        "wednesday": "//*[@col-id='day_2']//div[contains(@class,'cursor-pointer')]/span",
+        "thursday": "//*[@col-id='day_3']//div[contains(@class,'cursor-pointer')]/span",
+        "friday": "//*[@col-id='day_4']//div[contains(@class,'cursor-pointer')]/span",
+        "saturday": "//*[@col-id='day_5']//div[contains(@class,'cursor-pointer')]/span",
+        "sunday": "//*[@col-id='day_6']//div[contains(@class,'cursor-pointer')]/span",
+        "total": "//span[contains(@class,'td-sum-of-time')]",
+        "search": "//span[contains(@class,'input-group-prepend')]/../input",
+        "work_status": "//div[contains(@class,'label-rounded')]",
+        "dailystatus_clockin": "//div[contains(@class,'ag-center-cols-viewport')]//*[@col-id='clock_in_title']/div[1]",
+        "dailystatus_clockout": "//div[contains(@class,'ag-center-cols-viewport')]//*[@col-id='clock_out_title']",
+        "dailystatus_breaktime": "//div[contains(@class,'ag-center-cols-viewport')]//*[@col-id='break_time']",
+        "achievement": "//div[contains(@class,'ag-center-cols-viewport')]//*[@col-id='cumulative_work_time_percent']/div[1]/div",
+        "estimate": "//div[contains(@class,'ag-center-cols-viewport')]//*[@col-id='over_time_since']/div[1]/div",
+        "working_time_report": "//span[contains(.,'Working status')]//following-sibling::div//li[1]//span[contains(.,'Working time')]/../../div[2]",
+        "worked_time_report": "//span[contains(.,'Working status')]//following-sibling::div//li[2]//span[contains(.,'Worked time')]/../../div[2]",
+        "break_time_report": "//span[contains(.,'Working status')]//following-sibling::div//li[3]//span[contains(.,'Break time')]/../../div[2]",
+        "output_clock_in": "//div[contains(@class, 'content-body')]//div[contains(@class, 'header')]//div[contains(@class, 'check-in-status')]",
+        "out_put_status": "//div[contains(@class, 'timeline-body-clock')]//div[contains(.,'Clock-In')]/../div[4]",
+        "clock_in_UI": "//div[contains(@class, 'content-body')]//div[contains(@class, 'header')]//div[contains(@class, 'check-in-status')]",
+        "output_clock_out": "//div[contains(@class, 'content-body')]//div[contains(@class, 'header')]//div[contains(@class, 'check-out-status')]",
+        "out_put_status_clockout": "//div[contains(@class, 'timeline-body-clock')]//div[contains(.,'Clock-Out')]/../div[4]",
+        "clock_out_UI": "//div[contains(@class, 'content-body')]//div[contains(@class, 'header')]//div[contains(@class, 'check-out-status')]",
+        "Edit": "//div[contains(@class, 'admin_status')]//div[contains(@class, 'timeline-item  ')]//div[contains(.,'Clock-In')]//div[contains(@class, 'd-flex ')]//span[1]//div[contains(@class, 'cursor-pointer')]",
+        "Time": "//button[starts-with(@id, 'btnHours')]",
+        "Hour": "//div[starts-with(@id, 'dropdown')]//div//button[contains(.,'08')]",
+        "Time1": "//button[starts-with(@id, 'btnMin')]",
+        "Minute": "//div[starts-with(@id, 'dropdown')]//button[starts-with(@id, 'btnMin')]//following-sibling::div//button[contains(.,'00')]",
+        "Status": "//span[contains(.,'On Time')]",
+        "Memo": "//div[contains(@class, 'modal-content')]//div[5]//textarea[contains(@class, 'form-control')]",
+        "Save": "//span[contains(.,'Save')]",
+        "Edit2": "//div[contains(@class, 'admin_status')]//div[contains(@class, 'timeline-item  ')]//div[contains(.,'Clock-Out')]//div[contains(@class, 'd-flex ')]//span[1]//div[contains(@class, 'cursor-pointer')]",
+        "Time2": "//button[starts-with(@id, 'btnHours')]",
+        "Time3": "//div[starts-with(@id, 'dropdown')]//div//button[contains(.,'14')]",
+        "Hour2": "//div[starts-with(@id, 'dropdown')]//div//button[contains(.,'17')]",
+        "Time12": "//button[starts-with(@id, 'btnMin')]",
+        "Minute2": "//div[starts-with(@id, 'dropdown')]//button[starts-with(@id, 'btnMin')]//following-sibling::div//button[contains(.,'00')]",
+        "Status2": "//span[contains(.,'On Time')]",
+        "Memo2": "//div[contains(@class, 'modal-content')]//div[5]//textarea[contains(@class, 'form-control')]",
+        "Save2": "//span[contains(.,'Save')]",
+        "office_time": "//*[@id='app']//div[contains(@class, 'admin_status')]//div[contains(@class, 'info-card')]//div[contains(.,'Office time')]//div[2]/div",
+        "working_time": "//*[@id='app']//div[contains(@class, 'admin_status')]//div[contains(@class, 'info-card')]//div[contains(.,'Working time')]//div[2]/div",
+        "break_time": "//*[@id='app']//div[contains(@class, 'admin_status')]//div[contains(@class, 'info-card')]//div[contains(.,'Break time')]//div[2]/div",
+        "OT_time": "//*[@id='app']//div[contains(@class, 'admin_status')]//div[contains(@class, 'info-card')]/div[5]/div[2]/div[1]",
+        "working_time2nd": "//span[contains(.,'Working status')]//following-sibling::div//li[1]//span[contains(.,'Working time')]/../../div[2]",
+        "worked_time2nd": "//span[contains(.,'Working status')]//following-sibling::div//li[2]//span[contains(.,'Worked time')]/../../div[2]",
+        "break_time2nd": "//span[contains(.,'Working status')]//following-sibling::div//li[3]//span[contains(.,'Break time')]/../../div[2]",
+        "search2": "//input[contains(@class,'form-control')]",
+        "work_status2": "//div[contains(@class,'label-rounded')]",
+        "dailystatus_clockin2": "//div[contains(@class,'ag-center-cols-viewport')]//*[@col-id='clock_in_title']/div[1]",
+        "dailystatus_clockout2": "//div[contains(@class,'ag-center-cols-viewport')]//*[@col-id='clock_out_title']",
+        "dailystatus_breaktime2": "//div[contains(@class,'ag-center-cols-viewport')]//*[@col-id='break_time']",
+        "achievement2": "//div[contains(@class,'ag-center-cols-viewport')]//*[@col-id='cumulative_work_time_percent']/div[1]/div",
+        "estimate2": "//div[contains(@class,'ag-center-cols-viewport')]//*[@col-id='over_time_since']/div[1]/div",
+        "workingtime2": "//div[contains(@class,'ag-center-cols-viewport')]//*[@col-id='cumulative_work_time']/div[1]/div",
+        "OvT": "//div[contains(@class,'ag-center-cols-viewport')]//*[@col-id='cumulative_over_time_remain']/div[1]/div/div[1]",
+        "clockin_UI": "//div[contains(@class,'check-in-status')]",
+        "clockout_UI": "//div[contains(@class,'check-out-status')]",
+        "ws_search2": "//input[contains(@class,'form-control')]",
+        "ws_clockin_UI": "//div[contains(@class,'check-in-status')]",
+        "ws_clockout_UI": "//div[contains(@class,'check-out-status')]",
+        "ws_office_time": "//div[contains(@class, 'info-card')]//div[contains(.,'Office time')]//div[2]/div",
+        "ws_break_time": "//div[contains(@class, 'info-card')]//div[contains(.,'Break time')]//div[2]/div",
+        "ws_working_time": "//div[contains(@class, 'info-card')]//div[contains(.,'Working time')]//div[2]/div",
+        "ws_OT_time": "//div[contains(@class, 'info-card')]/div[5]/div[2]/div[1]",
+        "company_report_page": "//a[contains(@href,'/nhr/hr/timecard/company/statistics')]",
+        "working_day": "//*[@col-id='weekday']//div[contains(@class,'ag-react-container')]//div//div",
+        "worked_day": "//*[@col-id='day_work']//div[contains(@class,'ag-react-container')]//div//div",
+        "avg_clock_in": "//*[@col-id='avg_clock_in']//div[contains(@class,'ag-react-container')]/div/div",
+        "avg_clock_out": "//*[@col-id='avg_clock_out']//div[contains(@class,'ag-react-container')]/div/div",
+        "avg_worked_time_per_day": "//*[@col-id='avg_daily_work']//div[contains(@class,'ag-react-container')]//div//div",
+        "avg_worked_time_per_week": "//*[@col-id='avg_weekly_work']//div[contains(@class,'ag-react-container')]//div//div",
+        "scheduled_workingday": "//span[contains(.,'Scheduled working day')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "scheduled_worked_day": "//span[contains(.,'Worked day')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "holi_day": "//li[3]//span[contains(.,'Holiday')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "day_of_f": "//li[4]//span[contains(.,'Day Off')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "scheduled_working_vacation": "//li[5]//span[contains(.,'Vacation')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "avg_working_time_per_day": "//span[contains(.,'Avg.Working time per day')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "avg_working_time_per_week": "//span[contains(.,'Avg.Working time per week')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "events_clockin": "//li[1]//span[contains(.,'Clock-In')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "tardi_ness": "//span[contains(.,'Tardiness')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "no_clockin": "//span[contains(.,'No Clock-In')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "events_clockout": "//li[4]//span[contains(.,'Clock-Out')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "leave_ear_ly": "//span[contains(.,'Leave Early')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "no_clockout": "//span[contains(.,'No Clock-Out')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "events_OT": "//li[7]//span[contains(.,'O/T')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "night_shift": "//li[8]//span[contains(.,'Night shift')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "vacation": "//li[9]//span[contains(.,'Vacation')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_clockin": "//div[@class='list-wrapper']/div[2]/div[2]//span[@data-lang-id='Clock-In']/../following-sibling::div",
+        "list_tardiness": "//span[contains(.,'Tardiness')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_no_clockin": "//span[contains(.,'No Clock-In')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_clockout": "//div[@class='list-wrapper']/div[2]/div[2]//span[@data-lang-id='Clock-Out']/../following-sibling::div",
+        "list_leave_early": "//span[contains(.,'Leave Early')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_no_clockout": "///span[contains(.,'No Clock-Out')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_OT": "//span[contains(.,'O/T')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_night_shift": "//span[contains(.,'Night shift')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_vacation": "//span[contains(.,'Vacation')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "settlement_holiday": "//div[contains(@data-lang-id,'tc_status_day_holiday')]//..//div//span",
+        "settlement_day_off": "//div[contains(@data-lang-id,'tc_work_type_dayoff')]//..//div//span",
+        "settlement_vacation": "//div[contains(@data-lang-id,'tc_status_vacations')]//..//div//span",
+        "icon": "//*[@id='popover-tree']",
+        "filters_all": "//div[contains(@class,'select-wrapper')]/div",
+        "delete": "//div[contains(@class, 'timeline-item  ')]//div[contains(.,'Clock-In')]//div[contains(@class, 'd-flex ')]//span[2]//div[contains(@class, 'cursor-pointer')]",
+        "delete1": "//button//span[contains(.,'Delete')]",
+        "add_schedule": "//div[contains(@class, 'pos-relative')]//button//div[contains(@class, 'cursor-pointer')]",
+        "add_schedu": "//span[contains(.,'Clock In/Out')]",
+        "time_select": "//button[starts-with(@id, 'btnHours')]",
+        "hour": "//div[starts-with(@id, 'dropdown')]//div//button[contains(.,'07')]",
+        "choose_user": "//span[contains(@data-lang-id, 'tc_status_please_choose_a_user')]//..//following-sibling::button",
+        "sa_ve": "//span[contains(.,'Save')]",
+        "add_schedule1": "//div[contains(@class, 'pos-relative')]//button//div[contains(@class, 'cursor-pointer')]",
+        "add_schedu1": "//span[contains(.,'Clock In/Out')]",
+        "time_select2": "//button[starts-with(@id, 'btnHours')]",
+        "hour2": "//div[starts-with(@id, 'dropdown')]//div//button[contains(.,'16')]",
+        "clock_out": "//div[contains(@class,'custom-control custom-radio')]//span[contains(.,'Clock-Out')]",
+        "save2": "//span[contains(.,'Save')]",
+        "clockin_time_a": "//div[contains(@class,'timeline-group')]//div[1]//nav//div[6]",
+        "filters_input": "//input[starts-with(@id, 'react-select')]",
+        "clockout_time_a": "//div[contains(@class,'timeline-group')]//div[1]//nav//div[6]",
+        "dashboard_clockin": "//div[contains(@class,'check-in-status')]",
+        "dashboard_clockout": "//div[contains(@class,'check-out-status')]",
+        "working_method": "//div[contains(@class,'work-method-name')]",
+        "star_date": "//*[@col-id='start_date']//div[contains(@class,'ag-react-container')]//div//div",
+        "work_days": "//*[@col-id='weekday']//div[contains(@class,'ag-react-container')]//div//div",
+        "working_time_per_day": "//div[contains(@class,'work-hours')]/../div[1]",
+        "max_working_time": "//*[@col-id='max_overtime']//div[contains(@class,'ag-react-container')]//div//div",
+        "working_time_per_week": "//*[@col-id='base_work_week']//div[contains(@class,'ag-react-container')]",
+        "select_work_type": "//span[contains(.,'Work Type')]/../..//div[contains(@class,'singleValue')]",
+        "select_work_type_input": "//span[contains(.,'Work Type')]/../..//div[contains(@class,'singleValue')]/..//input[starts-with(@id, 'react-select')]",
+        "input_name": "//*[@id='name']/div/input",
+        "select_location": "//*[@id='nation']/div",
+        "select_location_input": "//span[contains(.,'Location')]/..//input[starts-with(@id, 'states-autocomplete')]",
+        "select_timezone": "//*[@id='timezone']/div",
+        "select_timezone_input": "//span[contains(.,'Time Zone')]/..//input[starts-with(@id, 'states-autocomplete')]",
+        "add_button": "//span[contains(.,'Add')]/../../button",
+        "work_place_noti": "//*[starts-with(@id,'noty_bar')]//div[contains(@class,'alert-body')]",
+        "work_place_data": "//div[contains(@class,'pos-absolute')]//div/ul/li[1]",
+        "holiday_save": "//button[starts-with(@id, 'btn-submit')]",
+        "holiday_noti": "//*[starts-with(@id,'noty_bar')]//div[contains(@class,'alert-body')]",
+        "holiday_data_before": "//*[@col-id='name']//span/div/div/div",
+        "work_place_edit": "//*[@id='app']//li[1]/span",
+        "input_other_name": "//*[@id='app']//li[1]/input",
+        "input_other_name1": "//div[contains(@class,'pos-absolute')]//div/ul/li[1]",
+        "holiday_data_after": "//*[@col-id='name']//span/div/div/div",
+        "device_web1": "//div[contains(@class, 'chart-description-wrapper')]/div[1]/div[2]/div/div",
+        "device_wifi1": "//div[contains(@class, 'chart-description-wrapper')]/div[2]/div[2]/div/div",
+        "device_gps1": "//div[contains(@class, 'chart-description-wrapper')]/div[3]/div[2]/div/div",
+        "device_beacon1": "//div[contains(@class, 'chart-description-wrapper')]/div[4]/div[2]/div/div",
+        "report_web": "//div[contains(@class, 'chart-description-wrapper')]/div[1]/div[2]/div/div",
+        "report_wifi": "//div[contains(@class, 'chart-description-wrapper')]/div[2]/div[2]/div/div",
+        "report_gps": "//div[contains(@class, 'chart-description-wrapper')]/div[3]/div[2]/div/div",
+        "report_beacon": "//div[contains(@class, 'chart-description-wrapper')]/div[4]/div[2]/div/div",
+        "wwt_chart": "//div[contains(@data-lang-id, 'tc_title_week_schedule_msg')]/..//canvas",
+        "Fst_working_time": "//span[contains(@data-lang-id, 'Working time')]/../../../..//div[contains(.,'1st Week')]//..//../td[2]//div[1]",
+        "Fst_break_time": "//span[contains(@data-lang-id, 'Break Time')]/../../../..//div[contains(.,'1st Week')]//..//../td[3]//div[1]",
+        "Fst_OT_time": "//span[contains(@data-lang-id, 'O/T')]/../../../..//div[contains(.,'1st Week')]//..//../td[4]//div[1]",
+        "Fst_total_working_hour_time": "//span[contains(@data-lang-id, 'Total Working hour')]/../../../..//div[contains(.,'1st Week')]//..//../td[5]//div[1]",
+        "Snd_working_time": "//span[contains(@data-lang-id, 'Working time')]/../../../..//div[contains(.,'2nd Week')]//..//../td[2]//div[1]",
+        "Snd_break_time": "//span[contains(@data-lang-id, 'Break Time')]/../../../..//div[contains(.,'2nd Week')]//..//../td[3]//div[1]",
+        "Snd_OT_time": "//span[contains(@data-lang-id, 'O/T')]/../../../..//div[contains(.,'2nd Week')]//..//../td[4]//div[1]",
+        "Snd_total_working_hour_time": "//span[contains(@data-lang-id, 'Total Working hour')]/../../../..//div[contains(.,'2nd Week')]//..//../td[5]//div[1]",
+        "Trd_working_time": "//span[contains(@data-lang-id, 'Working time')]/../../../..//div[contains(.,'3rd Week')]//..//../td[2]//div[1]",
+        "Trd_break_time": "//span[contains(@data-lang-id, 'Break Time')]/../../../..//div[contains(.,'3rd Week')]//..//../td[3]//div[1]",
+        "Trd_OT_time": "//span[contains(@data-lang-id, 'O/T')]/../../../..//div[contains(.,'3rd Week')]//..//../td[4]//div[1]",
+        "Trd_total_working_hour_time": "//span[contains(@data-lang-id, 'Total Working hour')]/../../../..//div[contains(.,'3rd Week')]//..//../td[5]//div[1]",
+        "Fth_working_time": "//span[contains(@data-lang-id, 'Working time')]/../../../..//div[contains(.,'4th Week')]//..//../td[2]//div[1]",
+        "Fth_break_time": "//span[contains(@data-lang-id, 'Break Time')]/../../../..//div[contains(.,'4th Week')]//..//../td[3]//div[1]",
+        "Fth_OT_time": "//span[contains(@data-lang-id, 'O/T')]/../../../..//div[contains(.,'4th Week')]//..//../td[4]//div[1]",
+        "Fth_total_working_hour_time": "//span[contains(@data-lang-id, 'Total Working hour')]/../../../..//div[contains(.,'4th Week')]//..//../td[5]//div[1]",
+        "Fvth_working_time": "//span[contains(@data-lang-id, 'Working time')]/../../../..//div[contains(.,'5th Week')]//..//../td[2]//div[1]",
+        "Fvth_break_time": "//span[contains(@data-lang-id, 'Break Time')]/../../../..//div[contains(.,'5th Week')]//..//../td[3]//div[1]",
+        "Fvth_OT_time": "//span[contains(@data-lang-id, 'O/T')]/../../../..//div[contains(.,'5th Week')]//..//../td[4]//div[1]",
+        "Fvth_total_working_hour_time": "//span[contains(@data-lang-id, 'Total Working hour')]/../../../..//div[contains(.,'5th Week')]//..//../td[5]//div[1]",
+        "Sth_working_time": "//span[contains(@data-lang-id, 'Working time')]/../../../..//div[contains(.,'6th Week')]//..//../td[2]//div[1]",
+        "Sth_break_time": "//span[contains(@data-lang-id, 'Break Time')]/../../../..//div[contains(.,'6th Week')]//..//../td[3]//div[1]",
+        "Sth_OT_time": "//span[contains(@data-lang-id, 'O/T')]/../../../..//div[contains(.,'6th Week')]//..//../td[4]//div[1]",
+        "Sth_total_working_hour_time": "//span[contains(@data-lang-id, 'Total Working hour')]/../../../..//div[contains(.,'6th Week')]//..//../td[5]//div[1]",
+        "weekly_average1": "//tr[1]/td[9]/div[contains(@class, 'total-work-hours-label')]",
+        "weekly_average2": "//tr[2]/td[9]/div[contains(@class, 'total-work-hours-label')]",
+        "weekly_average3": "//tr[3]/td[9]/div[contains(@class, 'total-work-hours-label')]",
+        "weekly_average4": "//tr[4]/td[9]/div[contains(@class, 'total-work-hours-label')]",
+        "weekly_average5": "//tr[5]/td[9]/div[contains(@class, 'total-work-hours-label')]",
+        "weekly_average6": "//tr[6]/td[9]/div[contains(@class, 'total-work-hours-label')]",
+        "mon": "//tbody[starts-with(@id, 'tbody-scroll-table')]//div[contains(.,'Day of week average')]//..//..//../tr[6]/td[2]//div[2]",
+        "tue": "//tbody[starts-with(@id, 'tbody-scroll-table')]//div[contains(.,'Day of week average')]//..//..//../tr[6]/td[3]//div[2]",
+        "wed": "//tbody[starts-with(@id, 'tbody-scroll-table')]//div[contains(.,'Day of week average')]//..//..//../tr[6]/td[4]//div[2]",
+        "thur": "//tbody[starts-with(@id, 'tbody-scroll-table')]//div[contains(.,'Day of week average')]//..//..//../tr[6]/td[5]//div[2]",
+        "fri": "//tbody[starts-with(@id, 'tbody-scroll-table')]//div[contains(.,'Day of week average')]//..//..//../tr[6]/td[6]//div[2]",
+        "sat": "//tbody[starts-with(@id, 'tbody-scroll-table')]//div[contains(.,'Day of week average')]//..//..//../tr[6]/td[7]//div[2]",
+        "sun": "//tbody[starts-with(@id, 'tbody-scroll-table')]//div[contains(.,'Day of week average')]//..//..//../tr[6]/td[8]//div[2]",
+        "list_clock_in": "//div[@class='list-wrapper']/div[2]/div[2]//span[@data-lang-id='Clock-In']/../following-sibling::div",
+        "list_tardinesss": "//span[contains(.,'Tardiness')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_no_clock_in": "//span[contains(.,'No Clock-In')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_clock_out": "//div[@class='list-wrapper']/div[2]/div[2]//span[@data-lang-id='Clock-Out']/../following-sibling::div",
+        "list_leaveearly": "//span[contains(.,'Leave Early')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_no_clock_out": "//span[contains(.,'No Clock-Out')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_O_T": "//span[contains(.,'O/T')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_nightshift": "//span[contains(.,'Night shift')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "list_vacations": "//span[contains(.,'Vacation')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "li_st_clock_in": "//*[@id='app']//form//div[3]//div[1]/div[2]//div[contains(@class,'time')]",
+        "li_st_clock_out": "//*[@id='app']//form//div[3]//div[1]/div[3]//div[contains(@class,'time')]",
+        "office_times1": "//li[contains(.,'Office t//div[contains(@data-lang-id,'tc_title_type')]//..//div[contains(@class,'select-wrapper')]/divime')]",
+        "working_times1": "//li[contains(.,'Working time')]",
+        "break_times1": "//li[contains(.,'Break Time')]",
+        "over_times1": "//li[contains(.,'O/T')]",
+        "filters_type": "//div[contains(@data-lang-id,'tc_title_type')]//..//div[contains(@class,'select-wrapper')]/div",
+        "filters_type_input": "//div[contains(@data-lang-id,'tc_title_type')]//..//input[starts-with(@id, 'react-select')]",
+        "type_first_row": "//form//div[2]/div/div/div[1]/*[@col-id='type_name']",
+        "dashboard_work_place": "//div[contains(@class,'daily-header-wrapper')]/div[1]/div/div",
+        "dash_board_clockin": "//div[contains(@class,'check-in-status')]",
+        "dash_board_clockout": "//div[contains(@class,'check-out-status')]",
+        "dashboard_work_policy": "//div[contains(@class,'left-content')]",
+        "dashboard_work_policy_time": "//div[contains(@class,'right-content')]",
+        "dashboard_remaining_working_time": "//div[contains(@class,'daily-container-wrapper')]/div[3]/div[2]",
+        "dashboard_working_time": "//div[contains(@class,'daily-container-wrapper')]/div[4]/div[2]",
+        "dashboard_break_time": "//div[contains(@class,'daily-container-wrapper')]/div[5]/div[2]",
+        "dashboard_OT_time": "//div[contains(@class,'daily-container-wrapper')]/div[6]/div[2]",
+        "data_SWS": "//*[@id='app']/div/div[2]/div/div/div[1]/div[2]/div/div[3]/div[2]/div[2]/div[2]/div/div/div[1]/form/div/div/div[1]/div[2]/div[3]",
+        "working_status_pop_up": "//span[contains(.,'Clear')]",
+        "searchname": "//*[@id='app']//div[contains(@class,'input-icon-wrapper')]//input",
+        "searchname2": "//*[@id='app']//div[contains(@class,'input-icon-wrapper')]",
+        "SWS_status": "//div[contains(@class,'body-viewport')]//*[@col-id='work_status']",
+        "SWS_message": "//div[contains(@class,'body-viewport')]//*[@col-id='work_message']",
+        "meeting": "//div[contains(@class,'user-status-section')]/div[2]/div/div[2]",
+        "clear_after": "//div[starts-with(@id, 'dropdown')]/button",
+        "always_show": "//div[starts-with(@id, 'dropdown')]/div/button[1]",
+        "SWS_status1": "//div[contains(@class,'body-viewport')]//*[@col-id='work_status']",
+        "SWS_message1": "//div[contains(@class,'body-viewport')]//*[@col-id='work_message']/div/div/div[1]",
+        "clear_message": "//span[contains(@data-lang-id,'tc_action_clear')]",
+        "dashboard_clockin_after": "//div[contains(@class,'check-in-status')]",
+        "dashboard_clockout_after": "//div[contains(@class,'check-out-status')]",
+        "dashboard_remaining_working_time_after": "//div[contains(@class,'daily-container-wrapper')]/div[3]/div[2]",
+        "dashboard_working_time_after": "//div[contains(@class,'daily-container-wrapper')]/div[4]/div[2]/div[1]",
+        "period_working_time": "//div[contains(@class,'daily-container-wrapper')]/div[4]/div[2]/div[2]",
+        "dashboard_break_time_after": "//div[contains(@class,'daily-container-wrapper')]/div[5]/div[2]/div[1]",
+        "period_break_time": "//div[contains(@class,'daily-container-wrapper')]/div[5]/div[2]/div[2]",
+        "dashboard_OT_time_after": "//div[contains(@class,'daily-container-wrapper')]/div[6]/div[2]",
+        "avatar_work_place": "//label[contains(@data-lang-id,'tc_title_work_style')]/..//..//div//div//li[1]",
+        "avatar_work_place_timezone": "//label[contains(@data-lang-id,'tc_title_work_style')]/..//..//div//div//li[2]",
+        "avatar_clockin": "//span[contains(.,'Clock-In')]/p[2]",
+        "avatar_breaktime": "//span[contains(.,'Break Time')]/p[2]",
+        "avatar_clockout": "//span[contains(.,'Clock-Out')]/p[2]",
+        "avatar_work_policy": "//div[contains(@class,'item-header-content')]//div[2]/div[2]/p[2]",
+        "avatar_work_policy_time": "//div[contains(@class,'item-header-content')]//div[2]/div[2]/p[1]",
+        "avatar_working_time": "//div[contains(@class,'item-header-content')]//div[5]//div[1]/p",
+        "ws_search3": "//form/div/div/input",
+        "total3": "//span[contains(@class,'td-sum-of-time')]",
+        "OT2": "//span[contains(.,'Working status')]//following-sibling::div//li[4]//span[contains(.,'O/T')]/../../div[2]",
+        "reports_night_shift": "//span[contains(.,'Working status')]//following-sibling::div//li[5]//span[contains(.,'Night shift')]/../../div[2]",
+        "WWT_working_time": "//*[@id='app']//div[contains(@class,'work-hours-color')]",
+        "WWT_OT": "//*[@id='app']//div[contains(@class,'over-time-color')]",
+        "WWT_night_shift": "//*[@id='app']//div[contains(@class,'night-work-color')]",
+        "TCS_clockin": "//div[contains(@class,'working-status-ad-dash-wrapper')]/div[1]/div[1]/div",
+        "TCS_tardiness": "//div[contains(@class,'working-status-ad-dash-wrapper')]/div[1]/div[2]/div",
+        "TCS_no_clockin": "//div[contains(@class,'working-status-ad-dash-wrapper')]/div[1]/div[3]/div",
+        "TCS_clockout": "//div[contains(@class,'working-status-ad-dash-wrapper')]/div[1]/div[4]/div",
+        "TCS_leave_early": "//div[contains(@class,'working-status-ad-dash-wrapper')]/div[1]/div[5]/div",
+        "TCS_vacation": "//div[contains(@class,'working-status-ad-dash-wrapper')]/div[1]/div[6]/div",
+        "events_clockin1": "//li[1]//span[contains(.,'Clock-In')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "tardiness1": "//span[contains(.,'Tardiness')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "no_clockin1": "//span[contains(.,'No Clock-In')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "events_clockout1": "//li[4]//span[contains(.,'Clock-Out')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "leave_early1": "//span[contains(.,'Leave Early')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "vacation1": "//li[9]//span[contains(.,'Vacation')]/../..//div[contains(@class,'d-flex ')]/following-sibling::div",
+        "device_web": "//div[contains(@class, 'chart-description-wrapper')]/div[1]/div[2]/div/div",
+        "device_wifi": "//div[contains(@class, 'chart-description-wrapper')]/div[2]/div[2]/div/div",
+        "device_gps": "//div[contains(@class, 'chart-description-wrapper')]/div[3]/div[2]/div/div",
+        "device_beacon": "//div[contains(@class, 'chart-description-wrapper')]/div[4]/div[2]/div/div",
+        "chart": "//div[contains(@class, 'chart-wrapper')]",
+        "WD_worked_days": "//div[contains(@data-lang-id,'tc_status_actual_working_days')]/..//span",
+        "WD_scheduled_working_days": "//div[contains(@data-lang-id,'tc_dashboard_scheduled_working_days')]/..//span",
+        "WD_remaining_working_days": "//div[contains(@data-lang-id,'tc_status_remaining_work_days')]/..//span",
+        "worked_time_mywork": "//div[contains(@data-lang-id,'tc_status_analyis_work_time')]/..//span[1]",
+        "remaining_working_time_mywork": "//div[contains(@data-lang-id,'tc_status_remaining_work_hours')]/..//span[1]",
+        "scheduled_working_time_mywork": "//div[contains(@data-lang-id,'tc_dashboard_scheduled_working_hours')]/..//span[1]",
+        "worked_time_settlement": "//div[contains(@data-lang-id,'tc_dashboard_working_hours')]//..//div//span",
+        "OT_settlement": "//div[contains(@data-lang-id,'tc_status_ot')]//..//div//span",
+        "nightshift_settlement": "//div[contains(@data-lang-id,'tc_dashboard_night_shift')]//..//div//span",
+        "holiday_work_settlement": "//div[contains(@data-lang-id,'tc_dashboard_holiday_work')]//..//div//span",
+        "holiday_settlement": "//div[contains(@data-lang-id,'tc_status_day_holiday')]//..//div//span",
+        "day_off_settlement": "//div[contains(@data-lang-id,'tc_work_type_dayoff')]//..//div//span",
+        "vacation_settlement": "//div[contains(@data-lang-id,'tc_status_vacations')]//..//div//span",
+        "WD_cumulative_days": "//div[contains(@class,'work-hours-wrapper')]/div[2]//div[1]/div[1]/div/span[1]",
+        "WD_contractual_working_days": "//div[contains(@class,'work-hours-wrapper')]/div[2]//div[1]/div[2]/div/span[1]",
+        "schedules_remaining_working_days": "//div[contains(@class,'work-hours-wrapper')]/div[2]//div[1]/div[3]/div/span[1]",
+        "worked_time_schedules": "//div[contains(@class,'work-hours-wrapper')]/div[1]//div[1]/div[1]/div/span[1]",
+        "remaining_working_time_schedules": "//div[contains(@class,'work-hours-wrapper')]/div[1]//div[1]/div[3]/div/span[1]",
+        "scheduled_working_time_schedules": "//div[contains(@class,'work-hours-wrapper')]/div[1]//div[1]/div[2]/div/span[1]",
+        "schedules_working_time_settlement": "//div[contains(@class,'work-hours-wrapper')]/div[3]//div[1]/div[1]/div/span[1]",
+        "schedules_OT_settlement": "//div[contains(@class,'work-hours-wrapper')]/div[3]//div[1]/div[2]/div/span[1]",
+        "schedules_nightshift_settlement": "//div[contains(@class,'work-hours-wrapper')]/div[3]//div[1]/div[3]/div/span[1]",
+        "schedules_holiday_work_settlement": "//div[contains(@class,'work-hours-wrapper')]/div[3]/div[2]/div[3]/div[1]/div",
+        "schedules_holiday_settlement": "//div[contains(@class,'work-hours-wrapper')]/div[3]/div[2]/div[3]/div[3]/div",
+        "schedules_day_off_settlement": "//div[contains(@class,'work-hours-wrapper')]/div[3]/div[2]/div[3]/div[4]/div",
+        "schedules_vacation_settlement": "//div[contains(@class,'work-hours-wrapper')]/div[3]/div[2]/div[3]/div[2]/div",
+        "open_box": "//span[contains(@data-lang-id,'tc_dashboard_avg_working_hours')]/../../../div[2]//button",
+        "change_date": "//div[contains(@class,'react-datepicker')]/div[2]/div[2]/div[1]/div[1]",
+        "open_box2": "//span[contains(@data-lang-id,'tc_dashboard_avg_working_hours')]/../../../div[2]//button",
+        "today": "//span[contains(@data-lang-id,'tc_dashboard_avg_working_hours')]/../../../div[2]//button",
+        "click_pop_up": "//div[contains(@class,'user-working-hours-wrapper')]/div[2]/div[1]/div[1]/button",
+        "p_op_up": "//button[starts-with(@id, 'btnHours')]",
+        "working_time_check_box": "//label[contains(@class,'custom-control-label') and contains(.,'Working time')]",
+        "working_time_check_box_input": "//label[contains(@class,'custom-control-label') and contains(.,'Working time')]/../input",
+        "data_working_time": "//div[contains(@class,'user-working-hours-wrapper')]",
+        "OT_check_box": "//label[contains(@class,'custom-control-label') and contains(.,'O/T')]",
+        "OT_check_box_input": "//label[contains(@class,'custom-control-label') and contains(.,'O/T')]/../input",
+        "data_OT": "//div[contains(@class,'user-working-hours-wrapper')]",
+        "click_pop_up2": "//div[contains(@class,'user-working-hours-wrapper')]/div[2]/div[1]/div[2]/button",
+        "pop_up2": "//div[contains(@class,'user-working-hours-wrapper')]/div[2]//div[contains(@class,'pos-absolute limit-container')]",
+        "check_box": "//div[contains(@class,'user-working-hours-wrapper')]/div[2]//div[contains(@class,'pos-absolute limit-container')]/div[1]",
+        "check_box_check": "//div[contains(@class,'user-working-hours-wrapper')]/div[2]//div[1]/*[contains(@class,'feather-check')]",
+        "filter_data": "//div[contains(@class,'user-working-hours-wrapper')]",
+        "data_working_time_next_page": "//div[contains(@class,'user-working-hours-wrapper')]",
+        "avg_open_box": "//span[contains(@data-lang-id,'tc_status_analysis_total_time')]/../../../div[2]//button",
+        "avg_open_box2": "//span[contains(@data-lang-id,'tc_status_analysis_total_time')]/../../../div[2]//button",
+        "avg_today": "//span[contains(@data-lang-id,'tc_status_analysis_total_time')]/../../../div[2]//button",
+        "i_con": "//*[@id='popover-tree']",
+        "tl_search2": "//span[contains(@class,'input-group-prepend')]//..//input",
+        "filters_input_dashboard": "//input[starts-with(@id, 'react-select')]",
+        "item_clock1": "//span[contains(@data-lang-id, 'tc_dashboard_timeclock_status')]",
+        "dashboard_search": "//*[@id='org-form-search']//input",
+        "user": "//button[starts-with(@id, 'contentTree')]/..//span[2]",
+        "organization_box": "//div[starts-with(@id, 'contentPopover')]",
+        "TCS_clock_in": "//div[contains(@class,'working-status-ad-dash-wrapper')]/div[1]/div[1]",
+        "TCS_tardi_ness": "//div[contains(@class,'working-status-ad-dash-wrapper')]/div[1]/div[2]",
+        "TCS_no_clock_in": "//div[contains(@class,'working-status-ad-dash-wrapper')]/div[1]/div[3]",
+        "TCS_clock_out": "//div[contains(@class,'working-status-ad-dash-wrapper')]/div[1]/div[4]",
+        "TCS_leave_ear_ly": "//div[contains(@class,'working-status-ad-dash-wrapper')]/div[1]/div[5]",
+        "TCS_vaca_tion": "//div[contains(@class,'working-status-ad-dash-wrapper')]/div[1]/div[6]",
+        "beacon_admin": "//div[contains(@class,'punch-device-total-col')]//div[1]/div[4]/div[1]",
+        "admin_device_web": "//div[contains(@class,'punch-device-total-col')]//div[contains(@class,'punch-detail-info')]/div[1]/div[1]/div[2]",
+        "admin_device_wifi": "//div[contains(@class,'punch-device-total-col')]//div[contains(@class,'punch-detail-info')]/div[1]/div[2]/div[2]",
+        "admin_device_gps": "//div[contains(@class,'punch-device-total-col')]//div[contains(@class,'punch-detail-info')]/div[1]/div[3]/div[2]",
+        "admin_device_beacon": "//div[contains(@class,'punch-device-total-col')]//div[contains(@class,'punch-detail-info')]/div[1]/div[4]/div[2]",
+        "admin_chart_device": "//span[contains(.,'Device')]/../../../..//div[contains(@class, 'chart-wrapper')]",
+        "ws_no_clock_in": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'No Clock-In')]",
+        "ws_clock_out": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Clock-Out')]",
+        "ws_working": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Working')]",
+        "ws_clock_in": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Clock-In')]",
+        "ws_tarrdiness": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Tardiness')]",
+        "ws_vacation": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Vacation')]",
+        "ws_day_off": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Day Off')]",
+        "ws_holiday": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Holiday')]",
+        "ws_ouside": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Outside')]",
+        "ws_meeting": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Meeting')]",
+        "ws_education": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Education')]",
+        "ws_business_trip": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Business Trip')]",
+        "ws_away": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Away')]",
+        "ws_leave": "//div[contains(@class,'icon-description')]/..//div[contains(@class,'text-truncate') and contains(.,'Leave')]",
+        "admin_chart_working_status": "//span[contains(.,'Working Status')]/../../../..//div[contains(@class, 'chart-wrapper')]",
+        "scroll_daily_status": "//span[contains(.,'Timeline')]/../.. /..//span[contains(@data-lang-id,'tc_status_view_more')]",
+        "admin_working_status_more": "//*[@id='divMenu']/span",
+        "bea_con_admin": "//div[contains(@class, 'daily-sidebar')]",
+        "admin_timeline": "//div[contains(@class, 'daily-sidebar')]",
+        "scroll_timeline": "//span[contains(.,'Timeline')]/../.. /..//span[contains(@data-lang-id,'tc_status_view_more')]",
+        "admin_timeline_more": "//span[contains(.,'Filters')]",
+        "input_name_gps": "//label[contains(@data-lang-id, 'tc_gps_name')]//..//input",
+        "select_work_place": "//input[starts-with(@id, 'react-select')]",
+        "input_address": "//span[contains(@data-lang-id, 'tc_gps_search_location')]//..//input",
+        "gps_noti_list": "//button[starts-with(@id, 'btnHours')]",
+        "click_cancel": "//span[contains(@data-lang-id, 'tc_action_cancel')]",
+        "gps_name": "//form//div[1]/div[1]/div/span[contains(@ref, 'eCellValue')]/div",
+        "edit_gps": "//span//span[contains(@data-lang-id, 'tc_action_edit')]",
+        "gps_na_me": "//form//div[1]/*[@col-id='name']//span[contains(@ref, 'eCellValue')]/div",
+        "gps_work_place": "//form//div[1]/*[@col-id='workplace_name']//span[contains(@ref, 'eCellValue')]/div",
+        "gps_range": "//form//div[1]/*[@col-id='range']//span[contains(@ref, 'eCellValue')]/div",
+        "gps_address": "//form//div[1]/*[@col-id='gps_name']//span[contains(@ref, 'eCellValue')]/div",
+        "search_field": "//div[contains(@class, 'input-gps-search')]//input",
+        "delete_gps": "//p[contains(@data-lang-id, 'tc_component_confirm_delete')]",
+        "exception_users": "//span[contains(@data-lang-id, 'tc_title_exception')]",
+        "exception_users_wait": "//span[contains(@data-lang-id, 'tc_select_users_are_invisible')]",
+        "input_exc_user": "//span[contains(@data-lang-id, 'tc_exception_user')]/../../../..//input",
+        "exception_user_name": "//*[starts-with(@id,'ft-id')]//span/span[@class='fancytree-title']",
+        "exception_users_add": "//span[contains(@data-lang-id, 'tc_exception_user')]/../../../..//label[contains(@data-lang-id, 'tc_action_add')]",
+        "exc_user_no_ti": "//*[starts-with(@id,'noty_bar')]//div[contains(@class,'alert-body')]",
+        "notice_success": "//*[starts-with(@id,'noty_bar')]//div[contains(text(),'Data deleted successfully.')]",
+        "input_out_user": "//span[contains(@data-lang-id, 'tc_available_user')]/../../../..//input",
+        "outside_user_name": "//span[contains(@data-lang-id, 'tc_outside_clock_in_out_exception_users')]/../..//span[@class='fancytree-title']",
+        "outside_users_add": "//span[contains(@data-lang-id, 'tc_outside_clock_in_out_exception_users')]/../..//label[contains(@data-lang-id, 'tc_action_add')]",
+        "out_user_noti": "//*[starts-with(@id,'noty_bar')]//div[contains(@class,'alert-body')]",
+        "outside_notice": "//*[starts-with(@id,'noty_bar')]//div[contains(text(),'Data deleted successfully.')]",
+        "arbitrary_user": "//a[contains(@href,'/nhr/hr/timecard/admin/basic/approval')]",
+        "arbitrary_user_wait": "//span[contains(@data-lang-id, 'tc_title_arbitrary_decision_setting')]",
+        "arbitrary_user_select": "//span[contains(@data-lang-id, 'tc_general_select_approver')]",
+        "input_arbitrary_user": "//*[@id='org-form-search']//input",
+        "arbitrary_user_name": "//span[contains(@data-lang-id, 'tc_title_arbitrary_decision')]/../..//span[@class='fancytree-title']",
+        "arbitrary_users_add": "//span[contains(@data-lang-id, 'tc_title_arbitrary_decision')]/../..//label[contains(@data-lang-id, 'tc_action_add')]",
+        "arbitrary_user_noti": "//*[starts-with(@id,'noty_bar')]//div[contains(@class,'alert-body')]",
+        "arbitrary_notice": "//*[starts-with(@id,'noty_bar')]//div[contains(text(),'Data deleted successfully.')]",
+        "midnight_popup": "//span[contains(.,'Confirm Nightwork')]",
+        "midnight_popup_close": "//span[contains(.,'Confirm Nightwork')]",
+        "click_confirm": "//span[contains(@data-lang-id, 'Yes, confirm it!')]",
+        "click_apply_OT": "//span[contains(@data-lang-id, 'tc_action_apply_ot')]",
+        "input_memo_OT": "//textarea[contains(@class, 'form-control')]",
+        "scroll_apply_OT": "//span[contains(@data-lang-id, 'tc_action_apply')]",
+        "apply_OT_confirm": "//span[contains(@data-lang-id, 'tc_action_apply')]/..",
+        "approval_page": "//li//a[contains(@href,'/nhr/hr/timecard/user/approval')]//span[contains(@data-lang-id, 'tc_approval_approval')]",
+        "status_approve": "//form//div[2]/div/div/div[1]/*[@col-id='type_name']",
+        "today_work": "//*[@id='app']//div[@class='daily-wrapper']//div[@class='react-datepicker-wrapper']//span",
+        "date_clockin": "//*[@class='admin_status']//div[contains(@class,'daily-wrapper')]/div/div/div/div[2]/div/div[2]/div/div/span",
+        "timesheet_list": "//*[@id='app']//div[contains(@class,'admin_status')]//a/span[contains(.,'List')]",
+        "timesheet_list_wwait": "//*[@class='admin_status']//div[contains(@class,'list-table-wrapper')]//form//div[contains(@ref,'eCenterContainer')]/div",
+        "scrollbar": "//*[@id='app']/div/div[2]/div/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[3]/div/div/form/div/div/div[1]/div[2]/div[3]",
+        "report_page": "//a[contains(@href,'/nhr/hr/timecard/user/statistics')]",
+        "report_list": "//span[contains(@data-lang-id,'tc_action_list')]",
+        "list_wait": "//span[contains(@data-lang-id,'Working time')]",
+        "setting_wait": "//span[contains(@data-lang-id,'tc_general_use_clock_in_out_prop_up')]",
+        "work_correction_scroll": "//*[@class='basic_setting']//div[@class='card-body']//div[contains(@class,'title-primary') and contains(.,'Events')]",
+        "approver_after_save": "//div[contains(@class,'title-note') and contains(.,'Business trip, education, outside work, etc.')]/following-sibling::div//div[contains(.,'Use Fixed approval line')]//label[contains(.,'Approvers')]/following::div[1]",
+        "timesheet_page": "//span[contains(@class, 'text-truncate') and contains(., 'Timesheets')]",
+        "timesheet_wait": "//span[contains(.,'Break time')]",
+        "event_status_approve": "//form//div[2]/div/div/div[1]/*[@col-id='type_name']",
+        "open_approve_status_list": "//div[contains(@class, 'select-approval-status')]//div",
+        "approve_status_list": "//div[contains(@class,'select-approval-status-content')]/div",
+        "click_detail": "//div[1]/*[@col-id='user_id']//div[contains(@class, 'btn-view-detail')]",
+        "status_approve_event": "//div[contains(@class, 'avatar-wrapper')]/..//div[contains(@class, 'approval-status')]",
+        "ap_proval_page": "//a[contains(@href,'/nhr/hr/timecard/user/approval')]",
+        "content_add_event_date": "//div[contains(@class, 'sidebar-approval-wrapper')]/div[3]/div[1]",
+        "route_add_event": "//label[contains(@data-lang-id, 'tc_title_approver')]",
+        "referer_add_event": "//label[contains(@data-lang-id, 'tc_title_referer')]",
+        "history_scroll": "//div[contains(@class, 'sidebar-approval-wrapper')]/div[3]/div[3]",
+        "history_add_event": "//div[contains(@class, 'sidebar-approval-wrapper')]/div[3]/div[3]",
+        "checkbox": "//div[@class='card-body']//label/span[contains(@data-lang-id,'Use clock in/out pop-up.')]/../../input",
+        "setting_manager": "//*[@class='basic_setting']//form//div[1]/div[2]/div[1]",
+        "add_manager": "//div[@class='permission-setting-wrapper']//button[contains(.,'Add manager')]",
+        "click_manager": "//div[@class='org-search']//div[starts-with(@id,'tree')]/ul/li//span[contains(@role,'checkbox')]",
+        "click_add_manager": "//div[@class='card-body']//button[contains(.,'Add')]",
+        "no_user": "//div[@class='card-body']/div/div[3]//div[contains(@class,'text-opacity') and contains(.,'No data was found.')]",
+        "permission_list": "//*[starts-with(@id,'right-sidebar')]//div[contains(text(),'Select department/user')]/following-sibling::div/div/div",
+        "search_dept": "//div[text()='Select department/user']//following::form[@id='org-form-search']//input[contains(@placeholder,'Search')]",
+        "select_department": "//div[text()='Select department/user']//following::div//ul[starts-with(@id,'ft-id')]//span/span[2]",
+        "add_dept": "//div[text()='Select department/user']//following::button[contains(.,'Add')]",
+        "save_dept": "//*[starts-with(@id,'right-sidebar')]//div[contains(.,'Manager Settings')]//button[contains(.,'Save')]",
+        "error": "//*[starts-with(@id,'noty_bar')]//div[contains(text(),'Duplicate data exists.')]",
+        "close_duplicate": "//*[starts-with(@id,'right-sidebar')][2]//div[contains(@class,'close-btn')]",
+        "search_duplicate": "//div[@class='basic_setting']//div[contains(@class,'input-group')]//input",
+        "detail_duplicate": "//div[@class='ag-selection-checkbox']",
+        "click_delete_button" :"//button[contains(@class, 'btn btn-outline-danger')]",
+        "delete_dept": "//button/span[contains(@data-lang-id, 'tc_action_delete')]",
+        "view_detail": "//span[contains(@ref,'eCellValue')]//div[contains(@class,'btn-view-detail')][1]",
+        "exit_button": "//div[@class='modal-header']//button",
+        "view_next_month": "//*[@id='app']//div[@class='work-schedule-wrapper']//div[contains(@class,'month-navigation')]//*[contains(@class,'feather-chevron-right')]",
+        "close_detail": "//*[starts-with(@id,'right-sidebar')][1]//div[contains(@class,'close-btn')]",
+        "no_tice_success": "//*[starts-with(@id,'noty_bar')]//div[contains(text(),'Delete success')]",
+        "total_manager": "//*[@id='app']//a[contains(@href,'/nhr/hr/timecard/admin/manager/admin')]/span",
+        "search_total_manager": "//*[@id='org-form-search']//input[@placeholder='Search Name']",
+        "add_toltal_manager": "//*[@data-lang-id='tc_action_add']",
+        "work_schedule_page": "//*[starts-with(@id,'left-menu')]//span[contains(@data-lang-id,'tc_schedule_work_schedule')]",
+        "calendar_date": "//*[@class='work-schedule-container']//div[@class='row']/div",
+        "clockin_time": "//span[contains(.,'Clock-In Time')]/../following-sibling::div//div[starts-with(@id,'dropTimeWrapper')]//button[starts-with(@id,'btnHours')]",
+        "clockout_time": "//span[contains(.,'Estimated Clock Out')]/../following-sibling::div/span",
+        "request_work_schedule": "//span[contains(@data-lang-id,'vc_title_request')]",
+        "company_timecard_page": "//*[@id='timecard-tab']//li/a[contains(@href,'/nhr/hr/timecard/company/approval')]",
+        "company_timecard_wait": "//div[@class='table-approval']//div[@ref='eBodyViewport']//div[contains(@col-id,'user_id')]",
+        "click_search": "//*[@id='app']//div[@class='company-approval-content']//div[@class='pos-absolute']/div/div[1]/*[1]",
+        "search_user": "//div[@class='company-approval-content']//span[@class='input-group-prepend']/following-sibling::input",
+        "click_org": "//*[starts-with(@id,'tree-container')]//ul//li[1]",
+        "click_data": "//div[contains(@data-lang-id,'tc_title_type')]/following-sibling::div//div[2]//span/following-sibling::div",
+        "type_approval": "//div[contains(@data-lang-id,'tc_title_type')]/following-sibling::div//div[contains(text(),'All')]/following-sibling::div//input",
+        "select_type_approval": "//div[contains(@data-lang-id,'vc_title_period')]/following-sibling::div//div[2]//span/following-sibling::div",
+        "period_approval": "//div[contains(@data-lang-id,'vc_title_period')]/following-sibling::div//div[contains(text(),'All-Time')]/following-sibling::div//input",
+        "timeline_page": "//span[contains(@class, 'text-truncate') and contains(., 'Timeline')]",
+        "timeline_wait": "//span[contains(.,'Filters')]",
+        "weekly_status_page": "//span[contains(@class, 'text-truncate') and contains(., 'Weekly Status')]",
+        "weekly_status_wait": "//span[contains(.,'Name')]",
+        "open_search_box": "//div[contains(@class,'company-status-setting')]/div/div[2]/div/div[1]",
+        "click_first_choice": "//span[contains(@class,'fancytree-node')]//span[contains(.,'%s')]",
+        "daily_status_page": "//span[contains(@class, 'text-truncate') and contains(., 'Daily Status')]",
+        "click_download": "//div[contains(@class,'han-content-wrapper')]//div[4]//button[contains(@class,'outline-white')]",
+        "click_accept_download": "//button//span[contains(@data-lang-id,'tc_action_download')]",
+        "open_searchbox": "//div[contains(@class,'company-time-card-real-time')]/div/div[2]/div/div[1]",
+        "report_wait": "//span[contains(.,'Working status')]",
+        "avatar": "//*[@id='0']",
+        "clock_in": "//span[contains(.,'Clock-In')]",
+        "clock_Out": "//span[contains(.,'Clock-Out')]",
+        "clock_in_close": "//div[contains(@class,'modal-content')]//button[contains(@type,'button')]/span",
+        "ws_click_detail": "//div[contains(@class,'btn-view-detail')]",
+        "click_details": "//div[contains(@class,'btn-view-detail')]",
+        "list": "//span[contains(.,'List')]",
+        "dashboard_page": "//span[contains(@class, 'text-truncate') and contains(., 'Dashboard')]",
+        "dashboard_wait": "//span[contains(@data-lang-id,'tc_dashboard_name')]",
+        "dashboard_wait2": "//span[contains(@data-lang-id,'tc_dashboard_missing_timeclock')]",
+        "dashboard_settlement": "//span[contains(.,'Device')]",
+        "org_box": "//div[contains(@class,'main-side-container-history')]/../../div[1]",
+        "search_users": "//li[1]//div[contains(@class,'avatar-wrapper')]//div[contains(@class,'first-line')]",
+        "work_shifts": "//span[contains(@class, 'text-truncate') and contains(., 'Work Shifts')]",
+        "work_shift_search": "//div[contains(@class,'working-setting-content')]/../../div[1]",
+        "work_place_page": "//a[contains(@href,'/nhr/hr/timecard/admin/holiday')]",
+        "work_place_wait": "//*[@id='form-holiday-setting']",
+        "open_work_place_box": "//div[contains(@class,'title-section')]//button[contains(@type,'button')]",
+        "add_work_place": "/html/body/div[4]/div",
+        "work_place": "//div[contains(@class,'list-work-places')]//li[1]/a/div[1]",
+        "add_holiday": "//div[contains(@class,'pos-absolute')]//div[2]/div[1]/button",
+        "holiday_name": "//*[@id='form-holiday-setting']//*[@col-id='name']/div/input",
+        "edit_name": "//*[@col-id='name']/div/input",
+        "del_holiday": "//button[starts-with(@id, 'btn-delete')]",
+        "del_work_place": "//div[contains(@class,'list-work-places')]//li[contains(@class,'active')]//a/div[2]",
+        "report_weekly_page": "//span[contains(@data-lang-id, 'tc_cal_weekly')]",
+        "report_list_page": "//span[contains(@data-lang-id, 'tc_action_list')]",
+        "my_approval_page": "//a[contains(@href,'/nhr/hr/timecard/user/approval')]",
+        "approval_myCC": "//span[contains(@data-lang-id, 'tc_approval_view_cc') and contains(.,'View CC')",
+        "staff_working_status": "//*[@id='app']//li[2]/a",
+        "click_edit": "//form/div[2]/button[2]",
+        "device": "//span[contains(.,'Device')]/../.. /..//div[contains(@class,'date-picker-field-wrapper')]",
+        "schedule_page": "//span[contains(@class, 'text-truncate') and contains(., 'Schedules')]",
+        "schedule_wait": "//span[contains(.,'Work Plan')]",
+        "change_date2": "//div[contains(@class,'month-header')]//a[2]",
+        "change_date3": "//div[contains(@class,'react-datepicker__today-button')]",
+        "click_missing": "//div[contains(@class,'missing-from-work-wrapper')]/div[1]//button",
+        "fancy_tree": "//span[contains(@class,'fancytree-title')]",
+        "org_tree": "//span[contains(@data-lang-id,'tc_component_orgtree')]/../a",
+        "click_save": "//div[contains(@class, 'modal-content')]//span[contains(@data-lang-id, 'tc_action_save')]",
+        "switch_to_admin": "//span[contains(.,'Switch to Admin')]",
+        "switch_to_admin_wait": "//span[contains(.,'Missing Time clock')]",
+        "view_more": "//span[contains(.,'Working Status')]/../.. /..//span[contains(@data-lang-id,'tc_status_view_more')]",
+        "dash_board_wait": "//span[contains(@data-lang-id,'tc_dashboard_my_board')]",
+        "basic_gps_page": "//span[contains(@data-lang-id, 'tc_menu_basic_settings') and contains(., 'Basic')]",
+        "basic_gps_wait": "//span[contains(@data-lang-id, 'tc_general_requeset_setting') and contains(., 'Request Settings')]",
+        "time_clock": "//span[contains(@data-lang-id, 'tc_title_clock_in_out') and contains(., 'TimeClock')]",
+        "add_gps": "//button[contains(@keylang, 'tc_action_add')]",
+        "save_gps": "//div[contains(@class, 'modal-footer')]//span[contains(@data-lang-id, 'tc_action_save')]",
+        "click_edit_gps": "//form//div[1]/div[5]/div/span[contains(@ref, 'eCellValue')]/div/div/div/div[1]/div",
+        "save_edit_gps": "//span[contains(@data-lang-id, 'tc_action_save')]/..",
+        "click_del_gps": "//form//div[1]/div[5]/div/span[contains(@ref, 'eCellValue')]/div/div/div/div[2]/div",
+        "open_del_gps": "//button//span[contains(@data-lang-id, 'tc_action_delete')]",
+        "company_setting": "//div[contains(@class,'company-statistic-setting')]/div/div[2]/div/div[1]",
+        "click_save_message": "//div[contains(@class,'content-body')]//button[2]",
+        "add_name_manager": "//span[text()='Managers']//following::div//ul//li//div[contains(@class,'first-line') and contains(.,'%s')]",
+        "add_name_manager2": "//span[text()='Managers']//following::div//ul//li//div[contains(@class,'first-line') and contains(.,'%s')]//following::div[2]",
+        "permission": "//*[starts-with(@id,'right-sidebar')]//div[contains(text(),'Select department/user')]/following-sibling::div/div/div['%s']//label",
+        "select_per": "//*[starts-with(@id,'right-sidebar')]//div[contains(text(),'Select department/user')]/following-sibling::div/div/div//label[contains(.,'%s')]",
+        "manager_permission": "//*[starts-with(@id,'right-sidebar')]//div[contains(.,'Select department/user')]//following-sibling::div//label[contains(.,'%s')]/preceding-sibling::input",
+        "out_put_clockin": "//*[@class = 'check-in-status tx-20 tx-bold text-center']",
+        "work_shift": "//span[contains(@data-lang-id, 'tc_menu_working_settings')]",
+        "work_policy": "//span[contains(@data-lang-id, 'tc_title_work_policy')]",
+        "OT_data": "//span[@data-lang-id='tc_status_ot']",
+        "OT_data_time": "//*[@id='base_overtime_hour']/input",
+        "over_time_work": "//span[contains(@data-lang-id, 'tc_title_over_time_work')]",
+        "available_application_time": "//*[@id='overtime_approve_pre_limit']/div/input",
+        "date_data": "//input[contains(@class, 'form-control')]/..//input",
+        "date_data_check": "//div[contains(@data-lang-id, 'tc_title_date')]/following-sibling::div",
+        "memo_data_check": "//div[contains(@data-lang-id, 'tc_status_memo')]/following-sibling::div",
+        "time_data_check": "//div[contains(@data-lang-id, 'tc_title_time')]/following-sibling::div",
+        "menu_report": "//li[4]//span[contains(@data-lang-id, 'tc_menu_report')]",
+        "weekly_average": "//tbody[starts-with(@id, 'tbody-scroll-table')]//div[1]//div[contains(.,'Weekly average')]",
+        "text_working_time": "//tbody[starts-with(@id, 'tbody-scroll-table')]//div[contains(.,'Weekly average')]/../../td[2]//div[2]",
+        "text_break_time": "//tbody[starts-with(@id, 'tbody-scroll-table')]//div[contains(.,'Weekly average')]/../../td[3]//div[2]",
+        "text_OT_time": "//tbody[starts-with(@id, 'tbody-scroll-table')]//div[contains(.,'Weekly average')]/../../td[4]//div[2]",
+        "text_total_working_hour": "//tbody[starts-with(@id, 'tbody-scroll-table')]//div[contains(.,'Weekly average')]/../../td[5]//div[2]",
+        "clockout_scroll": "//div[contains(@class, 'admin_status')]//div[contains(@class, 'timeline-item  ')]//div[contains(.,'Clock-Out')]//div[contains(@class, 'd-flex ')]//span[2]//div[contains(@class, 'cursor-pointer')]",
+        "text_format_hour": "//span[contains(@data-lang-id, 'tc_title_work_policy')]/../../div[contains(.,'Work Policy')]//following-sibling::div//div[2]",
+        "text_OT_since": "//span[contains(@data-lang-id, 'tc_status_overtime_since')]/following-sibling::div",
+        "text_work_method_name": "//div[contains(@class, 'work-method-name')]",
+        "text_max_application_time": "//span[contains(@data-lang-id,'tc_title_max_ot_apply')]/../following-sibling::div",
+        "text_remaining_OT_time": "//span[contains(@data-lang-id,'tc_status_ot_n')]/../following-sibling::div",
+        "text_estimate_default": "//span[contains(@data-lang-id,'tc_title_estimate_working_hours')]/../following-sibling::div",
+        "filter_number": "//div[contains(@class,'dropdown')]//span[1]/span",
+        "confirm_yes": "//span[contains(@data-lang-id, 'tc_action_confirm_yes')]",
+        "text_estimate_after_select_OT": "//span[contains(@data-lang-id,'tc_title_estimate_working_hours')]/../following-sibling::div",
+        "icon_layer": "//*[@class='row']/div['%s']/div[starts-with(@id,'selectableItem')]/div//div[@class='cursor-pointer']/div/div[1]/*[starts-with(@id,'Layer')]",
+        "da_te_work": "//*[@class='row']/div['5s']/div[starts-with(@id,'selectableItem')]/div/div[1]/span",
+        "date_work_up": "//*[@class='row']/div/div[starts-with(@id,'selectableItem')]/div/div[1]/span[contains(.,'%s')]",
+        "date_work_up1": "//*[@class='row']/div/div[starts-with(@id,'selectableItem')]/div/div[1]/span[contains(.,'%s')]",
+        "date_update": "//*[@class='row']/div/div[starts-with(@id,'selectableItem')]/div/div[1]/span[contains(.,'%s')]/../../..",
+        "date_update1": "//*[@class='row']/div/div[starts-with(@id,'selectableItem')]/div/div[1]/span[contains(.,'%s')]/../../..",
+        "to_day": "//*[@class='admin_status']//div[contains(@class,'list-table-wrapper')]//form//div[contains(@ref,'eCenterContainer')]//div[contains(@col-id,'date')]/div[contains(.,'%s')]/parent::div/parent::div",
+        "clockin": "//*[contains(@class,'list-table-wrapper')]//div[contains(@col-id,'date') and contains(.,'%s')]/following-sibling::div[contains(@col-id,'clock_in')]/div/div/div",
+        "breaktime_li": "//*[contains(@class,'list-table-wrapper')]//div[contains(@col-id,'date') and contains(.,'%s')]/following-sibling::div[contains(@col-id,'clock_out')]/div/div/div",
+        "workingtime_li": "//*[contains(@class,'list-table-wrapper')]//div[contains(@col-id,'date') and contains(.,'%s')]/following-sibling::div[contains(@col-id,'basic_work_label')]/div/div",
+        "hours_time": "//*[starts-with(@id,'btnHours')]//following-sibling::div/button[contains(.,'%s')]",
+        "approve_status": "//div[contains(@class,'select-approval-status-content')]/div['%s']/div",
+        "approve_status1": "//div[contains(@class,'select-approval-status-content')]/div/div[contains(.,'%s')]",
+        "working_sta_tus": "//*[@id='click-out-side-6']//div[contains(@class,'item-header-content')]//div[2]/div/div",
+        "status": "//*[@id='click-out-side-6']//div[contains(@class,'item-header-content')]//div[2]/div/div/div[contains(.,'%s')]",
+        "status_time": "//*[starts-with(@id,'dropdown')]/div/button",
+        "time_st": "//*[starts-with(@id,'dropdown')]/div/button/div[contains(.,'%s')]",
+        "add_name_mana_ger": "//span[text()='Exception Users']//following::div//ul//li//div[contains(@class,'first-line') and contains(.,'%s')]",
+        "del_manager": "//span[text()='Exception Users']//following::div//ul//li//div[contains(@class,'first-line') and contains(.,'%s')]//following::div[2]",
+        "add_outside_name": "//span[text()='Available Users']//following::div//ul//li//div[contains(@class,'first-line') and contains(.,'%s')]",
+        "del_outside_user": "//span[text()='Available Users']//following::div//ul//li//div[contains(@class,'first-line') and contains(.,'%s')]//following::div[2]",
+        "add_arbitrary_name": "//span[text()='Available Users']//following::div//ul//li//div[contains(@class,'first-line') and contains(.,'%s')]",
+        "del_arbitrary_name": "//span[text()='Available Users']//following::div//ul//li//div[contains(@class,'first-line') and contains(.,'%s')]//following::div[2]",
+        "click_work_policy": "//div[contains(@class, 'policy-list-methods')]/ul/a//h6[contains(.,'%s')]",
+        "approval_OT": "['%s']/label",
+        "select_approval_OT": "[contains(.,'%s')]",
+        "filters": "//button[contains(.,'Select Filters')]/following-sibling::div/a[contains(.,'%s')]",
+        "filter_time": "//button[contains(.,'Select Filters')]/following-sibling::div/a[contains(.,'%s')]",
+        "clear_clock_out_yes": "//span[contains(@data-lang-id, 'tc_action_confirm_yes')]"
+    
+    
+    
+    
+    
+    }
+}
+
+    
+
+
+
+

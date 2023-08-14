@@ -1,0 +1,51 @@
+================================================= TASK =======================================================
++++ WORK DIARY +++
+- Setting folder
+- Wait add folder
+- Input Folder name
+- Click button Share
+- Select permit write
+- Invite user
+- Organization list
+=> Add folder fail
+===========================================================
++++ TASK REPORT +++
+>>>> Cannot continue excution
+================================================= EXPENSE =======================================================
+ADMIN ACCOUNT
+=> Add folder expense Fail
+- Open menu Admin
+----------//---------- SET MANAGER ----------//----------
+=> Total list number: Total 18
+- Write button
+- Select manager from ORG
+>> Organization list
+>>>> Cannot continue excution
+>>>> Cannot continue excution
+>>>> Cannot continue excution
+LIST BANK: ['BIDV', 'Agribank', 'Shinhanbank', 'Techcombank', 'Sacombank']
+>>>> Cannot continue excution
+=> Add Currency Fail
+================================================= BOARD =======================================================
+- Hide company Board
+ADMIN ACCOUNT
+- Select Settings
+- Input name my folder board
+- Select folder type
+- Save my folder board
+[91mPop up closed[0m
+=> Display manage categories page
+- Save category
+=> Add manage category successfully
+>>>> Cannot continue execution
+=> Delete folder fail
+- Select Board admin
+- Manage Company Folders
+- Scroll down page
+- Input parent folder name
+- Select Optiion type
+- Select Folder type
+- Shared user
+>>>> Cannot continue excution
+================================================= CIRCULAR =======================================================
+=> Add folder circular Fail

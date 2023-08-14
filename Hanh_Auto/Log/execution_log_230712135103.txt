@@ -1,0 +1,13 @@
+ 
+ADMIN ACCOUNT
+=> Don't show pop up nightwork
+- Click show pop up
+- Clock-in
+- Input reason late
+- Save reason late
+- Select My timecard: Timesheets
+- Edit Clock-in time
+- Select hours clock-in
+- Select minutes clock-in
+- Choose On time
+=> Save edit time clock-in

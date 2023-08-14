@@ -1,0 +1,23 @@
+LOGIN
+Input id 
+Input pass 
+Click on Login button 
+Login successful
+Current language is Eng
+ACCESS VACATION
+Access Menu Vacation
+Enter user name to search
+Search user
+MY VACATION STATUS
+Access sub menu My Vacation Status 
+Access sub menu Vacation Approve 
+Approve Request
+Click on approve icon 
+Approve request 
+Reject Request
+Click on reject icon
+Reject request
+Request after reject moved to Tab Cancel Request
+Cancel Approve
+Error Code
+Error Code

@@ -1,0 +1,28 @@
+================================================= TASK =======================================================
++++ WORK DIARY +++
+- Setting folder
+- Wait add folder
+- Input Folder name
+- Click button Share
+- Select permit write
+- Invite user
+- Organization list
+- Select user 1
+- Add button
+- Save user
+- Save folder
+[91mPop up closed[0m
+=> Add folder successfully
+- Delete button
+- Click OK
+[91mPop up closed[0m
+=> Delete folder successfully
+===========================================================
++++ TASK REPORT +++
+>>>> Cannot continue excution
+================================================= EXPENSE =======================================================
+>>>> Cannot continue execution
+================================================= BOARD =======================================================
+>>>> Cannot continue execution
+================================================= CIRCULAR =======================================================
+>>>> Cannot continue execution

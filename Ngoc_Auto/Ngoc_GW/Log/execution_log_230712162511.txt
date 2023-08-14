@@ -1,0 +1,19 @@
+================================================= TASK =======================================================
++++ WORK DIARY +++
+- Setting folder
+- Wait add folder
+- Input Folder name
+- Click button Share
+- Select permit write
+- Invite user
+- Organization list
+=> Add folder fail
+===========================================================
++++ TASK REPORT +++
+>>>> Cannot continue excution
+================================================= EXPENSE =======================================================
+>>>> Cannot continue execution
+================================================= BOARD =======================================================
+>>>> Cannot continue execution
+================================================= CIRCULAR =======================================================
+>>>> Cannot continue execution

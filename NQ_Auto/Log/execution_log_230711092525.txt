@@ -1,0 +1,4 @@
+b'- Access login page'
+b'- Input user ID'
+b'- Input user password'
+b'- Click button Login'

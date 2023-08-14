@@ -1,0 +1,2070 @@
+{
+    "login_page": "http://imgrocky.hanbiro.net/ngw/app/#/sign",
+    "date_now":"now = datetime.now()",
+    "hanbiro_user":"automationtest1",
+    "hanbiro_password":"automationtest1!",
+    "btn_server_pop_up":"//button[contains(.,'OK')]",
+    "sidebar_settings":"//a[contains(@href, '#sidebar_settings')]",
+    "name_file_image":"D:\\File_Du_Lieu\\Hinh\\Hoa hong 4.jpg",
+    "name_file_doc":"D:\\File_Du_Lieu\\Thiết Kế Văn Phòng.doc" ,
+    "select_lang_e":"//select[@id='set-lang']",
+    "loading_dialog": "//div[@class='loading-dialog hide']",
+    "turn_off": "//button[@class='btn btn-primary bootbox-accept']",
+
+    "contact":{
+        "menu_contact":"//a[contains(.,' Contact')]",
+        "list_my_company_contacts":"//div/div/div/div/ul/li/ul/li/a/span",
+        "setting_contact":"//span[contains(.,'Settings')]",
+        "hide_list_contact":"//*[starts-with(@id, 'mCSB') and contains(@id, 'container')]//li[contains(@data-category,'org')]//span[contains(.,'My Company')]/following-sibling::b",
+        "folder_my_contacts":"//a[contains(text(),'My Contacts')]",
+        "textbox_folder_name":"//div[@class='widget-main']//input[contains(@type,'text')]",
+        "folder_title":"Test Folder" ,
+        "textbox_description":"//textarea[@name='folder_ment']",
+        "title_description":"Luu Ngo Test",
+        "turn_on_share":"//div[@id='ngw.addrbook.setting']//label/input[contains(@name,'is_share')]/following-sibling::span",
+        "textbox_search_dept_contact":"//div[@id='addrbook_folder_share_modal']//span[@class='input-icon']//input",
+        "click_org_contact":"//label/a/i",
+        "dept_name_search":"automationtest",
+        "loading_dialog": "//div[@class='loading-dialog hide']",
+        "share_invite_user_dept":"//div[@id='addrbook_folder_share_modal']//ul[contains(@class,'dynatree-container')]/li[2]/span/span[2]",
+        "select_user_01":"//*[@id='addrbook_folder_share_modal']//a[contains(text(),'Selenium/AutomationTest')]",
+        "select_user_02":"//*[@id='addrbook_folder_share_modal']//a[contains(text(),'Selenium/AutomationTest1')]",
+        "select_user_03":"//*[@id='addrbook_folder_share_modal']//a[contains(text(),'Selenium/AutomationTest2')]",
+        "click_icon_add_user":"//div[@id='addrbook_folder_share_modal']//a[@data-action='add']//i",
+        "save_add_user":"//div[@id='addrbook_folder_share_modal']//button[contains(.,'Save')]",
+        "home_contact_add_user":"//div[@id='addrbook_folder_share_modal']",
+        "check_add_user_contact":"//div[@id='addrbook_folder_share_modal']//ul[contains(@class,'bodybox ui-selectable')]/li[1]",
+        "select_permission":"//div[@id='ngw.addrbook.setting']//div//li//select[contains(@data-ng-model, 'item.selectedOption')]",
+        "select_per_contact":"Permission to Read/Write/Modify/Delete",
+        "save_folder_my_contact":"//button[contains(@data-ng-click, 'saveFolder(form)')]",
+        "click_button_close_contact":"//button[contains(@ng-click, 'cancel(false)')]",
+        "click_ok_button":"//button[contains(.,'OK')]",
+        "click_list_my_contact":"//label/i",
+        "select_parent_folder_contact":"//div[@class='up_folder_tree']//a[contains(.,'Test Folder')]",
+        "input_sub_folder_contacts":"//div[@class='widget-main']//input[contains(@type,'text')]", 
+        "subfolder_name":"sub 2",
+        "save_subfolder_contact":"//button[contains(@data-ng-click, 'saveFolder(form)')]",
+        "check_folder_parent_contact":"//div[@class='widget-main no-padding']//a[contains(.,'Test Folder')]",
+        "select_subfolder_contact_delete":"//a[contains(text(),'sub 2')]",
+        "click_icon_delete_subfolder_contact":"//div[@id='ngw.addrbook.setting']//a[@data-action='remove']//i",
+        "click_folder_contact_edit":"//div[@class='widget-main no-padding']//a[contains(.,Test Folder')]",
+        "edit_permisssion_contacts":"//li/select",
+        "edit_permission_contact":"Read/Write",
+        "save_folder_contact_edit":"//button[contains(@data-ng-click, 'saveFolder(form)')]",
+        "show_folder_contact":"//a[contains(text(),'Test Folder')]",
+        "show_sub_folder":"//a[contains(text(),'sub 2')]",
+        "admin_contact":"//div[starts-with(@id, 'mCSB') and contains(@id, 'container')]//a[contains(@data-ng-click, 'showAdminSetting($event)')]//span[contains(.,'Admin')]",
+        "click_manager_company_folder":"//span[contains(.,'Manage Company Folders')]",
+        "folder_public_contact":"//div[@class='my_folder_tree ui-draggable-handle']//a[contains(text(),'Public Contacts')]",
+        "title_folder_manager_company":"Hoa Lan",
+        "btn_save_manager_folder":"//button[contains(@data-ng-click, 'saveFolder()')]",
+        "pull_the_scroll_bar_view":"//div[@class='my_folder_tree ui-draggable-handle']//a[contains(text(),'Test Folder')]",
+        "btn_delete_folder_company":"//button[contains(@data-ng-click, 'deleteFolder(folder.fldseq)')]",
+        "btn_ok_delete_folder_manager":"//button[contains(@ng-click, 'ok()')]",
+        "btn_close_delete_folder_manager":"//div[@class='modal-footer center']//button[contains(@ng-click, 'cancel(false)')]",
+        "check_radio_share":"//*[@id='boot-strap-valid']//label/input[contains(@ng-model,'folder.share')]/following-sibling::span[contains(.,' Shared')]",
+        "org_share_user_share":"//a[contains(@data-ng-click, 'openTargetOrg()')]",
+        "select_dept_manager_company":"//div[@id='addrbook_admin_folder_share_modal']//ul[contains(@class,'dynatree-container')]/li[2]/span/span[2]",
+        "icon_delete_all_user_public":"//div[@id='targetContact_addrbook']//a[contains(@class,'deselect_all_btn red')]//i",
+
+        "txt_search_dept_manager_company":"//div[@id='addrbook_admin_folder_share_modal']//span[@class='input-icon']//input",
+        "select_user1_manager_company":"//*[@id='addrbook_admin_folder_share_modal']//a[contains(text(),'Selenium/AutomationTest1')]",
+        "select_user2_manager_company":"//*[@id='addrbook_admin_folder_share_modal']//a[contains(text(),'Selenium/AutomationTest2')]",
+        "select_user3_manager_company":"//*[@id='addrbook_admin_folder_share_modal']//a[contains(text(),'Selenium/AutomationTest3')]",
+        "icon_add_user_manager":"//div[@id='addrbook_admin_folder_share_modal']//a[@data-action='add']//i",
+        "check_add_user_manager_in_org":"//div[@id='addrbook_admin_folder_share_modal']//ul[contains(@class,'bodybox ui-selectable')]/li[1]",
+        "home_contact_add_user_manager":"//div[@id='addrbook_admin_folder_share_modal']",
+        "btn_save_add_user_mana":"//div[@id='addrbook_admin_folder_share_modal']//button[contains(.,'Save')]",
+        "click_list_permission":"//div[@id='ngw.addrbook.admin_company']//div//li//select[contains(@data-ng-model, 'item.selectedOption')]",
+        "select_permisson":"Permission to Read/Write/Modify/Delete",
+        "txt_about_folder":"//textarea[@id='about']",
+        "content_about_folder":"TPHCM",
+        "click_admin_setting":"//div[starts-with(@id,'mCSB') and contains(@id,'container')]//li[@class='hsub active open']//a[contains(.,'Settings')]",
+        "select_view_contact_list":"//*[@id='ngw.addrbook.admin_setting']//label/input[contains(@ng-model,'settingForm.print_method')]/following-sibling::span[contains(.,' List')]",
+        "btn_save_view_contact":"//button[contains(@data-ng-click, 'saveSetting()')]",
+        "select_my_company":"//div[starts-with(@id,'mCSB') and contains(@id,'container')]//span[contains(.,'My Company')]",
+        "hide_my_company":"//*[starts-with(@id, 'mCSB') and contains(@id, 'container')]//li[contains(@data-category,'org')]//span[contains(.,'My Company')]/following-sibling::b",
+        "select_view_contact_photo":"//*[@id='ngw.addrbook.admin_setting']//label/input[contains(@ng-model,'settingForm.print_method')]/following-sibling::span[contains(.,' Photo')]",
+        "txt_search_user_public":"//div[@id='targetContact_addrbook']//span[@class='input-icon']//input",
+        "select_user_public_dept":"//div[@id='targetContact_addrbook']//ul[contains(@class,'dynatree-container')]/li[2]/span/span[2]",
+        "select_user_public":"//*[@id='targetContact_addrbook']//a[contains(text(),'Selenium/AutomationTest2')]",
+        "icon_add_user_public":"//div[@id='targetContact_addrbook']//a[@data-action='add']//i",
+        "btn_save_user_public":"//div[@id='targetContact_addrbook']//button[contains(.,'Save')]",
+        "btn_save_public_contact":"//button[contains(@data-ng-click, 'saveTargetJob($event)')]",
+        "check_user_public":"//*[@id='ngw.addrbook.admin_setting']//div[@class='form-group']//li//following-sibling::span[contains(.,' Selenium/AutomationTest2')]",
+        "check_user_public_delete":"//*[@id='targetContact_addrbook']//div[@class='widget-body']//li[contains(text(),'Selenium/AutomationTest2')]",
+        "icon_remove_user_public":"//div[@id='targetContact_addrbook']//a[@class='deselect_btn red']//i",
+        "hide_my_contacts":"//*[@id='ngw.addrbook.admin_setting']//label//input[contains(@ng-model,'settingForm.private_addrbook_hide')]//following-sibling::span",
+        "check_data_hide_my_contact":"//span[contains(text(),'My Contacts')]",
+        "manage_favorites":"//span[contains(.,'Manage Favorites')]",
+        "icon_add_favorites_list":"//*[@id='ngw.addrbook.favourite']//a[contains(@data-ng-click,'reset($event, false)')]",
+        "txt_folder_name_favorites":"//*[@id='ngw.addrbook.favourite']//div[@class='widget-main']//input[contains(@type,'text')]",
+        "folder_name_favorites_list":"Contact Favorites",
+        "click_icon_org":"//*[@id='ngw.addrbook.favourite']//a[contains(@data-ng-click,'openTargetOrg($event)')]",
+        "txt_search_dept_org_favorites":"//div[@id='targetContactAddrbookPersonal']//span[@class='input-icon']//input",
+        "select_user_favorites_contact":"//*[@id='targetContactAddrbookPersonal']//a[contains(text(),'Selenium/AutomationTest2')]",
+        "check_user_favorites_contact_global3":"//div[@id='targetContactAddrbookPersonal']//ul[contains(@class,'dynatree-container')]/li[1]//a[contains(text(),'global3.hanbiro.com')]",
+        "select_dept_favorites_contact":"//div[@id='targetContactAddrbookPersonal']//ul[contains(@class,'dynatree-container')]/li[1]/span/span[2]",
+        "select_dept_favorites_contact_gloabl3":"//div[@id='targetContactAddrbookPersonal']//ul[contains(@class,'dynatree-container')]/li/ul/li[1]/span/span[2]",
+        "icon_add_user_favorites":"//div[@id='targetContactAddrbookPersonal']//a[@data-action='add']//i",
+        "check_add_user_favorites_in_org":"//div[@id='targetContactAddrbookPersonal']//ul[contains(@class,'bodybox ui-selectable')]/li[1]",
+        "btn_save_user_favorites":"//div[@id='targetContactAddrbookPersonal']//button[contains(.,'Save')]",
+        "home_contact_add_user_manager_favarites":"//div[@id='targetContactAddrbookPersonal']",
+        "btn_save_user_contact_favorites":"//*[@id='ngw.addrbook.favourite']//button[contains(@data-ng-click, 'saveFavourite($event)')]",
+        "btn_close_delete_folder_favorites":"//div[@class='modal-footer center']//button[contains(@ng-click, 'cancel(false)')]",
+        "txt_description_add_folder":"//*[@id='ngw.addrbook.favourite']//textarea[@name='description']",
+        "content_description_add_folder":"favorite contacts list",
+        "select_folder_favorites_delete":"//*[@id='ngw.addrbook.favourite']//a[contains(text(),'Contact Favorites')]",
+        "btn_delete_folder_favorites":"//*[@id='ngw.addrbook.favourite']//button[contains(@data-ng-click, 'removeFavourite($event)')]",
+        "btn_ok_folder_favorites":"//button[contains(@ng-click, 'ok()')]",
+        "show_table_update_version":"//*[@id='update-popup']",
+        "btn_update_version":"//button[contains(@data-ng-click, 'update()')]"
+
+
+
+
+
+
+
+
+
+
+
+
+    },
+    "board":{   
+        "menu_board":"//span[contains(.,'Board')]",
+        "list_icon_hide_company_board":"//div[starts-with(@id, 'mCSB') and contains(@id, 'container')]/div/ul/li[contains(@data-category,'board')]/a[contains(.,' Company Board')]/b",
+        "setting_board":"//div[starts-with(@id, 'mCSB') and contains(@id, 'container')]//span[contains(.,' Settings')]",
+        "click_my_board":"//a[contains(text(),'My Board')]",
+        "input_folder_name_board":"//*[@id='ngw.board.setting']//input[@name='folder_name']",
+        "textbox_description_board":"//*[@id='board_setting_form']//textarea[@data-ng-model='folder.ment']",
+        "check_use_comment":"//*[@id='ngw.board.setting']//div[@class='checkbox']//label[contains(.,'Use comment')]/input[contains(@type,'checkbox')]//following-sibling::span",
+        "dept_name_search_board":"automationtest",
+        "turnon_share":"//div[@id='ngw.board.setting']//label/input[contains(@name,'is_share')]/following-sibling::span",
+        "click_org_board":"//div[@id='board_setting_form']//a[contains(@data-ng-click, 'openTargetOrg()')]",
+        "search_dept_board":"//div[@id='board_folder_share_modal']//span[@class='input-icon']//input",
+        "home_board":"//div[@id='board_folder_share_modal']",
+        "select_user_01":"//div[@id='board_folder_share_modal']//ul[contains(@class,'dynatree-container')]/li[2]/span/span[2]",
+        "select_user_02":"//*[@id='board_folder_share_modal']//a[contains(text(),'Selenium/AutomationTest1')]",
+        "select_user_03":"//*[@id='board_folder_share_modal']//a[contains(text(),'Selenium/AutomationTest2')]",
+        "icon_add_user":"//div[@id='board_folder_share_modal']//a[@data-action='add']//i",
+        "save_add_user":"//div[@id='board_folder_share_modal']//button[contains(.,'Save')]",
+        "check_add_user_board":"//div[@id='board_folder_share_modal']//ul[contains(@class,'bodybox ui-selectable')]/li[1]",
+        "select_permisssion_board":"//*[@id='board_setting_form']//li[1]//select[contains(@data-ng-model, 'item.selectedOption')]",
+        "select_text_permission":"Read/Write/Modify/Delete",
+        "folder_name_board_setting":"Test Folder",
+        "description_board":"Hello",
+        "click_button_close_board":"//button[contains(@ng-click, 'cancel(false)')]",
+        "subfolder_name_board_setting":"Sub 01",
+        "click_ok_button":"//button[contains(.,'OK')]",   
+        "select_folder_parent":"//a[contains(text(),'Test Folder')]", 
+        "sub_folder":"//a[contains(text(),'Sub 01')]",
+        "icon_delete_folder":"//a[contains(@ng-click, 'delFolder()')]",
+        "select_folder_edit":"//div[@class='widget-main no-padding']//a[contains(.,'Test Folder')]",
+        "check_anonymous":"//div[5]/div/div/div[2]/label/span",
+        "btn_save_folder":"//button[contains(@data-ng-click, 'saveFolder()')]",
+        "icon_delete_folder_pa":"//div[@id='board_setting_form']//a[contains(@data-action, 'remove')]",
+        "show_folder_board":"//a[contains(.,'Test Folder')]",
+        "select_folder_type_anonymous":"//*[@id='ngw.board.setting']//div[@class='checkbox']//label[contains(.,'Use Anonymous')]/input[contains(@type,'checkbox')]//following-sibling::span",
+        "folder_board_edit":"//div[@class='widget-main no-padding']//a[contains(.,'Test Folder')]",
+        "select_sub_folder":"//a[contains(text(),'Sub 01')]",
+        "select_sub_folder_delete":"//a[contains(@ng-click, 'delFolder()')]",
+        "icon_list_parent_board":"//div[@id='board_setting_form']//div[@class='form-group']//span//i",
+        "parent_folder_board":"//div[@class='up_folder_tree']//a[contains(.,'Test Folder')]",
+        "input_sub_folder_board":"//*[@id='ngw.board.setting']//input[@name='folder_name']",
+        "save_button_folder_board":"//*[@id='ngw.board.setting']//button[contains(@data-ng-click, 'saveFolder()')]",
+        "parent_folder_in_folder_list":"//a[contains(text(),'Test Folder')]"
+
+
+
+
+
+
+
+
+   
+    },
+    "project":{ 
+        "menu_project":"//span[contains(.,'Project')]",
+        "manage_folder_project":"//span[contains(.,'Manage Folders')]",
+        "folder_list_project":"//*[@id='ngw.project.setting']//div//div[2]//div[@id='project_setting_form']//div[@class='my_folder_tree']//a[contains(text(),'Project')]",
+        "icon_plus_project":"//*[@id='ngw.project.setting']//a[contains(@title,'Add Folder')]//i",
+        "input_folder_mane_project":"//*[@id='ngw.project.setting']//span//input[contains(@type,'text')]",
+        "folder_name_project":"HCM",
+        "button_save_folder_project":"//*[@id='ngw.project.setting']//button[contains(@data-ng-click, 'saveFolder($event)')]",
+        "icon_list_project":"//*[@id='ngw.project.setting']//label[contains(@ng-click,'toggleDropDown($event)')]/b",
+        "select_parent_folder_project":"//div[@class='up_folder_tree']//a[contains(.,'Generated by selenium')]",
+        "subfolder_name_project":"HCM AAA",
+        "icon_close_list_project":"//div[@id='project-folder-setting-down']/div/i[contains(@ng-click, 'hideDropdownFolder()')]", 
+        "input_sub_folder_name_project":"//*[@id='ngw.project.setting']//span//input[contains(@type,'text')]",
+        "button_save_sub_folder_project":"//*[@id='ngw.project.setting']//button[contains(@data-ng-click, 'saveFolder($event)')]",
+        "parent_folder_project":"//div[@class='widget-main no-padding']//a[contains(.,'Generated by selenium')]",
+        "select_subfolder_project_delete":"(//a[contains(text(),'HCM AAA')])",
+        "icon_delete_subfolder_project":"//a[contains(@ng-click, 'deleteFolder($event)')]",
+        "icon_delete_folder_project":"//a[contains(@ng-click, 'deleteFolder($event)')]",
+        "ok_button_project":"//button[contains(@ng-click, 'ok()')]",
+        "click_admin_foder":"//span[contains(text(),'Admin')]",
+        "click_folder_maanger":"//span[contains(.,'Manager')]",
+        "org_select_user_manager":"//label/button/i",
+        "user_search":"luu",
+        "select_user_luu3":"//a[contains(text(),'Luu Ngo/Ngo Luu 3 (Tester)')]",
+        "btn_save_select_user_manager":"//button[contains(@ng-click, 'saveTargetJob($event)')]",
+        "btn_close_select_user_manager":"//button[contains(@ng-click, 'cancel(false)')]",
+        "select_user_delete_org":"//li[contains(text(),'Luu Ngo/Ngo Luu 3 (Tester)')]",
+        "icon_delete_user":"//div[7]/div/div/div[2]/div[2]/div/div/a[2]/i",
+        "select_set_extension_form":"//span[contains(.,'Set extension form')]",
+        "select_form_type_extension_form":"//span[contains(.,' Text')]",
+        "txt_form_name_extension_form":"//input[@id='hr-manager']",
+        "form_name_extension":"Hanbiro QA VN",
+        "btn_save_form_name_extension":"//span[contains(.,'Save')]",
+        "btn_save_close_form_name_extension":"//button[contains(@ng-click, 'cancel(false)')]",
+        "txt_search_extension_form":"//input[@type='search']",
+        "tick_extension_form_delete":"//td/label/span",
+        "btn_delete_extension_form":"//button[contains(.,' Delete')]",
+        "btn_ok_delete_extension_form":"//button[contains(.,'OK')]",
+        "btn_close_delete_extension_form":"//button[contains(@ng-click, 'cancel(false)')]",
+        "select_folder_my_project":"//span[contains(.,'My Projects')]",
+        "txt_code_project":"//input[@name='code_name']",
+        "name_code_project":"123",
+        "txt_name_project":"//input[@name='subject']",
+        "name_my_project":"My project Test",
+        "org_leader_my_project":"//label/button/i",
+        "user_leader_search":"luu",
+        "select_user_leader":"//a[contains(text(),'Luu Ngo/Ngo Luu Short')]",
+        "user_participant_search":"luu",
+        "select_user1_participant":"//a[contains(text(),'Luu Ngo/Ngo Luu Short')]')]",
+        "select_user2_participant":"//a[contains(text(),'Luu Ngo/Ngo Luu 1 (Tester)')]",
+        "select_user3_participant":"//a[contains(text(),'Luu Ngo/Ngo Luu 2 (Nhân Viên Kế Toán)')]",
+        "show_folder_create":"//a[contains(text(),'HCM')]",
+        "show_sub_folder":"//a[contains(text(),'HCM AAA')]",
+        "admin_project":"//div[@id='project']//div[starts-with(@id, 'mCSB') and contains(@id, 'container')]//a[contains(@ng-click, 'showAdminSetting()')]",
+        "admin_manager":"//div[@id='project']//div[starts-with(@id, 'mCSB') and contains(@id, 'container')]//span[contains(.,'Manager')]",
+        "manager_project_all_user":"//div[@id='ngw.project.adminManager']//label/input[contains(@type,'radio')]/following-sibling::span[contains(.,' All User')]",
+        "manager_project_select_manager":"//div[@id='ngw.project.adminManager']//label/input[contains(@type,'radio')]/following-sibling::span[contains(.,' Manager')]",
+        "click_org_select_user":"//div[@id='ngw.project.adminManager']//button[contains(@ng-click, 'openTargetJob()')]",
+        "txt_search_dept_org_admin_manager":"//div[@id='managerProject']//span[@class='input-icon']//input",
+        "loading_dialog": "//div[@class='loading-dialog hide']",
+        "dept_name_search_admin_manager":"automationtest",
+        "select_user_maanger":"//*[@id='managerProject']//a[contains(text(),'Selenium/AutomationTest2')]",
+        "icon_add_user_manager":"//div[@id='managerProject']//a[@data-action='add']//i",
+        "btn_save_add_user_manager":"//div[@id='managerProject']//button[contains(.,'Save')]",
+        "btn_save_admin_maanger":"//div[@id='ngw.project.adminManager']//button[contains(@ng-click, 'saveTargetJob($event)')]",
+        "btn_close_admin_maanger":"//div[@class='modal-footer center']//button[contains(@ng-click, 'cancel(false)')]",
+        "check_user_manager_project":"//div[@id='ngw.project.adminManager']//li//following-sibling::span[contains(text(),'Selenium/AutomationTest2')]",
+        "select_user_manager_delete":"//*[@id='managerProject']//div[@class='widget-body']//li[contains(text(),'Selenium/AutomationTest2')]",
+        "icon_delete_user_manager":"//div[@id='managerProject']//a[@class='deselect_btn red']//i",
+        "click_set_extenssion":"//div[@id='project']//div[starts-with(@id, 'mCSB') and contains(@id, 'container')]//span[contains(.,'Set extension form')]",
+        "icon_craete_extenssion_form":"//div[@id='ngw.project.adminExtensionForm']//div[@class='page-header']//button[contains(@data-ng-click, 'goWrite()')]",
+        "txt_form_name_extension_project":"//div[@id='ngw.project.adminAddExtensionForm']//input[@id='hr-manager']",
+        "form_name_extension_project":"Mang Tre Viet Nam",
+        "select_form_type":"//*[@id='ngw.project.adminAddExtensionForm']//input[contains(@type,'radio')]//following-sibling::span[contains(.,' Text')]",
+        "btn_save_extension_form_project":"//div[@id='ngw.project.adminAddExtensionForm']//button[contains(@ng-click, 'add()')]",
+        "btn_close_save_extension_form":"//div[@class='modal-footer center']//button[contains(@ng-click, 'cancel(false)')]",
+        "txt_search_form_name_delete":"//*[@id='ngw.project.adminExtensionForm']//input[contains(@type,'search')]",
+        "icon_checkbox_all":"//*[@id='ngw.project.adminExtensionForm']//input[contains(@data-ng-change,'checkAll()')]//following-sibling::span",
+        "btn_delete_form":"//*[@id='ngw.project.adminExtensionForm']//button[contains(@data-ng-click, 'deleteExtForm($event)')]",
+        "btn_ok":"//div[@class='modal-footer center']//button[contains(@ng-click, 'ok()')]",
+        "click_manager_work_type":"//div[@id='project']//div[starts-with(@id, 'mCSB') and contains(@id, 'container')]//span[contains(.,'Manage Work Type')]",
+        "icon_create_work_type":"//div[@id='ngw.project.adminManageType']//div[@class='page-header']//button[contains(@data-ng-click, 'goWrite()')]",
+        "txt_type_name":"//div[@id='ngw.project.adminAddWorkType']//input[@type='text']",
+        "name_work_type":"Dau Xanh",
+        "turn_off_work_type":"//div[@id='ngw.project.adminAddWorkType']//label//input[contains(@ng-model,'frmData.is_default')]//following-sibling::span",
+        "btn_save_work_type_project":"//div[@id='ngw.project.adminAddWorkType']//button[contains(@data-ng-click, 'saveForm($event)')]",
+        "txt_work_type":"//*[@id='ngw.project.adminManageType']//input[contains(@type,'search')]",
+        "check_box_work_name_search":"//*[@id='ngw.project.adminManageType']//input[contains(@data-ng-change,'checkAll()')]",
+        "show_table_error":"//div[contains(text(),'Work Type has data. You can not delete it!')]",
+        "btn_delete_work_type":"//*[@id='ngw.project.adminManageType']//button[contains(@data-ng-click, 'deleteWorkType()')]",
+        "btn_ok_error_delete_work_type":"//button[contains(@ng-click, 'cancel(false)')]/following-sibling::h4[contains(.,'Error')]",
+        "show_error_delete_work_type":"//div[contains(text(),'Work Type has data. You can not delete it!')]",
+        "btn_ok_delete_work_type":"//div[@class='modal-content ui-resizable']//div[@class='modal-footer center']//button[contains(@ng-click, 'ok()')]"
+
+
+
+
+
+    },
+
+    "approval":
+    { 
+        "list_data_in_progress_approval":"//div/div/div/div/ul/li/ul/li/a/span",
+        "click_list_in_progress_approval":"//*[starts-with(@id, 'mCSB') and contains(@id, 'container')]//li[contains(@data-category,'approval')]//span[contains(.,'In Progress')]/following-sibling::b",
+        "admin_approval":"//a[contains(@ng-click,'isAdminSetting=!isAdminSetting')]//span[contains(text(),'Admin')]",
+        "click_all_form":"//a[contains(text(),'All Forms')]", 
+        "icon_create_all_form":"//div[@class='page-header']//button[contains(@data-ng-click, 'newForm()')]",
+        "form_selection":"//input[@id='form-section']",
+        "btn_home_write_form":"//div[@id='ngw.approval.newForm ']",
+        "btn_back_write_form":"//div[@id='ngw.approval.newForm ']//div[@class='messagebar-item-left']//button[contains(@type,'submit')]",
+        "form_name":"Luu Luu Ngo",
+        "content_form_name":"Content Form in Approval",
+        "agreement_route":"//form-section[contains(@on-click-node,'nodeTreeOnClick')]//a[contains(.,'Agreement Route')]", 
+        "click_common":"//div[@class='modal-body']/form-section[contains(@on-click-node,'nodeTreeOnClick')]//span[contains(.,'Agreement Route')]/following-sibling::ul//a[contains(.,'Common')]", 
+        "folder_approval":"//div[@class='modal-body']//a[contains(text(),'Approval')]", 
+        "button_confirm":"//button[contains(.,'Confirm')]", 
+        "icon_button_doc_no":"//button[contains(@data-ng-click, 'generalDocuNew(form.docuNo)')]",
+        "button_save_doc_no":"//button[contains(@ng-click, 'ok()')]", 
+        "input_editor":"tox-edit-area__iframe", 
+        "input_editor_tynmce":"//body[@id='tinymce']",
+        "click_form_name":"//input[@id='form-name']", 
+        "click_button_save_all_form":"//*[@id='ngw.approval.newForm ']//button[contains(@data-ng-click,'saveForm(form)')]",
+        "all_official_form":"//a[contains(text(),'All Official Forms')]",
+        "create_a_new_approval_route":"//span[contains(.,'Create a new Approval Route')]", 
+        "official_forms_name":"QA Luu", 
+        "click_textbox_name_official_forms":"//input[@name='formName']", 
+        "content_form_name_official_forms":"Content All Official Forms", 
+        "button_save_all_offcial_form":"//div[@id='approval-tab-content']//button[contains(@ng-click, 'saveForm(this)')]",
+        "all_approvals":"//*[starts-with(@id, 'mCSB') and contains(@id, 'container')]//li[contains(@data-category,'more')]//a[contains(text(),'All Approvals')]", 
+        "create_a_new_approval_route_default":"//div[@id='ngw.approval.manage ']/list-view/div/div[2]/div/div/manage-line/div/div/div/a/span",
+        "comprehensive_search":"//*[@id='ngw.approval.allDocs ']//div[contains(@class,'nav-search')]//div[@class='input-icon']/input", 
+        "title_approvals":"luu",
+        "click_a_approval":"//td[4]/a", 
+        "official_documentation":"//a[contains(text(),'Official Documentation')]", 
+        "click_official_documenttation":"//td[5]/a", 
+        "textbox_input_search":"//*[@id='ngw.approval.official ']//input[contains(@data-ng-model, 'search.keyword')]",
+        "search_title_official_documentation":"luu",
+        "click_arbitrary_decision":"//*[starts-with(@id, 'mCSB') and contains(@id, 'container')]//a[contains(.,'Arbitrary Decision')]",
+        "search_user_arbitrary_decision":"//*[@id='ngw.approval.arbitrary ']//input[contains(@ng-han-enter,'fData.search()')]",
+        "click_dept_user":"//*[@id='ngw.approval.arbitrary ']//div[@class='widget-main approval-user-tree']//ul[contains(@class,'dynatree-container')]/li[1]",
+        "search_user":"automationtest",
+        "select_user_arbitrary_decision":"//div[@id='ngw.approval.arbitrary ']//a[contains(.,'Selenium/AutomationTest2 ')]",
+        "button_click_save_arbitrary_decision":"//*[@id='ngw.approval.arbitrary ']//button[contains(@ng-click,'save()')]",
+        "show_arbitrary_decision":"//div[@id='ngw.approval.arbitrary ']//li[contains(.,'[Selenium] AutomationTest2')]",
+        "show_change_approval_route":"//div[@id='ngw.approval.managerUser ']//li[contains(.,'[Selenium] AutomationTest2')]",
+        "select_default_approval_routes_admin":"//li[contains(@data-category, 'more')]//a[contains(.,'Default Approval Routes')]",
+        "btn_create_a_new_approval_route_admin":"//*[@id='ngw.approval.manageApproval ']//button[contains(@data-ng-click,'WriteLine()')]",
+        "txt_approval_route_name_admin":"//*[@id='ngw.approval.manageApproval ']//input[@id='approval_name']",
+        "approval_route_name_admin":"DEV Hanbiro",
+        "icon_org_default_approval_name_admin":"//*[@id='ngw.approval.manageApproval ']//button[contains(@data-ng-click,'selectRoute()')]",
+        "dept_defaul_approval_admin":"//div[@class='widget-box transparent approval-admin-org-tree']//ul[contains(@class,'dynatree-container')]/li[1]",
+        "select_user_default_approval_admin":"//div[@class='widget-box transparent approval-admin-org-tree']//ul[contains(@class,'dynatree-container')]/li[1]/ul/li[1]/span/a",
+        "check_user_org_default_approval_admin":"//div[@class='widget-box transparent approval-admin-selectbox']//div//select[contains(@data-ng-change,'changeFlows(flowsSelect)')]/option[1]",
+        "home_org_default_approval_admin":"//*[@id='ngw.approval.manageApproval ']",
+
+        "search_user_org_default_admin":"//div[@class='input-group']//input[contains(@ng-han-enter, 'fData.search()')]",
+        "btn_save_org_app_default_admin":"//button[contains(@ng-click,'ok()')]",
+        "btn_save_defaul_approval_routes":"//div[@id='ngw.approval.manageApproval ']//button[contains(@data-ng-click, 'saveLine()')]",
+        "btn_close_warning_defaul_approval_routes":"//div[@class='modal-footer center']//button[contains(@ng-click,'cancel(false)')]",
+
+        "select_user_delete_change_approval_route":"//div[@id='ngw.approval.managerUser ']//li[contains(.,'[Selenium] AutomationTest2')]//button[contains(@ng-click, 'removeUser($index)')]",
+        "select_user_delete_arbitrary_decision":"//div[@id='ngw.approval.arbitrary ']//li[contains(.,'[Selenium] AutomationTest2')]//button[contains(@ng-click, 'removeUser($index);')]//i",
+        "check_approval_routes_type_admin":"//*[contains(@id,'ngw.approval.manageApproval')]//tr//td[contains(.,'Generated by')]/preceding-sibling::td/input",
+        "btn_delete_approval_routes_admin":"//*[@id='ngw.approval.manageApproval ']//button[contains(@data-ng-click,'delete()')]",
+        "btn_confirm_delete_approval_routes_admin":"//div[@class='modal-footer center']//button[contains(@ng-click, 'ok()')]",
+        "select_official_forms_delete":"//*[contains(@id,'ngw.approval.officialForms ')]//tr//td[contains(.,'Generated by')]/preceding-sibling::td/label/span",
+        "btn_delete_official_forms":"//*[@id='ngw.approval.officialForms ']//button[contains(@ng-click,'removeSelected();')]",
+        "btn_confirm_delete_official_forms":"//div[@class='modal-footer center']//button[contains(@ng-click, 'ok()')]",
+        "show_table_secrutity_pw":"//div[@class='modal-content ui-resizable']//h3[contains(.,'Security Password')]",
+        "txt_input_secrutity_pw":"//form[contains(@role, 'form')]//input[@id='approval_input_securepw']",
+        "secrutity_pw":"automationtest1!",
+        "btn_confirm_secrutity_pw":"//button[contains(@ng-click, 'ok()')]",
+        "select_value_set_official_seal":"//li[contains(@data-category, 'more')]//a[contains(.,'Set Official Seal')]",
+        "file_set_official_seal":"//input[@id='approval_seal_file']",
+        "btn_save_set_official_seal":"//*[@id='ngw.approval.executeConfig ']//button[contains(@ng-click, 'save()')]",
+        "check_data_save_set_official_seal":"//div[contains(@ng-show, 'isSealImage')]//button[contains(@ng-click, 'deleteSeal()')]",
+
+
+
+
+
+
+        
+
+        "click_sttings_approval":"//*[starts-with(@id, 'mCSB') and contains(@id, 'container')]//li[contains(@data-category,'approval')]//span[contains(.,'Settings')]/following-sibling::b", 
+        "select_default_approval_routes":"//li[contains(@data-category, 'approval')]//span[@class='title']//span[contains(.,'Default Approval Routes')]",
+        "create_default_approval_routes":"//span[contains(.,'Create a new Approval Route')]",
+        "input_appproval_route_name":"//div[@id='add-line']//div[2]//div//input[contains(@type,'text')]",
+        "approval_route_name":"Luu Luu Test",
+        "click_org_default_approval_routes":"//*[@id='ngw.approval.manage ']//button[contains(@ng-click,'popAddLine()')]",
+        "search_user_approval_in_org":"//div[contains(@ng-show, 'show_contact')]//span[@class='input-icon']//input",
+        "user_search_org_approval":"automationtest",
+        "select_user_defaul_setting":"//div[starts-with(@id,'setlineadd')]//a[contains(text(),'Selenium/AutomationTest')]",
+        "select_dept_defaul_setting":"//div[starts-with(@id,'setlineadd')]//ul[contains(@class,'dynatree-container')]/li[2]",
+        "check_user_org_default_approval_setting":"//div[starts-with(@id,'setlineadd')]//ul[contains(@class,'bodybox ui-selectable')]/li[2]",
+        "user_reviewer_01":"//div[starts-with(@id,'setlineadd')]//ul[contains(@class,'dynatree-container')]/li[2]/ul/li[1]/span/span[2]",
+        "check_show_sub_dept":"//div[contains(text(),'Do you include all sub-Dept?')]",
+        "click_ok_select_sub_dept":"//button[contains(@ng-click, 'ok()')]",
+        "icon_add_user":"//div[starts-with(@id,'setlineadd')]//a[@data-action='add']//i",
+        "button_save_reviewers_approval":"//div[starts-with(@id,'setlineadd')]//button[contains(.,'Save')]", 
+        "btn_save_default_approval_route":"//div[@id='ngw.approval.manage ']//button[contains(@ng-click, 'setAddLine()')]",
+        "btn_close_default_approval_route":"//div[@class='modal-footer center']//button[contains(@ng-click, 'cancel(false)')]",
+        "change_approval_route":"//a[contains(.,'Change Approval Route')]",
+        "dept_user_change_approval":"//*[@id='ngw.approval.managerUser ']//div[@class='widget-main approval-user-tree']//ul[contains(@class,'dynatree-container')]/li[1]", 
+        "search_user_change":"automationtest",
+        "select_user_change_approval_route":"//*[@id='ngw.approval.managerUser ']//div[@class='widget-main approval-user-tree']//ul[contains(@class,'dynatree-container')]/li[1]/ul/li[1]/span/a",
+        "button_click_save_change_approval_route":"//*[@id='ngw.approval.managerUser ']//button[contains(@ng-click,'save()')]", 
+        "discarded_documents":"//a[contains(.,'Discarded Documents')]", 
+        "textbox_input_search_discarded_documents":"//div[2]/div[2]/form/div/input", 
+        "search_title_discarded_documents":"luu", 
+        "click_discarded_documents":"//td[4]/a",
+        "setting_manager_my_folder":"//li[contains(@data-category, 'approval')]//span[@class='title']//span[contains(.,'Manage My Folder')]",
+        "select_my_folder":"//*[@id='ngw.approval.manage ']//a[contains(text(),'My Folder')]",
+        "txt_folder_name_approval":"//*[@id='ngw.approval.manage ']//input[contains(@ng-model, 'form.name')]",
+        "folder_name_approval":"Hoa Giay",
+        "btn_save_folder_approval":"//*[@id='ngw.approval.manage ']//button[contains(@data-ng-click, 'saveFolder()')]",
+        "txt_search_approval_form":"//*[@id='ngw.approval.allForms ']//input[contains(@type, 'search')]",
+        "search_form_delete":"Luu Luu Ngo",
+        "checkbox_all_form":"//*[@id='ngw.approval.allForms ']//div//input[@ng-model='checkdata.isAll']/following-sibling::span",
+        "btn_delete_all_form":"//*[@id='ngw.approval.allForms ']//button[contains(@data-ng-click,'deleteForms()')]",
+        "btn_ok_delete_form":"//div[@class='modal-content ui-resizable']//button[contains(@ng-click, 'ok()')]",
+        "btn_check_all_approval_routes":"//*[@id='ngw.approval.manage ']//div//input[@data-ng-model='checked.all']/following-sibling::span",
+        "btn_delete_approval_routes":"//*[@id='ngw.approval.manage ']//button[contains(@ng-click,'removeSelected()')]",
+        "btn_confirm":"//div[@class='modal-footer center']//button[contains(@ng-click, 'ok()')]",
+        "select_my_folder_delete":"//*[@id='ngw.approval.manage ']//a[contains(text(),'Generated by')]",
+        "icon_delete_my_folder":"//*[@id='ngw.approval.manage ']//a[contains(@ng-click, 'removeFolder();')]",
+        "click_display_settings":"//li[contains(@data-category, 'approval')]//span[@class='title']//span[contains(.,'Display Settings')]",
+        "txt_attach_signature_image":"//*[@id='ngw.approval.manage ']//input[@type='file']",
+        "btn_save_signature_image":"//*[@id='ngw.approval.manage ']//button[contains(@ng-click, 'save()')]",
+        "btn_close_signature":"//div[@class='modal-footer center']//button[contains(@ng-click, 'cancel(false)')]",
+        "check_data_signature_approval":"//*[@id='ngw.approval.manage ']//following-sibling::img",
+        "delete_signature_image":"//*[@id='ngw.approval.manage ']//button[contains(@ng-click, 'deleteSign()')]",
+        "btn_confirm_delete_signature":"//button[contains(@ng-click, 'ok()')]",
+        "icon_org_select_deputy_user":"//*[@id='ngw.approval.manage ']//button[contains(@ng-click,'popAuth()')]",
+        "search_user_deputy":"//*[@id='auth']//span[@class='input-icon']//input",
+        "select_user_deputy":"//*[@id='auth']//a[contains(text(),'Selenium/AutomationTest2')]",
+        "click_org_user_with_per_to_read":"//*[@id='ngw.approval.manage ']//button[contains(@ng-click,'popView()')]",
+        "txt_search_user_per_to_read":"//div[starts-with(@id,'org_view')]//span[@class='input-icon']//input",
+        "select_dept_per_to_read":"//div[starts-with(@id,'org_view')]//ul[contains(@class,'dynatree-container')]/li[2]",
+        "select_user_to_read":"//div[starts-with(@id,'org_view')]//ul[contains(@class,'dynatree-container')]/li[2]/ul/li[1]/span/span[2]",
+        "icon_add_user_per_to_read":"//div[starts-with(@id,'org_view')]//a[contains(@data-action, 'add')]",
+        "btn_save_add_user_to_read":"//div[starts-with(@id,'org_view')]//button[contains(.,'Save')]",
+        "icon_delete_deputy_user":"//*[@id='ngw.approval.manage ']//button[contains(@ng-click, 'delProxy()')]",
+        "click_icon_delete_user_per":"//div[starts-with(@id,'org_view')]//a[contains(@data-action, 'remove')]",
+        "select_discarded_documents":"//li[contains(@data-category, 'more')]//a[contains(.,'Discarded Documents')]",
+        "txt_search_discarded_document":"//*[@id='ngw.approval.docDiscard ']//input[contains(@data-ng-model,'search.keyword')]",
+        "comprehensive_search_documet":"luu",
+        "click_deatail_search_all_form":"//a[contains(@data-ng-click,'search.showDetailSearch($event)')]//span[contains(.,'Details')]",
+        "select_agreement_search_all_form":"//span[contains(.,'Agreement Route')]",
+        "btn_search_all_form":"//button[contains(@ng-click,'separateSearch()')]//span[contains(.,' Search')]",
+        "btn_more":"//*[@id='ngw.approval.allForms ']//button[contains(@data-toggle,'dropdown')]//span[contains(.,' More')]",
+        "form_section":"//*[@id='ngw.approval.allForms ']//a[contains(@ng-click,'popFormSection();')]",
+        "list_parent_folder":"//*[@id='boot-strap-valid']//label[contains(.,'Parent Folder')]//following-sibling::a[contains(@ng-click,'preventEvent($event)')]",
+        "parent_folder_click_approval":"//*[@id='approval-form-parent-folder']//span/span",
+        "select_agreement_route":"//*[@id='approval-form-parent-folder']//a[contains(.,'Agreement Route')]",
+        "txt_folder_name_section":"//*[@id='boot-strap-valid']//label[contains(.,'Folder Name')]//following-sibling::input[@id='name']",
+        "folder_name_section":"Section QA",
+        "btn_save_folder_name_section":"//button[contains(@ng-click,'saveFormCode(formData)')]",
+        "form_section_check_data":"//form-section[contains(@on-click-node,'nodeTreeOnClick')]//span/span",
+        "form_section_select_agreement_route_check_data":"//form-section[contains(@on-click-node,'nodeTreeOnClick')]//a[contains(.,'Agreement Route')]",
+        "view_section_form_check_data":"//form-section[contains(@on-click-node,'nodeTreeOnClick')]//a[contains(.,'Section QA')]",
+        "delete_section_form":"//button[contains(@data-ng-click,'deleteFormCode(formData)')]",
+        "btn_ok_delete_section_form":"//button[contains(@ng-click,'ok()')]"
+
+
+
+
+    },
+    "menubuilder":{ 
+        "menu_builder":"//span[contains(.,'Menu Builder')]", 
+        "show_content_in_menu_builder":"//*[@id='custom-menu-tab-content']/div/div/div[1]/div[2]/h1/span",
+        "textbox_search_menu_builder":"//div[@id='note']//input[contains(@type,'search')]",
+        "search_menu_name_menu_builder":"Hanbiro",
+        "select_menu_luuluu":"//a[contains(text(),'Go to this Menu')]", 
+        "button_create_title":"//div[starts-with(@id, 'ngw.menu') and contains(@id, 'container.menu')]//div[2]//button[contains(@data-ng-click, 'goWrite()')]", 
+        "textbox_name_builder":"//*[starts-with(@id,'formWriteLayout_menu')]//label[contains(.,'Name')]//following-sibling::input", 
+        "name_layout":"Luu Luu 01",
+        "textbox_single_line":"//*[starts-with(@id,'formWriteLayout_menu')]//label[contains(.,'Single Line')]//following-sibling::input",
+        "name_single_line":"Line 1",
+        "textbox_url":"//*[starts-with(@id,'formWriteLayout_menu')]//label[contains(.,'URL')]//following-sibling::input",
+        "name_url":"https://www.google.com/",
+        "textbox_phone":"//*[starts-with(@id,'formWriteLayout_menu')]//label[contains(.,'Phone')]//following-sibling::input",
+        "number_phone":"0123456789",
+        "multiple_choice":"//*[starts-with(@id,'form')]//label[contains(.,'Option 2')]",  
+        "txt_address":"//*[starts-with(@id,'formWriteLayout_menu')]//small[text()='Street Address']/preceding-sibling::input",
+        "name_address":"Quan 1",
+        "txt_address_2":"//*[starts-with(@id,'formWriteLayout_menu')]//small[text()='Street Address Line 2']/preceding-sibling::input",
+        "name_address_2":"Tp.HCM",
+        "txt_currency":"//*[starts-with(@id,'formWriteLayout_menu')]//label[contains(.,'Currency')]//following-sibling::input",
+        "input_currency":"50000",
+        "txt_percent":"//*[starts-with(@id,'formWriteLayout_menu')]//label[contains(.,'Percent')]//following-sibling::input",
+        "input_percent":"90",
+        "txt_email":"//*[starts-with(@id,'formWriteLayout_menu')]//label[contains(.,'Email')]//following-sibling::input",
+        "input_email":"luu9@qa.hanbiro.net",
+        "click_pick_list":"//label[contains(text(),'Pick List')]/following::span[starts-with(@id,'react-select')]//input",
+        "name_search_pick_list":"2",
+
+        "click_textbox_date":"//div[2]/div[2]/div/input",
+        "select_date_01":"//td[@class='day'][contains(text(),'18')]", 
+        "txt_multi_line":"//*[starts-with(@id,'formWriteLayout_menu')]//div[contains(@data-placeholder,'Write something')]",
+        "content_multi_line":"Hello",
+
+
+
+        "click_date_range_from":"//ace-datepicker/div/input",
+        "select_date_range_from":"//td[@class='day'][contains(text(),'18')]", 
+        "click_date_range_to":"//div[2]/ace-datepicker/div/input",
+        "select_date_range_to":"//td[@class='day'][contains(text(),'19')]",
+        "select_single_choice":"//div[8]/div[3]/label",
+        "editor_content":"Hi everyone",
+        "input_editor":"//*[@id='tinymce']/p",
+        "txt_number":"//div[2]/div[9]/div/input",
+        "input_number":"20",
+        "txt_multi_select":"//label[contains(text(),'Multi-Select')]/following::span[starts-with(@id,'react-select')]//input",
+        "search_multi_select":"2",
+
+        "org_menu_builder":"//label/a/i",
+        "textbox_search_dept_builder":"//div[starts-with(@id, 'gw_user')]/div/div/div[2]/div[1]/div[1]/div[3]/div/form/span/input",
+        "dept_name_search_builder":"automationtest",
+        "select_user_builder_01":"//a[contains(text(),'Selenium/AutomationTest1')]",
+        "select_user_builder_02":"//a[contains(text(),'Selenium/AutomationTest2')]",
+        "click_icon_add":"//div[starts-with(@id, 'gw_user')]/div/div/div[2]/div[2]/div/div/a/i",
+        "click_button_save":"//div[starts-with(@id, 'gw_user')]/div/div/div[3]/button",
+        "click_add_file":"//*[starts-with(@id,'formWriteLayout_menu')]//input[starts-with(@id,'html5')]",
+        "name_file_image_builder":"D:\\File_Du_Lieu\\Hinh\\Hoa hong 4.jpg" ,
+        "btn_save_menu_builder":"//span[contains(.,'Save')]",
+        "btn_back_builder":"//*[starts-with(@id, 'ngw.menu') and contains(@id, 'container.menu')]//button[contains(@data-ng-click, 'goList($event)')]",
+        "select_title":"//span[contains(text(),'Generated by selenium')]",
+        "txt_comment_builder":"//user-write-react/div/div/div/div",
+        "input_coment":"//div/form/div/div/div/div[2]/div",
+        "content_comment":"Hello",
+        "btn_save_comment":"//div[@class='toolbar-append-btn']//button[contains(@type,'submit')]",
+        "btn_more":"//*[starts-with(@id, 'ngw.menu') and contains(@id, 'container.menu')]//div[contains(@data-ng-show,'isListView()')]//span[contains(.,' More')]",
+        "import_file":"//span[contains(text(),'Import')]",
+        "add_file":"//div[@id='message-list']/custom-import-data/div/div/div/form/div/input",
+        "name_file_builder":"D:\\File_Du_Lieu\\Hinh\\form_data_builder.xls",
+        "btn_upload":"//button[contains(.,'Upload')]",
+        "txt_select_name":"//div[@id='message-list']//tr//td[contains(.,'Name')]/following-sibling::td/div/div/span/div/input",
+        "name_search":"name",
+        "txt_create_date":"//div[@id='message-list']//tr//td[contains(.,'Created date')]/following-sibling::td/div/div/span/div/input",
+        "create_date_search":"created date",
+        "txt_single_line":"//div[@id='message-list']//tr//td[contains(.,'Single Line')]/following-sibling::td/div/div/span/div/input",
+        "single_line_search":"Single Line",
+        "txt_value_email":"//div[@id='message-list']//tr//td[contains(.,'Email')]/following-sibling::td/div/div/span/div/input",
+        "email_search":"email",
+        "txt_value_url":"//div[@id='message-list']//tr//td[contains(.,'URL')]/following-sibling::td/div/div/span/div/input",
+        "url_search":"url",
+        "txt_value_date":"//div[@id='message-list']//tr//td[contains(.,'Date')]/following-sibling::td/div/div/span/div/input",
+        "date_search":"date",
+        "txt_value_date_time":"//div[@id='message-list']//tr//td[contains(.,'Date/Time')]/following-sibling::td/div/div/span/div/input",
+        "date_time_search":"date/time",
+        "txt_value_date_range":"//div[@id='message-list']//tr//td[contains(.,'Date Range')]/following-sibling::td/div/div/span/div/input",
+        "date_range_search":"date range",
+        "txt_value_phone":"//div[@id='message-list']//tr//td[contains(.,'Phone')]/following-sibling::td/div/div/span/div/input",
+        "phone_search":"phone",
+        "txt_value_multi_line":"//div[@id='message-list']//tr//td[contains(.,'Multi-Line')]/following-sibling::td/div/div/span/div/input",
+        "multi_line_search":"multi-line",
+        "txt_value_multiple_choice":"//div[@id='message-list']//tr//td[contains(.,'Multiple Choice')]/following-sibling::td/div/div/span/div/input",
+        "multiple_choice_search":"multiple choice",
+        "txt_value_single_choice":"//div[@id='message-list']//tr//td[contains(.,'Single Choice')]/following-sibling::td/div/div/span/div/input",
+        "single_choice_search":"single choice",
+        "txt_value_address":"//div[@id='message-list']//tr//td[contains(.,'Address')]/following-sibling::td/div/div/span/div/input",
+        "address_search":"address",
+        "txt_value_currency":"//div[@id='message-list']//tr//td[contains(.,'Currency')]/following-sibling::td/div/div/span/div/input",
+        "currency_search":"currency",
+        "txt_value_number":"//div[@id='message-list']//tr//td[contains(.,'Number')]/following-sibling::td/div/div/span/div/input",
+        "number_search":"number",
+        "txt_value_percent":"//div[@id='message-list']//tr//td[contains(.,'Percent')]/following-sibling::td/div/div/span/div/input",
+        "percent_search":"percent",
+        "txt_value_multi_select":"//div[@id='message-list']//tr//td[contains(.,'Multi-Select')]/following-sibling::td/div/div/span/div/input",
+        "multi_select_search":"multi-select",
+        "txt_value_pick_list":"//div[@id='message-list']//tr//td[contains(.,'Pick List')]/following-sibling::td/div/div/span/div/input",
+        "pick_list_search":"pick list",
+        "btn_save_import":"//button[contains(@data-ng-click, 'importScope.saveImporter()')]",
+        "btn_back_import":"//button[contains(@data-ng-click, 'leaveImporter()')]",
+        "click_list_search_field":"//div[@class='nav-search list-search']//a[contains(@data-toggle,'dropdown')]",
+        "select_field_search":"//dd/select",
+        "txt_search_keyword_menu_builder":"//dd[3]/input",
+        "name_search_layout":"luu",
+        "btn_reset":"//list-view/div/div/div[2]/div/button/i",
+        "txt_search_keyword_single_line":"//dd[4]/input",
+        "name_search_layout_line":"Line",
+        "txt_search_keyword_currency_1":"//dd[5]/span/input",
+        "name_search_currency_1":"20000",
+        "txt_search_keyword_currency_2":"//span[2]/input",
+        "name_search_currency_2":"60000",
+        "txt_search_keyword_number_1":"//dd[6]/span/input",
+        "name_search_number_1":"05",
+        "txt_search_keyword_number_2":"//dd[6]/span[2]/input",
+        "name_search_number_2":"10",
+        "txt_search_keyword_percent_1":"//dd[7]/span/input",
+        "name_search_percent_1":"30",
+        "txt_search_keyword_percent_2":"//dd[7]/span[2]/input",
+        "name_search_percent_2":"80",
+        "txt_search_keyword_all":"//div[contains(@data-ng-click,'preventEvent($event)')]//input[@id='search-content']",
+        "name_search_all":"Generated by",
+        "btn_more_export":"//span[contains(.,' More')]",
+        "select_export":"//span[contains(.,' Export')]", 
+        "click_select_all":"//span[contains(.,' Select All')]",
+        "btn_export":"//button[contains(.,'Export ')]",
+
+        "btn_clock_in":"//*[@id='timeCardPopupClock']//following-sibling::button[contains(.,'IN')]",
+        "click_home_gw":"//*[@id='my-tab-content']",
+        "btn_close_clock_in":"//*[@id='timeCardPopupClock']//following-sibling::button[contains(.,'Close')]",
+        
+        "icon_create_menu":"//div[@id='custom_menu']//div[@class='page-header']//button[contains(@data-ng-click, 'goWrite()')]",     
+        "btn_cancel_menu":"/html/body",
+        "name_menu_builder":"//a[@data-tut='menu_name']/span",
+        "txt_name_builder":"//*[@id='slide']//form/div/input",
+        "name_menu_builder_update":"QA Hanbiro",
+        "click_menu_icon":"//*[starts-with(@id,'popover')]//span/i",
+        "select_icon":"//div[2]/div/button[11]",
+        "btn_done_icon":"//span[contains(text(),'Done')]",
+        "btn_sub_menu_name":"//*[starts-with(@id,'root')]//div[contains(@data-tut,'layout_name')]//input[contains(@type,'text')]",
+        "name_sub_menu":"Sub QA",
+        "click_icon_sub_menu":"//*[starts-with(@id,'root')]//div[contains(@data-tut,'layout_name')]//button/i",
+        "select_icon_sub_menu":"//div[2]/div/div/div/button[3]",
+        "single_line_from":"//span[contains(text(),'Single Line')]",
+        "editor_to_drag":"//*[@id='root']/div/div/div/main/div[2]/div/div[2]/div[1]",
+        "email_from":"//span[contains(text(),'Email')]",
+        "editor_to_drag_2":"//*[@id='root']/div/div/div/main/div[2]/div/div[2]/div[2]",
+        "url_from_builder":"//span[contains(text(),'URL')]",
+        "date_from_builder":"//span[contains(text(),'Date')]",
+        "datetime_from_builder":"//span[contains(text(),'Date/Time')]",
+        "daterange_from_builder":"//span[contains(text(),'Date Range')]",
+        "phone_from_builder":"//span[contains(text(),'Phone')]",
+        "input_mask":"//div[5]/button/div",
+        "btn_done_input_mask":"//div[3]/button[2]",
+        "multi_line_from_builder":"//span[contains(text(),'Multi-Line')]",
+        "multiple_choice_from_builder":"//span[contains(text(),'Multiple Choice')]",
+        "txt_options_1":"//li/input",
+        "name_option1_choice":"Option 1",
+        "txt_options_2":"//li[2]/input",
+        "name_option2_choice":"Option 2",
+        "txt_options_3":"//li[3]/input",
+        "name_option3_choice":"Option 3",
+        "btn_done_option_choice":"//div[3]/button[2]",
+        "single_choice_from_builder":"//span[contains(text(),'Single Choice')]",
+        "txt_single_choice_options_1":"//li/input",
+        "name_option1_single_choice":"Type A",
+        "txt_single_choice_options_2":"//li[2]/input",
+        "name_option2_single_choice":"Type B",
+        "txt_single_choice_options_3":"//li[3]/input",
+        "name_option3_single_choice":"Type C",
+        "btn_done_option_single_choice":"//div[3]/button[2]",
+        "address_from_builder":"//span[contains(text(),'Address')]",
+        "address_city_from_builder":"//label[contains(.,'City')]",
+        "address_state_from_builder":"//label[contains(.,'State')]",
+        "address_postal_from_builder":"//label[contains(.,'Postal / Zip Code')]",
+        "address_country_from_builder":"//label[contains(.,'Country')]",
+        "btn_done_option_address":"//div[3]/button[2]",
+        "editor_from_builder":"//span[contains(text(),'Editor')]",
+        "currency_from_builder":"//span[contains(text(),'Currency')]",
+        "list_currency_value":"//div[3]/select",
+        "select_currency_vnd":"VND (₫)",
+        "btn_done_option_currency":"//div[3]/button[2]",
+        "number_from_builder":"//span[contains(text(),'Number')]",
+        "percent_from_builder":"//span[contains(text(),'Percent')]",
+        "multi_select_from_builder":"//span[contains(text(),'Multi-Select')]",
+        "txt_multi_select_options_1":"//li/input",
+        "name_option1_multi_select":"Number 1",
+        "txt_multi_select_select_2":"//li[2]/input",
+        "name_option2_multi_select":"Number 2",
+        "txt_multi_select_select_3":"//li[3]/input",
+        "name_option3_multi_select":"Number 3",
+        "btn_done_option_multi_select":"//div[3]/button[2]",
+        "pick_list_from_builder":"//span[contains(text(),'Pick List')]",
+        "txt_pick_list_options_1":"//li/input",
+        "name_option1_pick_list":"Unit 1",
+        "txt_pick_list_select_2":"//li[2]/input",
+        "name_option2_pick_list":"Unit 2",
+        "txt_pick_list_select_3":"//li[3]/input",
+        "name_option3_pick_list":"Unit 3",
+        "btn_done_option_pick_list":"//div[3]/button[2]",
+        "org_from_builder":"//span[contains(text(),'Organization')]",
+        "attachfile_from_builder":"//span[contains(text(),'Attach files')]",
+        "comment_from_builder":"//span[contains(text(),'Comments')]",
+        "btn_save_and_close":"//span[contains(text(),'Save and Close')]",
+        "editor_to_drag_3":"//*[@id='root']/div/div/div/main/div[2]/div[3]",
+
+        "show_menu_builder_create":"//span[contains(.,'Sub QA')]",
+
+
+
+        "setting_builder":"//span[contains(.,'Settings')]",
+        "select_tab_who_can_see":"//a[contains(text(),'Who can see')]",
+        "turn_off_only_managers":"//*[@id='custom_menu']//div[@class='form-group']//input[contains(@type,'checkbox')]//following-sibling::span",
+        "turn_on_public":"//div[2]/div[2]/div/label/span",
+        "search_user_share_who_can_see":"automationtest",
+        "txt_search_user_share_who_can_see":"//*[@id='board_folder_share_modal']/div/div/div[2]/div[1]/div[1]/div[3]/div/form/span/input",
+        "check_user1_who_can_see":"//*[@id='board_folder_share_modal']//a[contains(text(),'Selenium/AutomationTest1')]",
+        "check_user2_who_can_see":"//*[@id='board_folder_share_modal']//a[contains(text(),'Selenium/AutomationTest2')]",
+        "check_user3_who_can_see":"//*[@id='board_folder_share_modal']//a[contains(text(),'Selenium/AutomationTest3')]",
+        "icon_plus_user_share_who_can_see":"//div[@id='board_folder_share_modal']/div/div/div[2]/div[2]/div/div/a/i",
+        "btn_save_add_user":"//div[@id='board_folder_share_modal']/div/div/div[3]/button",
+        "select_per_user_1":"//span[2]/select",
+        "select_per_user_2":"//li[2]/span[2]/select",
+        "per_user_2":"Permission to Read/Write/Modify/Delete",
+        "click_button_save_changes":"//button[contains(.,' Save changes')]",
+        "select_tab_manage_modules":"//a[contains(text(),'Manage Modules')]",
+        "icon_edit_layout":"//span/span/a[2]/i",
+        "icon_preview_layout":"//span[contains(text(),'Preview')]",
+        "icon_close_preview_layout":"//button[contains(text(),'Close')]",
+        "select_icon_sub_menu_edit":"//div[2]/div/div/div/button[21]",
+        "click_icon_clone_layout":"//span[@class='action-buttons']//a[@data-text='Clone Layout']",
+        "txt_layout_name":"//div[2]/form/div/input",
+        "name_clone_layout":"Sub QA 2",
+        "btn_save_clone_layout":"//form/button[2]",
+        "icon_close_layout_permission":"//button[contains(text(),'Close')]",
+        "icon_layout_permission":"//span/a[5]/i",
+        "click_add_user_layout_permission":"//*[@id='nestableContainer']//a[@data-ng-click='chooseLayoutUsers(activeNestableModal.sv_id)']",
+        "select_user_1":"//*[@id='nestableContainer']//li[1]//a[@ng-click='addFromAvaliable(item)']",
+        "select_user_2":"//*[@id='nestableContainer']//li[2]//a[@ng-click='addFromAvaliable(item)']",
+        "select_user_3":"//*[@id='nestableContainer']//li[3]//a[@ng-click='addFromAvaliable(item)']",
+        "icon_close_select_user":"//div[4]/h4/a/i",
+        "uncheck_modify":"//td[6]/label/span",
+        "btn_save_add_userlayout_permission":"//*[@id='nestableContainer']//button[@ng-click='saveNestable(activeNestableModal.sv_id)']",
+
+
+
+        "icon_fields_permission":"//*[@id='nestableContainer']//li[2]//a[@data-ng-click='handleFields($item)']",
+        "btn_set_permission_to":"//button[contains(.,'Set')]",
+        "org_set_permission_to":"//*[@id='nestableContainer']//h3[contains(.,'No Data ')]/a[contains(.,'Add Users')]",
+        "icon_pluss_add_user":"//*[@id='nestableContainer']//li[2]//a[@ng-click='addColumnFromAvaliable(item)']",
+        "icon_close_select_user_fields_permission":"//*[@id='nestableContainer']//div[2]//h4[contains(.,' Select users ')]//a[@ng-click='closeNestableModal(true)']",
+        "uncheck_write":"//td[3]/label/span",
+        "btn_save_add_user_fields_permission":"//*[@id='nestableContainer']//button[@ng-click='saveColumnNestable(currentLayoutID, currentEntityID)']",
+        "btn_close_user_per_to":"//div[@id='custom_menu']//button[contains(@ng-click, 'hideHandleFieldUser()')]",
+        "btn_close_field_label":"//div[@id='custom_menu']//div[@id='nestableContainer']//div[@class='nestable-modal active']//button[contains(@ng-click, 'closeNestableModal()')]",
+
+
+        "btn_add_folder":"//button[contains(.,' Add Folder')]",
+        "txt_folder_name":"//label[contains(.,'Folder Name')]/following-sibling::input[contains(@data-ng-model, 'fdScope.data.folderName')]",
+        "folder_name":"Folder QA",
+        "btn_save_add_folder":"//div[contains(@ng-click, 'close($event)')]//div[@class='modal-footer']//button[contains(@data-ng-click, 'ok($event)')]",
+        "select_line_sub_qa2":"//*[@id='nestableContainer']/div[6]/div/ol/li[2]/div/div",
+
+        "drag_sub_2":"//*[@id='nestableContainer']/div[6]/div/ol/li[2]",
+        "drag_to_folder":"//*[@id='nestableContainer']/div[6]/div/ol/li[3]",
+        "parent_oo":"//body/div[@id='wrapper']/div[2]/section[3]/div[2]/div[2]/div[2]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[6]",
+
+        
+        "edit_name_folder":"//a[contains(.,' Folder QA')]",
+        "txt_edit_name_folder":"//span/div/input",
+        "name_folder_edit":"Folder Builder",
+        "icon_delete_folder_bd":"//*[@id='wrapper']//div//ol//li[3]//span[@class='action-buttons']//a[contains(@data-text,'Remove')]",
+        "btn_ok_delete":"//button[contains(@ng-click, 'ok()')]",
+        "icon_export_layout":"//div[@id='nestableContainer']//li[2]//a[contains(@data-text, 'Export Layout')]",
+
+        "icon_mode_view":"//div[@id='nestableContainer']//li[2]//a[contains(@data-text, 'Mode View')]",
+        "turn_on_calenda_view":"//div[contains(@ng-click, 'close($event)')]//tbody//tr//td//input[contains(@ng-model, 'formdata.calendarView')]//following-sibling::span",
+        "show_date_turn_on_calenda_view":"//div[contains(@ng-click, 'close($event)')]//tbody//tr//td//label[contains(.,'Date')]//following-sibling::select",
+        "btn_save_calendar_view":"//div[@class='modal-content ui-resizable']//div[@class='modal-footer']//button[contains(@ng-click, 'ok()')]",
+        "icon_alert":"//span/a[7]/i",
+        "select_do_not_use":"//span[contains(.,' Do Not Use')]",
+        "select_disable":"//span[contains(.,' Disable ')]",
+        "btn_save_alert":"//div[@class='modal-content ui-resizable']//div[@class='modal-footer']//button[contains(@data-ng-click, 'ok($event)')]",
+        "name_menu_builder_delete":"Menu Delete",
+        "menu_sub_delete":"Sub Delete",
+        "search_menu_delete":"Hanbiro",
+        "click_btn_delete_menu":"//a[contains(@ng-click, 'deleteMenu($event, item)')]",
+        "check_force_delete":"//span[contains(.,' Force Delete')]",
+        "txt_input_pw_delete":"//input[@id='force-delete-security']",
+        "name_pw_delete":"automationtest1!",
+        "btn_ok_delete_menubd":"//div[@class='modal-footer center']//button[contains(@ng-click, 'ok()')]",
+        "btn_add_module_layout":"//button[contains(.,' Add Module')]",
+        "btn_import_layout":"//button/span",
+        "select_layout_import":"//a[contains(.,'Sub QA 2')]",
+        "btn_ok_import_layout":"//button[contains(.,'OK')]",
+        "menu_sub_import":"Import Layout",
+        "setting_2_import_layout":"//*[@id='mCSB_5_container']/div/ul/li[2]/a",
+        "icon_delete_layout":"//li[3]/div/div/span[4]/span/span/a/i",
+        "btn_mark_as_read":"//button[contains(@ng-click, 'unreadAllItems()')]",
+        "btn_download_all_file":"//span[contains(.,'Download All Attachments')]",
+        "select_title_download":"//span[contains(.,'Generated by selenium')]",
+        "icon_download_file_layout":"//a[@class='file-actions']//i[@class='fa fa-download']",
+        "btn_more_edit":"//div[2]/button/span",
+        "click_modify":"//span[contains(.,' Modify')]",
+        "content_edit":"- Xin chao",
+        "btn_save_menu_builder_edit":"//button[contains(@data-ng-click, 'onSaveUpload ? onSaveUpload('saveWrite') : saveForm()')]",
+        "screen_home_gw":"//div[@id='navbar-container']//a[contains(@ng-click, 'goHome()')]",
+        "select_sub_2":"//span[contains(.,'Sub QA 2')]",
+        "btn_more_copy":"//div[contains(@data-ng-show,'isDetailView()')]//button[contains(@data-toggle, 'dropdown')]",
+        "value_copy_data":"//a[contains(@data-ng-click, 'copyItem()')]//span[contains(.,' Copy')]",
+        "btn_close_copy_data":"//div[@class='modal-footer center']//button[contains(@ng-click, 'cancel(false)')]",
+        "btn_paste_copy_data":"//div[contains(@data-ng-if,'isWriteView()')]//button[contains(@data-ng-click, 'pasteItem()')]",
+        "title_copy":"Copy Past",
+        "btn_timeline":"//div[contains(@data-ng-include,'getContainer()')]//button[contains(@ng-click, 'showHistory()')]",
+        "btn_back_timeline":"//div[contains(@data-ng-include,'getContainer()')]//button[contains(@ng-click, 'showHistory()')]",
+        "btn_delete_layout_user":"//a[contains(@ng-show,'view_permission.is_del')]//span[contains(.,' Delete')]",
+        "icon_calendar_view":"//div[contains(@class, 'messagebar-item-right list-sorting')]//i[contains(@class, 'hanbiro-icon-calendar ace-icon fa bigger-130')]//ancestor::a",
+        "icon_list_view":"//div[contains(@class, 'messagebar-item-right list-sorting')]//i[contains(@class, 'menu-icon fa fa-bars bigger-130')]//ancestor::a"
+
+
+
+
+
+    },
+
+    "resource":{   
+        
+        "menu_resource":"//span[contains(.,'Resource')]",
+        "collapsible_icon_resource":"//*[starts-with(@id, 'mCSB') and contains(@id, 'container')]//li[1]//a[contains(@data-ng-right-click,'rightClickDefauthref($event)')]//span[contains(.,'Resource')]/following-sibling::b",
+        "collapsible_icon_add_resource":"//*[starts-with(@id, 'mCSB') and contains(@id, 'container')]//li[3]//a[contains(@data-ng-right-click,'rightClickDefauthref($event)')]//span[contains(.,'Add Resource')]/following-sibling::b",
+        "click_admin_resource":"//div[starts-with(@id,'mCSB') and contains(@id,'container')]//li[@class='hsub active open']//a[contains(.,'Admin')]", 
+        "add_resource":"//span[contains(.,'Add Resource')]", 
+        "select_add_resource":"//div[starts-with(@id,'mCSB') and contains(@id,'container')]//li[@data-category='resource']//a[contains(.,'Add Resource ')]",
+        "icon_plus":"//div[@id='calendar_setting_form']//a[contains(@ng-click, 'CategoryAdd()')]",
+        "select_type":"//div[@id='calendar_setting_form']//label[contains(.,' Conference Room ')]//following-sibling::span",
+        "txt_category_name":"//div[@id='calendar_setting_form']//input[contains(@data-ng-model, 'categoryResource.name')]",
+        "input_category_name":"Hanbiro Room",
+        "btn_save_resource_name":"//*[@id='ngw.resource.container.resource_admin_add']//button[contains(@data-ng-click, 'saveCategory()')]",
+        "list_collapsed":"//a/b",
+        "pull_the_scroll_bar":"//a[contains(text(),'Hanbiro Room')]",
+        "select_category_add":"//a[contains(text(),'Hanbiro Room')]",
+        "show_category_normal":"//a[contains(text(),'Hanbiro Normal')]",
+        "pull_the_scroll_bar_vehicle":"//a[contains(text(),'Hanbiro Vehicle')]",
+        "pull_the_scroll_bar_normal":"//a[contains(text(),'Hanbiro Normal')]",
+        "icon_plus_meeting_room":"//div[@id='calendar_setting_form']//div[contains(@ng-show, 'categoryResource.showCategory')]//a[contains(@data-action, 'add')]",
+        "select_type_vehicle":"//div[@id='calendar_setting_form']//label[contains(.,' Vehicle ')]//following-sibling::span",
+        "input_category_name_vehicle":"Hanbiro Vehicle",
+        "select_type_normal":"//div[@id='message-list']//div[contains(@ng-show, 'categoryResource.showCategory')]//label[contains(.,' Normal ')]//following-sibling::span",
+        "input_category_name_normal":"Hanbiro Normal",
+        "txt_conference_room_name":"//input[@id='et_name']",
+        "conference_room_name":"Room Reservation System",
+        "txt_description_conference_room_name":"//div[@id='calendar_setting_form']//label[contains(.,'Description')]//following-sibling::div//input",
+        "description_conference_room_content":"Resource Hanbiro Room",
+        "org_person_in_charge":"//div[@id='calendar_setting_form']//label[contains(.,'Person in Charge')]//button[contains(@ng-click, 'getPersonInCharge()')]",
+        "txt_search_org_person":"//body/div[@id='getPersonInCharge']/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/form[1]/span[1]/input[1]",
+        "search_person":"automationtest",
+        "select_user_person_in_charge":"//*[@id='getPersonInCharge']//a[contains(text(),'Selenium/AutomationTest2')]",
+        "txt_upload_image_file":"//input[@id='input_picture']",
+        "name_upload_image_file":"D:\\File_Du_Lieu\\Hinh\\Hoa hong 4.jpg",
+        "click_org_user_permisson":"//button[contains(@ng-click, 'getUserAvailable()')]",
+        "txt_search_org_permisson":"//div[@id='getUserAvailable']//span[@class='input-icon']//input",
+        "search_user_permission":"automationtest",
+        "select_user_permisson_1":"//*[@id='getUserAvailable']//a[contains(text(),'Selenium/AutomationTest1')]",
+        "select_user_permisson_2":"//*[@id='getUserAvailable']//a[contains(text(),'Selenium/AutomationTest2')]",
+        "select_dept_user_permisson":"//div[@id='getUserAvailable']//ul[contains(@class,'dynatree-container')]/li[2]/span/span[2]",
+        "icon_add_user_per":"//div[@id='getUserAvailable']//a[contains(@data-action, 'add')]",
+        "click_button_save_per":"//div[@id='getUserAvailable']//button[contains(.,' Save ')]",
+        "home_resource":"//div[@id='resource']//div[@id='resource-tab-content']",
+        "show_data_user_add":"//li[contains(.,'Selenium AutomationTest1')]",
+        "click_button_save_add_resource":"//span[contains(.,'Save')]",
+        "conference_room_name_sytem":"Room Permission System",   
+        "permisson_system":"//div[@id='calendar_setting_form']//label[contains(.,' Permission System ')]//following-sibling::span",
+        "description_conference_room_sytem":"Content Permission System",
+        "txt_description_conference_per_system":"//div[@id='calendar_setting_form']//label[contains(.,'Description')]//following-sibling::div//input",
+        "click_org_user_person_in_change":"//button[contains(@ng-click, 'getPersonInCharge()')]",
+        "txt_search_org_person_in_change":"//div[@id='getPersonInCharge']//span[@class='input-icon']//input",
+        "select_category_vehicle":"//a[contains(text(),'Hanbiro Vehicle')]",
+        "icon_plus_vehicle":"//div[@id='calendar_setting_form']//div[contains(@ng-show, 'categoryResource.showCategory')]//a[contains(@data-action, 'add')]",
+        "txt_conference_room_name_reser_vehicle":"//input[@id='et_name']",
+        "vehicle_reser_room_name":"Vehicle Reservation System",
+        "txt_car_number":"//input[@id='car_num']",
+        "input_car_number":"10",
+        "txt_vin":"//input[@id='car_vin']",
+        "input_vin_number":"20",
+        "txt_mileage":"//input[@id='odometer']",
+        "input_mileage_number":"100",
+        "show_date_time_re":"//ace-timepicker/div/span",
+        "check_date_vihicle":"//div[@id='calendar_setting_form']//label[contains(.,' Full Day ')]//following-sibling::span",
+        "select_reservation_type":"//div[@id='calendar_setting_form']//select[contains(@ng-model, 'adminResource.et_pre_time')]",
+        "select_resource_hour":"2 hour interval, Available to Use Later",
+        "select_status_malfunctioning":"//div[@id='calendar_setting_form']//label[contains(.,' Malfunctioning ')]//following-sibling::span",
+        "select_category_normal":"//a[contains(text(),'Hanbiro Normal')]",
+        "normal_reser_room_name":"Normal Reservation System",
+        "select_category_normal_delete":"//div[@id='calendar_setting_form']//a[contains(text(),'Hanbiro Normal')]",
+        "select_category_room_delete":"//div[@id='calendar_setting_form']//a[contains(text(),'Hanbiro Room')]",
+        "select_category_vehicle_delete":"//div[@id='calendar_setting_form']//a[contains(text(),'Hanbiro Vehicle')]",
+        "delete_category":"//div[@id='calendar_setting_form']//a[contains(@ng-click, 'CategoryDel()')]",
+        "btn_ok_delete_category":"//button[contains(.,'OK')]",
+
+
+
+
+
+        "admin_resource":"//*[starts-with(@id, 'mCSB') and contains(@id, 'container')]//span[contains(.,'Admin')]/following-sibling::b",
+        "add_resource_manager":"//a[contains(.,'Add Resource Manager')]",
+        "icon_folder_add_user":"//span/button/i",
+        "name_user_search":"automationtest",
+        "select_user_resource_manager":"//a[contains(text(),'Selenium/AutomationTest2')]",
+        "btn_save_add_resource_manager":"//button[contains(@ng-click, 'saveResource(form)')]",
+        "manager_list_resource":"//*[starts-with(@id, 'mCSB') and contains(@id, 'container')]//a[contains(text(),'Manager List')]",
+        "txt_search_user_manager_delete":"//input[@type='search']",
+        "user_name_search_manager_delete":"AutomationTest2",
+        "check_user_save_manager":"//*[@id='resource-tab-content']//table[@class='table table-hover']//tr[contains(@data-ng-repeat, 'item in listItems')]//td[contains(text(),'AutomationTest2 ')]",
+        "check_user_delete":"//*[contains(@id,'resource-tab-content')]//tr//td[contains(.,'AutomationTest3 ')]/preceding-sibling::td/label/span",
+        "btn_delete_user_manager_resource":"//span[contains(.,' Delete')]",
+        "btn_ok_delete_user_resource":"//button[contains(.,'OK')]",
+        "click_add_reource_manager":"//*[starts-with(@id, 'mCSB') and contains(@id, 'container')]//a[contains(text(),'Add Resource Manager')]",
+        "icon_folder_name_resource_manager":"//*[@id='ngw.resource.manage_add']//button[contains(@data-ng-click, 'selectUser(form.ea_idx)')]//i",
+        "txt_search_user_resource_manager":"//div[@id='getManagerList']//span[@class='input-icon']//input",
+        "user_search_org_manager":"automationtest",
+        "select_user_manager_resource":"//*[@id='getManagerList']//a[contains(text(),'Selenium/AutomationTest3')]",
+        "btn_save_add_manager_resource":"//*[@id='ngw.resource.manage_add']//button[contains(@ng-click, 'saveResource(form)')]",
+        "txt_search_user_manager_list":"//div[@id='ngw.resource.manage']//input[contains(@data-ng-model, 'search.keyword')]",
+        "checkbox_all_manange_list":"//*[@id='ngw.resource.manage']//div//input[@data-ng-model='checkdata.isCheckAll']/following-sibling::span",
+        "btn_delete_manager_list_resource":"//*[@id='ngw.resource.manage']//button[contains(@data-ng-click,'deleteManager(checkdata.listManager)')]",
+        "btn_ok_delete_manager_list":"//div[@class='modal-content ui-resizable']//button[contains(@ng-click, 'ok()')]",
+        "click_resource_list":"//li[contains(@data-category, 'resource')]//span//span[contains(.,'Resource List ')]",
+        "click_resource_list_icon_filter_status":"//*[contains(@id,'message-list')]//span[contains(.,'Status')]//following-sibling::a[contains(@data-toggle, 'dropdown')]/i",
+        "filter_status_malfunctioning":"//*[contains(@id,'message-list')]//input[contains(@checked, 'checked')]/following-sibling::span[contains(.,' Malfunctioning')]"
+
+
+
+
+
+   
+    },
+
+    "asset":{   
+        "txt_category_name_asset":"//*[@id='ngw.asset.admin_category']//input[@name='category_name']",
+        "name_category_asset":"Khong Gian",
+        "parent_folder_in_folder_list":"//a[contains(text(),'QA Luu Test')]",
+        "txt_description":"//*[@id='ngw.asset.admin_category']//textarea[@data-ng-model='category.description']",
+        "content_description_category_asset":"Khong Gian dep-mat-thoang",
+        "dept_name_search_asset":"automationtest",
+        "org_user_asset":"//div[@id='ngw.asset.admin_category']//a[contains(@data-ng-click, 'openTargetOrg()')]",
+        "txt_search_dept_asset":"//div[@id='asset_category_reserve_modal']//span[@class='input-icon']//input[contains(@type,'text')]",
+        "asset_select_user_1":"//*[@id='asset_category_reserve_modal']//a[contains(text(),'Selenium/AutomationTest2')]",
+        "icon_add_user_asset":"//div[@id='asset_category_reserve_modal']//a[@data-action='add']//i",
+        "btn_save_add_user":"//div[@id='asset_category_reserve_modal']//button[contains(.,'Save')]",
+        "click_permisson_asset":"//*[@id='ngw.asset.admin_category']//li[1]//select[contains(@data-ng-model, 'item.selectedOption')]",
+        "btn_save_category":"//*[@id='ngw.asset.admin_category']//button[contains(@data-ng-click, 'saveCategory()')]",
+        "btn_close_asset_category":"//div[@class='modal-footer center']//button[contains(@ng-click, 'cancel(false)')]",
+        "select_folder_parent_asset":"//*[@id='ngw.asset.admin_category']//a[contains(text(),'Khong Gian')]"
+
+
+
+
+   
+    },
+
+
+
+
+    "editor":{
+        "menu_task":"//a[contains(.,' Task')]",
+        "btn_create_task":"//div[@class='page-header']//button[contains(@data-ng-click, 'goWrite()')]",
+        "txt_name_task":"//input[@name='subject']",
+        "input_editor":"tox-edit-area__iframe", 
+        "input_editor_tynmce":"//body[@id='tinymce']",
+        "name_task":"Editor Table Performance",
+        "line_count":"//body[@id='tinymce']//table//tbody//tr",
+        "content_editor_task":"Content Editor",
+        "click_table":"//*[@id='diary-write-pdefault']//form//span[contains(text(),'Table')]",
+        "click_table_2":"//div[contains(@class,'tox-collection__group')]//div[contains(@class,'tox-menu-nav__js tox-collection__item tox-collection__item--active')]//div[contains(@class,'tox-collection__item-caret')]",
+        "click_column":"//*[starts-with(@id,'aria-owns')]//div[25]",
+        "show_noti_task_auto":"//h4/a/i",
+        "content_column1_row1":"//body[@id='tinymce']/table/tbody/tr/td",
+        "name_content_column1_row1":"ID",
+        "content_column2_row1":"//body[@id='tinymce']/table/tbody/tr/td[2]",
+        "content_column2a_row1":"//body[@id='tinymce']/table/tbody/tr/td[2]",
+        "content_column3_row1":"//body[@id='tinymce']/table/tbody/tr/td[3]",
+        "name_content_column2_row1":"Name",
+        "name_content_column3_row1":"Image",
+        "btn_save_task":"//*[@id='ngw.task.list.pdefault']//div/button[contains(@ng-click, 'saveClick($event)')]",
+        "table_properties":"//*[contains(@id,'aria-owns')]//div[3]//div[contains(@title,'Table properties')]",
+        "txt_border_width_task":"//label[contains(.,'Border width')]/following-sibling::input[starts-with(@id,'form-field')]",
+        "number_border_width":"2",
+        "table_properties_advanced":"//*[starts-with(@id,'dialog-describe')]//div[starts-with(@id,'aria') and contains(.,'Advanced')]",
+        "list_select_border_style":"//span[contains(.,'Select...')]",
+        "select_border_style_soild":"//*[starts-with(@id,'aria-owns')]//div[contains(@title,'Solid')]",
+        "click_btn_save_table_properties":"//div[@class='tox-dialog__footer']//button[contains(@title,'Save')]",
+        "click_icon_align":"//*[@class='tox-editor-header']//button[contains(@title,'Align')]",
+        "select_align_center":"//div[contains(@class,'tox-collection__group')]//div[2]//div[contains(@class,'tox-collection__item-label')]",
+        "content_column3_row2":"//body[@id='tinymce']/table/tbody/tr[2]/td[3]",
+        "icon_insearch_image_editor":"//*[@class='tox-editor-header']//button[contains(@title,'Insert/edit image')]",
+        "insert_image_upload":"//*[starts-with(@id,'dialog-describe')]//div[starts-with(@id,'aria') and contains(.,'Upload')]",
+        "drop_image_editor":"//*[starts-with(@id,'dialog-describe')]//div[@class='tox-dropzone']//button//input[contains(@type,'file')]",
+        "source_image_editor":"//div[@class='tox-control-wrap']//input[starts-with(@id,'form-field')]",
+        "drop_image_to":"//*[starts-with(@id,'dialog-describe')]//div[@class='tox-dropzone']",
+        "icon_btn_source":"//div[@class='tox-form__controls-h-stack']//button[contains(@title,'Source')]",
+        "btn_save_insert_image":"//div[@class='tox-dialog__footer']//button[contains(@title,'Save')]",
+        "content_column4_row1":"//body[@id='tinymce']/table/tbody/tr/td[4]",
+        "name_content_column4_row1":"Link",
+        "content_column4_row2":"//body[@id='tinymce']/table/tbody/tr[2]/td[4]",
+        "content_column4_row3":"//body[@id='tinymce']/table/tbody/tr[3]/td[4]",
+        "icon_link_edit":"//*[@class='tox-editor-header']//button[contains(@title,'Insert/edit link')]",
+        "txt_url_edit_table":"//*[starts-with(@id,'dialog-describe')]//input[contains(@type,'url')]",
+        "name_url":"https://www.google.com.vn/",
+        "txt_to_display":"//*[starts-with(@id,'dialog-describe')]//label[contains(.,'Text to display')]/following-sibling::input[contains(@type,'text')]",
+        "table_row":"//*[contains(@id,'aria-owns')]//div[2]//div[contains(@title,'Row')]",
+        "insert_row_after":"//*[contains(@id,'aria-owns')]//div[2]//div[contains(@title,'Insert row after')]",
+        "count_row_insert_table":"//body[@id='tinymce']/table/tbody",
+        "name_text_to_display":"google",
+        "btn_save_insert_link_table":"//div[@class='tox-dialog__footer']//button[contains(@title,'Save')]",
+        "name_task_copy_paste":"Editor Copy Paste",
+        "content_editor_copy":"VietNam",
+        "btn_more":"//button[contains(@data-toggle, 'dropdown')]//span[contains(.,' More')]",
+        "btn_modify":"//a[contains(@data-ng-click, 'goEdit()')]//span[contains(.,' Modify')]",
+        "copy_task_new":"Editor Copy",
+        "name_task_copy":"Editor Copy Table ",
+        "btn_back_task":"//button[contains(@data-ng-click, 'goList(isWritePage)')] ",
+        "txt_search_name_task":"//a[contains(@data-ng-click, 'showDetailSearch($event)')]/preceding-sibling::input[@type='search']",
+        "name_task_search_delete":"Editor",
+        "checkbox_all":"//*[@id='diary-list']//div//input[@id='diary-list-all']/following-sibling::span",
+        "btn_delete":"//span[contains(.,' Delete')]",
+        "btn_ok_delete_task":"//div[@class='modal-content ui-resizable']//button[contains(@ng-click, 'ok()')]",
+        "content_column1_row4":"//body[@id='tinymce']/table/tbody/tr[4]/td",
+        "name_content_column1_row4":"LuuNgo",
+        "content_column5_row4":"//body[@id='tinymce']/table/tbody/tr[4]/td[5]",
+        "icon_txt_text_corlor":"//*[@class='tox-editor-header']//div[contains(@title,'Text color')]//span[2]",
+        "select_color_red":"//*[contains(@id,'aria-owns')]//div[2]//div[contains(@title,'Red')]",
+        "select_color_back":"//*[contains(@id,'aria-owns')]//div[5]//div[contains(@title,'Black')]",
+        "row_properties":"//*[contains(@id,'aria-owns')]//div[2]//div[contains(@title,'Row properties')]",
+        "icon_background_color":"//*[starts-with(@id,'dialog-describe')]//div//div[3]//input[starts-with(@id,'form-field')]/following-sibling::span",
+        "select_color_light_blue_background":"//*[contains(@id,'aria-owns')]//div[@class='tox-swatches']//div[contains(@title,'Light Purple')]",
+        "icon_border_color":"//*[starts-with(@id,'dialog-describe')]//div[2]//div//div[2]//input[starts-with(@id,'form-field')]/following-sibling::span",
+        "select_color_light_red_border":"//*[contains(@id,'aria-owns')]//div[@class='tox-swatches']//div[2]//div[contains(@title,'Red')]",
+        "content_column5_row2":"//body[@id='tinymce']/table/tbody/tr[2]/td[5]",
+        "content_column5_row3":"//body[@id='tinymce']/table/tbody/tr[3]/td[5]",
+        "table_cell":"//*[contains(@id,'aria-owns')]//div[2]/div[contains(@title,'Cell')]",
+        "merge_cells":"//*[contains(@id,'aria-owns')]//div[2]//div[contains(@title,'Merge cells')]",
+        "bold_text":"//*[@class='tox-editor-header']//button[contains(@title,'Bold')]//span",
+        "italic_text":"//*[@class='tox-editor-header']//button[contains(@title,'Italic')]//span",
+        "underline_text":"//*[@class='tox-editor-header']//button[contains(@title,'Underline')]//span",
+        "title_format_editor":"Format content Editor",
+        "content0_format":"Format [bold/italic/underline]",
+        "content1_format":"Format Color Text",
+        "content2_format":"Size Text",
+        "content3_format":"Font style",
+        "content4_format":"Alignment",
+        "content5_format":"Line spacing",
+        "content6_format":"Insert Checklist",
+        "content7_format":"Numbered List",
+        "content8_format":"Background Color Text",
+        "content9_format":"Formats Headings",
+        "content10_format":"Format Strikethrough",
+        "txt_dou":"//body[@id='tinymce']//p[contains(text(),'LuuLuuLuu')]",
+        "icon_font_size":"//*[@class='tox-toolbar-overlord']//button[contains(@title,'Font sizes')]",
+        "font_size_text":"//*[starts-with(@id,'aria-owns')]//div[@class='tox-collection__group']//div[contains(@title,'14pt')]",
+        "click_icon_font_style":"//*[@class='tox-toolbar-overlord']//button[contains(@title,'Fonts')]",
+        "select_font_style":"//*[starts-with(@id,'aria-owns')]//div[@class='tox-collection__group']//div[contains(@title,'Times New Roman')]",
+        "txt_width":"//*[starts-with(@id,'dialog-describe')]//div//div[@class='tox-form__controls-h-stack']//div[1]//input[contains(@type,'text')]",
+        "number_width":"250",
+        "txt_border_width":"//*[starts-with(@id,'dialog-describe')]//div[@class='tox-form']//div[2]//div[3]//input[contains(@type,'text')]",
+        "number_border_width_image":"3",
+        "icon_line_height":"//*[@class='tox-editor-header']//button[contains(@title,'Line height')]",
+        "select_line_height12":"//*[contains(@id,'aria-owns')]//div[contains(@title,'1.2')]",
+        "select_align_left":"//div[contains(@class,'tox-collection__group')]//div[1]//div[contains(@class,'tox-collection__item-label')]",
+        "icon_insert_checklist":"//div[contains(@class,'tox-toolbar-overlord')]//button[contains(@title,'Insert Checklist')]",
+        "icon_insert_numbered_list":"//div[contains(@title,'Numbered list')]//span[contains(@class,'tox-tbtn tox-split-button__chevron')]",
+        "select_numbered_list_abc":"//div[contains(@class,'tox-collection__group')]//div[contains(@title,'Lower Alpha')]",
+        "icon_uncheck_numbered_list":"//div[contains(@title,'Numbered list')]",
+        "btn_format_editor":"//div[contains(@class,'tox-menubar')]//button//span[contains(.,'Format')]",
+        "select_value_formats":"//*[starts-with(@id,'aria-owns')]//div[contains(@title,'Formats')]",
+        "select_value_headings":"//*[starts-with(@id,'aria-owns')]//div[contains(@title,'Headings')]",
+        "select_headings_1":"//*[starts-with(@id,'aria-owns')]//div[contains(@title,'Heading 1')]",
+        "select_icon_emoticons":"//div[contains(@class,'tox-toolbar-overlord')]//button[contains(@title,'Emoticons')]",
+        "select_icon_100":"//*[starts-with(@id,'dialog-describe')]//div[contains(@class,'tox-collection__group')]//div[contains(@title,'100')]",
+        "btn_full_screen":"//button[contains(@title,'Fullscreen')]",
+        "icon_backgr_color_text":"//*[@class='tox-editor-header']//div[contains(@title,'Background color')]//span[2]",
+        "select_color_write":"//*[contains(@id,'aria-owns')]//div[5]//div[contains(@title,'White')]",
+        "title_upload_office_file":"Editor Upload office file",
+        "btn_view_office_file_html":"//*[contains(@id,'diary-write-pdefault')]//a[contains(.,' View Office file as HTML')]",
+        "add_form_office":"//*[contains(@id,'diary-write-pdefault')]//form/label/input[@type='file']",
+        "click_format":"//span[contains(text(),'Format')]",
+        "click_strikethrough":"//*[starts-with(@id,'aria-owns')]//div[contains(@title,'Strikethrough')]",
+        "click_tools":"//span[contains(text(),'Tools')]",
+        "click_source_code":"//div[contains(@title,'Source code')]",
+        "btn_cancel_source":"//button[contains(@title,'Cancel')]",
+        "title_image_rotate":"Editor Rotate clockwise Image",
+        "icon_rotate_clockwise":"//button[contains(@title,'Rotate clockwise')]"
+
+
+
+
+        
+    },
+    "testcase_result":{
+        "board":{
+            "write_folder_myboard":{
+                "pass":{
+                    "menu":"Board",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create Folder in My Board",
+                    "status":"Pass",
+                    "description":"find foder in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Board",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create Folder in My Board",
+                    "status":"Fail",
+                    "description":"not found foder in Folder list",
+                    "tester":"Luu"
+                }
+            },
+            "write_sub_folder_myboard":{
+                "pass":{
+                    "menu":"Board",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create SubFolder in My Board",
+                    "status":"Pass",
+                    "description":"find Subfoder in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Board",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create SubFolder in My Board",
+                    "status":"Fail",
+                    "description":"not found Subfoder in Folder list",
+                    "tester":"Luu"
+                }
+            },
+            "delete_sub_folder_myboard":{
+                "pass":{
+                    "menu":"Board",
+                    "sub_menu":"Main Features",
+                    "testcase":"Delete SubFolder in My Board",
+                    "status":"Pass",
+                    "description":"Not show SubFolder in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Board",
+                    "sub_menu":"Main Features",
+                    "testcase":"Delete SubFolder in My Board",
+                    "status":"Fail",
+                    "description":"show SubFolder in Folder list",
+                    "tester":"Luu"
+                }
+            },
+            "edit_folder_myboard":{
+                "pass":{
+                    "menu":"Board",
+                    "sub_menu":"Main Features",
+                    "testcase":"Edit Folder in My Board",
+                    "status":"Pass",
+                    "description":"find foder edit in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Board",
+                    "sub_menu":"Main Features",
+                    "testcase":"Edit Folder in My Board",
+                    "status":"Fail",
+                    "description":"not found foder edit in Folder list",
+                    "tester":"Luu"
+                }
+            }
+        },
+        "project":{
+            "write_folder_project":{
+                "pass":{
+                    "menu":"Project",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create Folder in Project",
+                    "status":"Pass",
+                    "description":"find foder in Folder list Manager Folder",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Project",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create Folder in Project",
+                    "status":"Fail",
+                    "description":"not found foder in Folder list Manager Folder",
+                    "tester":"Luu"
+                }
+            },
+            "write_subfolder_project":{
+                "pass":{
+                    "menu":"Project",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create SubFolder in Project",
+                    "status":"Pass",
+                    "description":"find subfoder in Folder list Manager Folder",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Project",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create SubFolder in Project",
+                    "status":"Fail",
+                    "description":"not found subfoder in Folder list Manager Folder",
+                    "tester":"Luu"
+                }
+            },
+            "delete_subfolder_project":{
+                "pass":{
+                    "menu":"Project",
+                    "sub_menu":"Main Features",
+                    "testcase":"Delete SubFolder in Project",
+                    "status":"Pass",
+                    "description":"Delete SubFolder - not found subfoder in Folder list Manager Folder",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Project",
+                    "sub_menu":"Main Features",
+                    "testcase":"Delete SubFolder in Project",
+                    "status":"Fail",
+                    "description":"Delete SubFolder - find subfoder in Folder list Manager Folder",
+                    "tester":"Luu"
+                }
+            },
+            "add_project_manager":{
+                "pass":{
+                    "menu":"Project",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Project Managers",
+                    "status":"Pass",
+                    "description":"Add Project Managers successfully",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Project",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Project Managers",
+                    "status":"Fail",
+                    "description":"Add Project Managers Fail",
+                    "tester":"Luu"
+                }
+            },
+            "extension_form":{
+                "pass":{
+                    "menu":"Project",
+                    "sub_menu":"Main Features",
+                    "testcase":"Set extension form",
+                    "status":"Pass",
+                    "description":"find extension form in the list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Project",
+                    "sub_menu":"Main Features",
+                    "testcase":"Set extension form",
+                    "status":"Fail",
+                    "description":"not found extension form in the list",
+                    "tester":"Luu"
+                }
+            },
+            "work_type":{
+                "pass":{
+                    "menu":"Project",
+                    "sub_menu":"Main Features",
+                    "testcase":"Manage Work Type",
+                    "status":"Pass",
+                    "description":"find Manage Work Type in the list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Project",
+                    "sub_menu":"Main Features",
+                    "testcase":"Manage Work Type",
+                    "status":"Fail",
+                    "description":"not found Manage Work Type in the list",
+                    "tester":"Luu"
+                }
+            }
+        },
+        "contact":{
+            "write_folder_contact":{
+                "pass":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create Folder in Contact",
+                    "status":"Pass",
+                    "description":"find foder in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create Folder in Contact",
+                    "status":"Fail",
+                    "description":"not found foder in Folder list",
+                    "tester":"Luu"
+                }
+            },
+            "write_subfolder_contact":{
+                "pass":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create SubFolder in Contact",
+                    "status":"Pass",
+                    "description":"find subfoder in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create SubFolder in Contact",
+                    "status":"Fail",
+                    "description":"not found subfoder in Folder list",
+                    "tester":"Luu"
+                }
+            },
+            "delete_subfolder_contact":{
+                "pass":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Delete SubFolder in Contact",
+                    "status":"Pass",
+                    "description":"Delete SubFolder - not found subfoder in Folder list Manager Folder",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Delete SubFolder in Contact",
+                    "status":"Fail",
+                    "description":"Delete SubFolder - find subfoder in Folder list Manager Folder",
+                    "tester":"Luu"
+                }
+            },
+            "manager_company_contact":{
+                "pass":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Manage Company Folders in Contact",
+                    "status":"Pass",
+                    "description":"find foder in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"not found foder in Folder list",
+                    "status":"Fail",
+                    "description":"Manage Company Folders Fail",
+                    "tester":"Luu"
+                }
+            },
+            "setting_general_contact":{
+                "pass":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Settings - General",
+                    "status":"Pass",
+                    "description":"find data as list/photo in the list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Settings - General",
+                    "status":"Fail",
+                    "description":"View data as list/photo in the list Fail",
+                    "tester":"Luu"
+                }
+            },
+            "hide_contact":{
+                "pass":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Hide My Contact",
+                    "status":"Pass",
+                    "description":"Not show folder My Contact in the list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Hide My Contact",
+                    "status":"Fail",
+                    "description":"show folder My Contact in the list",
+                    "tester":"Luu"
+                }
+            },
+            "contact_favorites":{
+                "pass":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Contact Favorites",
+                    "status":"Pass",
+                    "description":"find foder in Favorites List",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Contact",
+                    "sub_menu":"Main Features",
+                    "testcase":"Contact Favorites",
+                    "status":"Fail",
+                    "description":"not found foder in Favorites List",
+                    "tester":"Luu"
+                }
+            }
+
+        },
+        "approval":{
+            "write_all_form":{
+                "pass":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":"Write All Form",
+                    "status":"Pass",
+                    "description":"find forms in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":"Write All Form",
+                    "status":"Fail",
+                    "description":"not found forms in Folder list",
+                    "tester":"Luu"
+                }
+            },
+            "write_all_official_form":{
+                "pass":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":"find All Official Forms in Folder list",
+                    "status":"Pass",
+                    "description":"Write All Official Forms successfully",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":"Write All Official Forms",
+                    "status":"Fail",
+                    "description":"not found All Official Forms in Folder list",
+                    "tester":"Luu"
+                }
+            },
+            "view_all_approval":{
+                "pass":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":"View All Approvals",
+                    "status":"Pass",
+                    "description":"View All Approvals successfully",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":"View All Approvals",
+                    "status":"Fail",
+                    "description":"View All Approvals Fail",
+                    "tester":"Luu"
+                }
+            },
+            "view_official_documentation":{
+                "pass":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":"View Official Documentation",
+                    "status":"Pass",
+                    "description":"show content Official Documentation",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":"View Official Documentation",
+                    "status":"Fail",
+                    "description":"Not show content Official Documentation",
+                    "tester":"Luu"
+                }
+            },
+            "arbitrary_decison":{
+                "pass":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":"Arbitrary Decision",
+                    "status":"Pass",
+                    "description":"Add User in Arbitrary Decision successfully",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":"Arbitrary Decision",
+                    "status":"Fail",
+                    "description":"Add User in Arbitrary Decision Fail",
+                    "tester":"Luu"
+                }
+            },
+
+            "default_approval_routes_setting":{
+                "pass":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":"Default Approval Routes-Setting",
+                    "status":"Pass",
+                    "description":"find user Default Approval Routes  in the list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":"Default Approval Routes-Setting",
+                    "status":"Fail",
+                    "description":"not found user Default Approval Routes in the list",
+                    "tester":"Luu"
+                }
+            },
+            "manager_my_folder_setting":{
+                "pass":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":" Manage My Folder",
+                    "status":"Pass",
+                    "description":" find Manage My Folder in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":" Manage My Folder",
+                    "status":"Fail",
+                    "description":" not found Manage My Folder in Folder list",
+                    "tester":"Luu"
+                }
+            },
+            "display_settings":{
+                "pass":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":" Display Settings",
+                    "status":"Pass",
+                    "description":" Show Users with Permission to Read and Signature Image",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Approval",
+                    "sub_menu":"Main Features",
+                    "testcase":" Display Settings",
+                    "status":"Fail",
+                    "description":"Not Show Users with Permission to Read and Signature Image",
+                    "tester":"Luu"
+                }
+            } 
+        },
+        "resource":{
+            "add_category_room":{
+                "pass":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Category Conference Room",
+                    "status":"Pass",
+                    "description":"Show Category Conference Room in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Category Conference Room",
+                    "status":"Fail",
+                    "description":"Not Show Category Conference Room in Folder list",
+                    "tester":"Luu"
+                }
+            },
+            "add_category_vehicle":{
+                "pass":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Category Vehicle  ",
+                    "status":"Pass",
+                    "description":"Show Category Vehicle  in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Category Vehicle ",
+                    "status":"Fail",
+                    "description":"Not Show Category Vehicle  in Folder list",
+                    "tester":"Luu"
+                }
+            },
+            "add_category_normal":{
+                "pass":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Category Normal",
+                    "status":"Pass",
+                    "description":"Show Category Normal  in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Category Normal",
+                    "status":"Fail",
+                    "description":"Not Show Category Normal  in Folder list",
+                    "tester":"Luu"
+                }
+            },
+            "resource_reservation_system":{
+                "pass":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add resource in Reservation System ",
+                    "status":"Pass",
+                    "description":"find esource in Reservation System in Folder list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add resource in Reservation System ",
+                    "status":"Fail",
+                    "description":"not found esource in Reservation System in Folder list",
+                    "tester":"Luu"
+                }
+            },
+            "upload_resource_image":{
+                "pass":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Upload resource image",
+                    "status":"Pass",
+                    "description":"Show the image in Resource",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Upload resource image",
+                    "status":"Fail",
+                    "description":"Not Show the image in Resource",
+                    "tester":"Luu"
+                }
+            },
+            "resource_permission_system":{
+                "pass":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add resource in Reservation System ",
+                    "status":"Pass",
+                    "description":"Show user Permission in Reservation System ",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add resource in Reservation System ",
+                    "status":"Fail",
+                    "description":"Not Show user Permission in Reservation System ",
+                    "tester":"Luu"
+                }
+            },
+            "add_vehicle_system":{
+                "pass":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Vehicle Reservation System ",
+                    "status":"Pass",
+                    "description":"Add Vehicle Reservation System successfully",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Vehicle Reservation System ",
+                    "status":"Fail",
+                    "description":"Add Vehicle Reservation System  Fail",
+                    "tester":"Luu"
+                }
+            },
+            "add_normal_reservation_system":{
+                "pass":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Normal Reservation System ",
+                    "status":"Pass",
+                    "description":"Show Reservation System in Resource List",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Normal Reservation System ",
+                    "status":"Fail",
+                    "description":"Not Show Reservation System in Resource List",
+                    "tester":"Luu"
+                }
+            },
+            "delete_category":{
+                "pass":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Delete category  ",
+                    "status":"Pass",
+                    "description":"Not show category in Resource List",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Resource",
+                    "sub_menu":"Main Features",
+                    "testcase":"Delete category  ",
+                    "status":"Fail",
+                    "description":"show category in Resource List",
+                    "tester":"Luu"
+                }
+            }
+        },
+        "menubuilder":{
+            "write_menu":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Write Menu",
+                    "status":"Pass",
+                    "description":"Show Menu in the list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Write Menu",
+                    "status":"Fail",
+                    "description":"Not Show Menu in the list",
+                    "tester":"Luu"
+                }
+            },
+            "edit_menu":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Edit Menu",
+                    "status":"Pass",
+                    "description":"Show Menu edit in the list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Edit Menu",
+                    "status":"Fail",
+                    "description":"Not Show Menu edit in the lis",
+                    "tester":"Luu"
+                }
+            },
+            "clone_layout":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Clone Layout",
+                    "status":"Pass",
+                    "description":"Show Layout in list Manage Modules",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Clone Layout",
+                    "status":"Fail",
+                    "description":"Not Show Layout in list Manage Modules",
+                    "tester":"Luu"
+                }
+            },
+            "add_folder":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Folder",
+                    "status":"Pass",
+                    "description":"Show Folder in list Manage Modules",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Add Folder",
+                    "status":"Fail",
+                    "description":"Not Show Folder in list Manage Modules",
+                    "tester":"Luu"
+                }
+            },
+            "export_layout":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Export Layout",
+                    "status":"Pass",
+                    "description":"Show file json in windown",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Export Layout",
+                    "status":"Fail",
+                    "description":"Not Show file json in windown",
+                    "tester":"Luu"
+                }
+            },
+            "import_layout":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Import Layout",
+                    "status":"Pass",
+                    "description":"Show Layout in list Manage Modules",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Import Layout",
+                    "status":"Fail",
+                    "description":"Not Show Layout in list Manage Modules",
+                    "tester":"Luu"
+                }
+            },
+            "delete_layout":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Delete Layout",
+                    "status":"Pass",
+                    "description":"Not Show Layout in list Manage Modules",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Delete Layout",
+                    "status":"Fail",
+                    "description":"Show Layout in list Manage Modules",
+                    "tester":"Luu"
+                }
+            },
+            "create_data":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create data in Layout",
+                    "status":"Pass",
+                    "description":"Show custom in list ",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create data in Layout",
+                    "status":"Fail",
+                    "description":"Not Show custom in list",
+                    "tester":"Luu"
+                }
+            },
+            "view_and_comment":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"View and Comment ",
+                    "status":"Pass",
+                    "description":"Show data view and write Comment ",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"View and Comment ",
+                    "status":"Fail",
+                    "description":"Not Show data view and write Comment",
+                    "tester":"Luu"
+                }
+            },
+            "import_data":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Import Data ",
+                    "status":"Pass",
+                    "description":"Show custom in list ",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Import Data ",
+                    "status":"Fail",
+                    "description":"Not Show custom in list ",
+                    "tester":"Luu"
+                }
+            },
+            "search_data":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Search Data ",
+                    "status":"Pass",
+                    "description":"Show data Search in list",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Search Data ",
+                    "status":"Fail",
+                    "description":"Not Show data Search in list",
+                    "tester":"Luu"
+                }
+            },
+            "export_data":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Export Data ",
+                    "status":"Pass",
+                    "description":"Show file export in windown",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Export Data ",
+                    "status":"Fail",
+                    "description":"Not Show file export in windown",
+                    "tester":"Luu"
+                }
+            },
+            "mark_as_read":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Mark as Read  ",
+                    "status":"Pass",
+                    "description":"Mark as Read  successfully",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Mark as Read  ",
+                    "status":"Fail",
+                    "description":"Mark as Read Fail",
+                    "tester":"Luu"
+                }
+            },
+            "download_all_attachment":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Download All Attachments  ",
+                    "status":"Pass",
+                    "description":"Show file download all attachment in windown",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Download All Attachments  ",
+                    "status":"Fail",
+                    "description":"Not Show file download all attachment in windown",
+                    "tester":"Luu"
+                }
+            },
+            "download_file":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Download File ",
+                    "status":"Pass",
+                    "description":"Show file download in windown",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Download File ",
+                    "status":"Fail",
+                    "description":"Not Show file download in windown",
+                    "tester":"Luu"
+                }
+            },
+            "delete_menu":{
+                "pass":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Delete Menu Builder ",
+                    "status":"Pass",
+                    "description":"Delete Menu Builder successfully",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Menu Builder",
+                    "sub_menu":"Main Features",
+                    "testcase":"Delete Menu Builder ",
+                    "status":"Fail",
+                    "description":"Delete Menu Builder Fail",
+                    "tester":"Luu"
+                }
+            }
+        },
+        "editor":{
+            "create_table":{
+                "pass":{
+                    "menu":"Editor",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create table",
+                    "status":"Pass",
+                    "description":"Show table in menu Task ",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Editor",
+                    "sub_menu":"Main Features",
+                    "testcase":"Create table",
+                    "status":"Fail",
+                    "description":"Not Show table in menu Task",
+                    "tester":"Luu"
+                }
+            },
+            "copy_paste":{
+                "pass":{
+                    "menu":"Editor",
+                    "sub_menu":"Main Features",
+                    "testcase":"Copy paste",
+                    "status":"Pass",
+                    "description":"Show table copy in menu Task",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Editor",
+                    "sub_menu":"Main Features",
+                    "testcase":"Copy paste",
+                    "status":"Fail",
+                    "description":"Not Show table copy in menu Task",
+                    "tester":"Luu"
+                }
+            },
+            "format_content":{
+                "pass":{
+                    "menu":"Editor",
+                    "sub_menu":"Main Features",
+                    "testcase":"Format content",
+                    "status":"Pass",
+                    "description":"Format content successfully",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Editor",
+                    "sub_menu":"Main Features",
+                    "testcase":"Format content",
+                    "status":"Fail",
+                    "description":"Format content Fail",
+                    "tester":"Luu"
+                }
+            },
+            "upload_office_file":{
+                "pass":{
+                    "menu":"Editor",
+                    "sub_menu":"Main Features",
+                    "testcase":"Upload office file",
+                    "status":"Pass",
+                    "description":"Upload office file successfully",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Editor",
+                    "sub_menu":"Main Features",
+                    "testcase":"Upload office file",
+                    "status":"Fail",
+                    "description":"Upload office file Fail",
+                    "tester":"Luu"
+                }
+            },
+            "rotate_clockwise_image":{
+                "pass":{
+                    "menu":"Editor",
+                    "sub_menu":"Main Features",
+                    "testcase":"Rotate clockwise image",
+                    "status":"Pass",
+                    "description":"Rotate clockwise image successfully",
+                    "tester":"Luu"
+                },
+                "fail":{
+                    "menu":"Editor",
+                    "sub_menu":"Main Features",
+                    "testcase":"Rotate clockwise image",
+                    "status":"Fail",
+                    "description":"Rotate clockwise image Fail",
+                    "tester":"Luu"
+                }
+            }
+        }
+    }
+
+    
+
+} 

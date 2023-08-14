@@ -1,0 +1,55 @@
+LOGIN
+Input id 
+Input pass 
+Click on Login button 
+Login successful
+Current language is Eng
+ACCESS VACATION
+Access Menu Vacation
+Enter user name to search
+Search user
+MY VACATION STATUS
+Access sub menu My Vacation Status 
+Access sub menu Vacation Approve 
+Approve Request
+Click on approve icon 
+Approve request 
+Reject Request
+Click on reject icon
+Reject request
+Request after reject moved to Tab Cancel Request
+Cancel Approve
+No vacation request to reject
+Delete Vacation
+Click on delete icon
+Delete Vacation
+Access sub menu Vacation Adjust
+Click on Adjust Occurdays radio
+Click on adjust button
+Adjust vacation
+Number of leave days updated correct after adjust
+Click on Vacation Grant radio
+Input days
+Click on grant button
+Grant Vacation
+Access sub menu Create Vacation
+Click on next button
+Enter Vacation Name
+Error Code
+Access SubMenu Manager Settings
+Click on Add Manager button
+Select User
+Click on add user button
+Add manager
+Manager is displayed in the manager list
+Click on icon to delete manager
+Access tab Approval Settings
+Click on Select Approver button
+Select User
+Click on add user button
+Add Arbitrary Decision
+Access SubMenu Basic Settings
+Click on Add button
+Click on add user button
+Add Approval Exception
+Approval Exception is displayed in the list

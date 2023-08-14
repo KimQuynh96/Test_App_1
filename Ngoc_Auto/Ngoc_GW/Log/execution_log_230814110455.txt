@@ -1,0 +1,308 @@
+================================================= TASK =======================================================
++++ WORK DIARY +++
+- Setting folder
+- Wait add folder
+- Input Folder name
+- Click button Share
+- Select permit write
+- Invite user
+- Organization list
+- Select user 1
+- Add button
+- Save user
+- Save folder
+[91mPop up closed[0m
+=> Add folder successfully
+- Delete button
+- Click OK
+[91mPop up closed[0m
+=> Delete folder successfully
+===========================================================
++++ TASK REPORT +++
+- Hidden Work Diary
+- Open Task Report
+- Manage Folders
+- Wait add folder
+- Input Folder name
+- Save folder
+=> Create folder successfully
+- Delete button
+- Click OK
+[91mPop up closed[0m
+=> Delete folder successfully
+===========================================================
++++ SET RECIPIENTS +++
+- Set recipients
+- Click Add button
+- Input name group
+- View ORG
+>> Organization list
+>> Select user 1
+>> Add button
+>> Save user
+=> Add recipients successfully
+[91mPop up closed[0m
+- Save recipients group
+=> Set recipients successfully
+===========================================================
++++ MY TASK REPORT +++
+- My Task Report
+- Click button write
+- Input title
+- Select Recipients
+- Select default recipients
+- Input content successfully
+- Save Task Report
+- Click button OK
+[91mPop up closed[0m
+=> Task Report save successfully
+- Delete Recipients
+- Click OK
+[91mPop up closed[0m
+===========================================================
++++ Auto-Sort +++
+- Auto Sort
+- Click add button
+- Input word sort
+- Save auto sort
+=> Create Auto_sort Successfully
+- Delete auto_sort
+- Click button OK
+[91mPop up closed[0m
+=> Delete Auto_sort Successfully
+================================================= EXPENSE =======================================================
+ADMIN ACCOUNT
+- Setting Expense
+- Add folder
+- Input folder name
+- Save Parent Folder
+=> Add folder expense Successfully
+- Delete folder
+- Click button OK
+[91mPop up closed[0m
+=> Delete folder Successfully
+- Open menu Admin
+----------//---------- SET MANAGER ----------//----------
+=> Total list number: Total 38
+- Write button
+- Select manager from ORG
+>> Organization list
+>> Select user
+>> Add button
+>> Save user
+[91mPop up closed[0m
+=> Save Manager
+=> Set manager Successfully
+- Search user manager
+=> Total list search number: Total 1
+- Delete user
+[91mPop up closed[0m
+=> Total list delete number update: Total 0
+=> Delete manager Successfully
+----------//---------- PURPOSE ----------//----------
+** Add Purpose 1 **
+- Write button
+- Input purpose
+=> Save Purpose
+=> Data inserted successfully.
+- Close pop up
+[91mPop up closed[0m
+- Search Purpose
+- Select Purpose
+=> Total list number: Total 1
+- Delete purpose
+- Click OK
+[91mPop up closed[0m
+=> Total list number update: Total 0
+=> Delete Purpose Successfully
+
+** Add Purpose 2 **
+- Write button
+- Input purpose
+=> Save Purpose
+=> Data inserted successfully.
+- Close pop up
+[91mPop up closed[0m
+- Search Purpose
+- Select Purpose
+=> Total list number: Total 1
+- Delete purpose
+- Click OK
+[91mPop up closed[0m
+=> Total list number update: Total 0
+=> Delete Purpose Successfully
+
+** Add Purpose 3 **
+- Write button
+- Input purpose
+=> Save Purpose
+=> Data inserted successfully.
+- Close pop up
+[91mPop up closed[0m
+- Search Purpose
+- Select Purpose
+=> Total list number: Total 1
+- Delete purpose
+- Click OK
+[91mPop up closed[0m
+=> Total list number update: Total 0
+=> Delete Purpose Successfully
+
+----------//---------- PAYMENT METHOD ----------//----------
+=> Total list number: Total 11
+- Write button
+- Input Payment Method
+=> Save Payment Method
+=> Data inserted successfully.
+- Close pop up
+[91mPop up closed[0m
+- Delete Payment method
+- Click OK
+[91mPop up closed[0m
+=> Total list number update: Total 11
+=> Delete Payment method Successfully
+LIST BANK: ['BIDV', 'Agribank', 'Shinhanbank', 'Techcombank', 'Sacombank']
+----------//---------- CREDIT CARD ----------//----------
+=> Total list number: Total 25
+- Write button
+- Input Bank name
+- Input Credit Card Number
+- Input Credit Card Owner
+=> Save Credit Card
+=> Data inserted successfully.
+- Close pop up
+[91mPop up closed[0m
+- Delete Credit card
+- Click OK
+[91mPop up closed[0m
+=> Total list number update: Total 25
+=> Delete Credit card Successfully
+----------//---------- CURRENCY ----------//----------
+=> Total list number: Total 6
+- Write button
+- Currency Name
+- Select Currency
+=> Save Currency
+=> Data inserted successfully.
+- Close pop up
+[91mPop up closed[0m
+=> Total list number update: Total 7
+=> Add Currency Successfully
+- Search Currency
+- Select Currency
+=> Total list number: Total 1
+- Delete currency
+- Click OK
+[91mPop up closed[0m
+=> Total list number update: Total 0
+=> Delete currency Successfully
+================================================= BOARD =======================================================
+- Hide company Board
+ADMIN ACCOUNT
+- Select Settings
+- Input name my folder board
+- Select folder type
+- Save my folder board
+=> Add my folder board Successfully
+[91mPop up closed[0m
+=> Display manage categories page
+- Save category
+=> Add manage category successfully
+- Click my folder board
+- Write Board
+- Input content successfully
+- Save board
+=> Write board successfully
+- Back to list board
+=> Correct folder photo type
+=> Delete folder successfully
+[91mPop up closed[0m
+- Select Board admin
+- Manage Company Folders
+- Scroll down page
+- Input parent folder name
+- Select Optiion type
+- Select Folder type
+- Shared user
+- Select user
+- Save ORG
+[91mPop up closed[0m
+=> Share user successfully
+- Select Permission for user
+- Save parent folder
+- Scroll up page
+- Create sub folder
+=> Create parent folder successfully
+- Scroll down page
+- Input sub folder name
+- Save sub folder
+- Search folder
+=> Add sub folder Successfully
+- Delete sub folder
+- Delete sub-folder successfully
+[91mPop up closed[0m
+ 
+- Folder has No permission
+=> Folders don't display in company folder tree
+- Board folder list
+- Search parent folder
+=> Total list number: Total 1
+=> Search folder Successfully
+- Select parent folder
+- Delete parent folder
+[91mPop up closed[0m
+=> Total list number update: Total 0
+- Delete parent folder successfully
+================================================= CIRCULAR =======================================================
+- Setting Circular
+- Add folder
+- Input folder name
+- Save Parent Folder
+=> Add folder circular Successfully
+- Delete folder
+- Click button OK
+[91mPop up closed[0m
+=> Delete folder Successfully
+=================================================NEW CO-MANAGE =======================================================
+ADMIN ACCOUNT
+- Open Kanban project
+- Clear search
+- Insert Work
+- Search work
+- View ticket
+=> View work successfully
+=> Insert work successfully
+- Update status
+- Total of status: 4
+- Select status
+=> Update status successfully
+
+- Assigned to
+- Total of assign: 2
+- Select user
+=> Update assigned to successfully
+
+- Update Work type
+- Total of work type: 2
+- Select work type
+=> Update work type successfully
+
+- Update priority
+- Total of priority: 4
+- Select priority
+=> Update priority successfully
+
+
+- Start date
+- Select start date
+- End date
+- Select end date
+
+- Input Description
+- Save Description
+
+- Input comment
+- Save comment
+=> Write comment Successfully
+
+- Close detail work
